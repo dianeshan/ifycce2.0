@@ -12,8 +12,11 @@ import StemNotNerds from './chronicles/StemNotNerds';
 import ConstExposure from './chronicles/ConstExposure';
 import GoodTech from './chronicles/GoodTech';
 import ExploreRealWorld from './chronicles/ExploreRealWorld';
-import PsychIsCalling from './chronicles/PsychIsCalling';
 import InternshipsAreOpportunities from './chronicles/InternshipsAreOpportunities';
+import PsychIsCalling from './chronicles/PsychIsCalling';
+import YouCanDoThis from './chronicles/YouCanDoThis';
+import DoSomethingYouLike from './chronicles/DoSomethingYouLike';
+import TheBiggestHappiness from './chronicles/TheBiggestHappiness';
 
 class App extends Component {
   render() {
@@ -31,6 +34,9 @@ class App extends Component {
           <Route path='/explorerealworld' exact={true} component={ExploreRealWorld} />
           <Route path='/internshipsareopportunities' exact={true} component={InternshipsAreOpportunities} />
           <Route path='/psychiscalling' exact={true} component={PsychIsCalling} />
+          <Route path='/youcandothis' exact={true} component={YouCanDoThis} />
+          <Route path='/dosomethingyoulike' exact={true} component={DoSomethingYouLike} />
+          <Route path='/thebiggesthappiness' exact={true} component={TheBiggestHappiness} />
         </Switch>
       </Router>
     )

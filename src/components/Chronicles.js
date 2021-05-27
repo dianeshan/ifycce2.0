@@ -13,6 +13,9 @@ import steps from '../resources/images/chronicles/steps.png';
 import timer from '../resources/images/chronicles/timer.png';
 import lapanddesk from '../resources/images/chronicles/laptopanddesk.png';
 import passion from '../resources/images/chronicles/passion.png';
+import network from '../resources/images/chronicles/network.png';
+import certification from '../resources/images/chronicles/certification.png';
+import confidence from '../resources/images/chronicles/confidence.png';
 
 class Chronicles extends Component {
     render() {
@@ -25,6 +28,44 @@ class Chronicles extends Component {
                     </div>
                     <div className="main-page">
                         <Container>
+                            <Row>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={confidence} />
+                                        <Card.Body>
+                                            <Card.Title>The Biggest Happiness</Card.Title>
+                                            <Card.Text>
+                                                It is when you get to help others in a way where you would have never thought you could help.
+                                            </Card.Text>
+                                            <Button href="/thebiggesthappiness" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={certification} />
+                                        <Card.Body>
+                                            <Card.Title>Do Something You Like</Card.Title>
+                                            <Card.Text>
+                                                As your career extends, the pay isn't going to be the major motivation, but really the fulfillment.
+                                            </Card.Text>
+                                            <Button href="/dosomethingyoulike" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={network} />
+                                        <Card.Body>
+                                            <Card.Title>You Can Do This</Card.Title>
+                                            <Card.Text>
+                                                Sometimes we have to have that person in our life that says you can do this and encourages us.
+                                            </Card.Text>
+                                            <Button href="/youcandothis" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
                             <Row>
                                 <Col className="card-spacing">
                                     <Card className="card-spacing">

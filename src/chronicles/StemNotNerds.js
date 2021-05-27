@@ -7,57 +7,10 @@ import { Container, Row, Col } from 'reactstrap';
 import davidpan from '../resources/images/chronicles/davidpan.png';
 import passion from '../resources/images/chronicles/passion.png';
 import beopen from '../resources/images/chronicles/beopen.png';
-import { Button, ButtonGroup } from 'react-bootstrap';
-import CommentForm from '../components/CommentForm';
+import { Button } from 'react-bootstrap';
 
 class StemNotNerds extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { customers: [], isLoading: true };
-        this.remove = this.remove.bind(this);
-    }
-
-    componentDidMount() {
-        this.setState({ isLoading: true });
-
-        fetch('api/customers')
-            .then(response => response.json())
-            .then(data => this.setState({ customers: data, isLoading: false }));
-    }
-
-    async remove(id) {
-        await fetch(`/api/customers/${id}`, {
-            method: 'DELETE',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }
-        }).then(() => {
-            let updatedCustomers = [...this.state.customers].filter(i => i.id !== id);
-            this.setState({ customers: updatedCustomers });
-        });
-    }
-
     render() {
-        const { customers, isLoading } = this.state;
-
-        if (isLoading) {
-            return <p>Loading...</p>;
-        }
-
-        const customerList = customers.map(customer => {
-            return <div key={customer.id}>
-                <p>
-                    {customer.comment}
-                    <h6 className="comment-name">{customer.firstname} {customer.lastname}</h6>
-                </p>
-                <ButtonGroup>
-                    {/* <Button size="sm" variant="primary" tag={Link} to={"/customers/" + customer.id}>Edit</Button> */}
-                    <Button size="sm" variant="danger" onClick={() => this.remove(customer.id)}>Delete</Button>
-                </ButtonGroup>
-            </div>
-        });
-
         return (
             <div className="all-content">
                 <div className="content-wrap">
@@ -201,18 +154,6 @@ class StemNotNerds extends Component {
                         </Container>
                         <Container className="main-page text-center">
                             <Button href="/chronicles" variant="info">All Chronicles</Button>
-                        </Container>
-                        <Container>
-                            <CommentForm />
-                            <Row className="text-center">
-                                <Col sm="2"></Col>
-                                <Col sm="8">
-                                    <div>
-                                        {customerList}
-                                    </div>
-                                </Col>
-                                <Col sm="2"></Col>
-                            </Row>
                         </Container>
                     </div>
                 </div>

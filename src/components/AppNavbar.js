@@ -25,14 +25,17 @@ export default class AppNavbar extends Component {
                             </NavDropdown>
                             <NavDropdown className="dropdowns" title="Feb 2021 - May 2021" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/psychiscalling">Psychology is my Calling</NavDropdown.Item>
+                                <NavDropdown.Item href="/youcandothis">You Can Do This</NavDropdown.Item>
+                                <NavDropdown.Item href="/dosomethingyoulike">Do Something You Like</NavDropdown.Item>
+                                <NavDropdown.Item href="/thebiggesthappiness">The Biggest Happiness</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown className="dropdowns" title="Jun 2021 - Sept 2021" id="basic-nav-dropdown"></NavDropdown>
                         </NavDropdown>
                     </Nav>
-                    <Form inline>
+                    {/* <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                         <Button variant="success">Search</Button>
-                    </Form>
+                    </Form> */}
                 </Navbar.Collapse>
             </Navbar>
         </Container>

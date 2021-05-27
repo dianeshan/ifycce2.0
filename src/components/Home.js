@@ -31,7 +31,7 @@ class Home extends Component {
                     <div className="main-page">
                         <Container>
                             <Row>
-                                <Col md="12" lg="4">
+                                {/* <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faFireAlt} />
                                     </h2>
@@ -40,41 +40,34 @@ class Home extends Component {
                                         If you are interested in internships, checkout our internship page where
                                         you can find out all about it.
                             </p>
-                                </Col>
+                                </Col> */}
+                                <Col lg="2"></Col>
                                 <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">Walk With Others</h5>
+                                    <h5 className="text-center">Stay Tuned</h5>
                                     <p className="light">
-                                        Our upcoming webinar features Dr. Paul Petrus, the CTO of radar, a startup company working on
-                                        inventory location for retail and other industries. He has more than 25 years of experience in
-                                        product develipment and has authored more than 20 IEEE papers along with being an inventor of
-                                        more than 30 patents.
+                                        We do not currently have an upcoming webinar but if you would like to check out our past webinars, click the link below!
                                 </p>
                                     <div className="text-center">
-                                        <Button color="info" href="/">Learn More</Button>{' '}
-                                        <Button color="info" href="https://bit.ly/ifycce02202021webinar" target="_blank" rel="noreferrer">Register</Button>
+                                        <Button color="info" href="/pastwebinars">Past Webinars</Button>{' '}
+                                        {/*<Button color="info" href="https://bit.ly/ifycce02202021webinar" target="_blank" rel="noreferrer">Register</Button>*/}
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faBookOpen} />
                                     </h2>
-                                    <h5 className="text-center">CCE Chronicles: Psychology is my Calling</h5>
+                                    <h5 className="text-center">CCE Chronicles: The Biggest Happiness</h5>
                                     <p className="light">
-                                        In our sixth issue of the CCE Chronicles, we interviewed Dr. Paul Wong, a Canadian clinical
-                                        psychologist.
-                                        He graduated with a Psychology PhD from the University of Toronto, and teaches at numerous universities
-                                        across the
-                                        United States, such as York University and Trent University. Dr.
-                                        Wong created a new approach to psychotherapy,
-                                        Meaning-Centered Counseling and Therapy (MCCT) and he is also the
-                                        founder of the
-                                        International Network of Personal Meaning and International Society for Existential Psychology and
-                                        Psychotherapy.
-                            </p>
+                                        In our ninth issue of the CCE Chronicles, we interviewed Woojin Kim who is an entrepreneur, specializing in eCommerce business. He is the ex-founder of Caseology, a
+                                        CPG brand bootstrapped from Zero to $144M in total revenue. He has served more than 6 million
+                                        customers, and was the top 10 Global Amazon Seller in 2017. Mr Kim believes that we are more than enough to make a difference in
+                                        this world, and we should always give back by serving others.
+                                    </p>
                                 </Col>
+                                <Col lg="2"></Col>
                             </Row>
                         </Container>
                     </div>
