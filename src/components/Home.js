@@ -51,7 +51,7 @@ class Home extends Component {
                                         We do not currently have an upcoming webinar but if you would like to check out our past webinars, click the link below!
                                 </p>
                                     <div className="text-center">
-                                        <Button color="info" href="/pastwebinars">Past Webinars</Button>{' '}
+                                        <Button color="info" href="/pastwebinar">Past Webinars</Button>{' '}
                                         {/*<Button color="info" href="https://bit.ly/ifycce02202021webinar" target="_blank" rel="noreferrer">Register</Button>*/}
                                     </div>
                                 </Col>

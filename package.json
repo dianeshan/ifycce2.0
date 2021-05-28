@@ -1,5 +1,6 @@
 {
   "name": "app-postgres-ifycce",
+  "homepage": "http://cce.iflyyoung.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
