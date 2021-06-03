@@ -46,12 +46,13 @@ class Home extends Component {
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">Stay Tuned</h5>
+                                    <h5 className="text-center">CCE Prime Webinar</h5>
                                     <p className="light">
-                                        We do not currently have an upcoming webinar but if you would like to check out our past webinars, click the link below!
-                                </p>
+                                        CCE Webinar designed and organized by CCE Prime Class Students (9-10th graders).
+                                        </p><p>6/5 (Sat.) 11-11:45AM PT
+                                    </p>
                                     <div className="text-center">
-                                        <Button color="info" href="/pastwebinar">Past Webinars</Button>{' '}
+                                        <Button color="info" href="/webinar">Learn More</Button>{' '}
                                         {/*<Button color="info" href="https://bit.ly/ifycce02202021webinar" target="_blank" rel="noreferrer">Register</Button>*/}
                                     </div>
                                 </Col>
