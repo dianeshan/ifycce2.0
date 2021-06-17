@@ -31,6 +31,7 @@ export default class AppNavbar extends Component {
                             </NavDropdown>
                             <NavDropdown className="dropdowns" title="Jun 2021 - Sept 2021" id="basic-nav-dropdown"></NavDropdown>
                         </NavDropdown>
+                        <Nav.Link href="/application">Apply</Nav.Link>
                     </Nav>
                     {/* <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />

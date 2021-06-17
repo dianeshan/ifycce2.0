@@ -17,6 +17,7 @@ import PsychIsCalling from './chronicles/PsychIsCalling';
 import YouCanDoThis from './chronicles/YouCanDoThis';
 import DoSomethingYouLike from './chronicles/DoSomethingYouLike';
 import TheBiggestHappiness from './chronicles/TheBiggestHappiness';
+import Application from './components/Application';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
           <Route path='/pastwebinar' exact={true} component={PastWebinar} />
           <Route path='/team' exact={true} component={Team} />
           <Route path='/chronicles' exact={true} component={Chronicles} />
+          <Route path='/application' exact={true} component={Application} />
           <Route path='/stemnotnerds' exact={true} component={StemNotNerds} />
           <Route path='/constexposure' exact={true} component={ConstExposure} />
           <Route path='/goodtech' exact={true} component={GoodTech} />

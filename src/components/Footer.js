@@ -11,12 +11,12 @@ export default class Footer extends Component {
             <Row className="main-page">
                 <Col sm="3"></Col>
                 <Col sm="2">
-                    <h6 className="text-center white-text">
+                    <h6 className="text-center white-text" href="/webinar">
                         Webinars
                     </h6>
                 </Col>
                 <Col sm="2">
-                    <h6 className="text-center white-text">
+                    <h6 className="text-center white-text" href="/chronicles">
                         Chronicles
                     </h6>
                 </Col>
@@ -28,9 +28,9 @@ export default class Footer extends Component {
             </Row>
             <Row>
                 <Col className="text-center">
-                    <a className="socials" href="https://www.facebook.com/IFLYYOUNGCCE" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                    <a className="socials" href="https://www.facebook.com/IFLYYOUNGCCE" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                     <a className="socials" href="mailto:ccepro+subscribe@iflyyoung.com" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
-                    <a className="socials" href="https://www.linkedin.com/company/i-fly-young-cce/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    <a className="socials" href="https://www.linkedin.com/company/i-fly-young-cce/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                     <a className="socials" href="https://www.youtube.com/channel/UCRI6gez9dVg1ohbKKMzoEAQ?sub_confirmation=1"><FontAwesomeIcon icon={faYoutube} /></a>
                 </Col>
             </Row>

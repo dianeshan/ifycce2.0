@@ -15,10 +15,14 @@ import venturecapital from '../resources/images/webinars/09192020.png';
 import guideforlife from '../resources/images/webinars/09272020.jpg';
 import preparingforfuture from '../resources/images/webinars/10172020.jpg';
 import passioninhighschool from '../resources/images/webinars/10312020.jpg';
+import successfulinterview from '../resources/images/webinars/11212020.jpg';
 import tradingswe from '../resources/images/webinars/12052020.jpg';
 import soaringeagle from '../resources/images/webinars/12192020.jpg';
 import techstartups from '../resources/images/webinars/01162021.png';
 import careerandyou from '../resources/images/webinars/01302021.png';
+import walkwithothers from '../resources/images/webinars/02202021.png';
+import goodskills from '../resources/images/webinars/06052021.png';
+//import collegewebinar from '../resources/images/webinars/06262021.png';
 
 class PastWebinar extends Component {
     render() {
@@ -52,7 +56,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Judy Shan talks about her life and path towards medical school.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=uJDAUQW2EiY&list=PLQTND4OzgUVTZ3WaMNCu9ncUEuM4-TNVF" target="_blank" rel="noreferrer" variant="primary">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -64,7 +68,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Gloria Su talks about her path to becoming an investment banker.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -76,7 +80,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 David Liu speaks about his life and having a finance-technology career.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button disabled variant="primary">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -88,7 +92,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Jocelyn Chiou talks about her life and how she went about exploring architecture.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -100,7 +104,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Timothy Chen speaks about software engineering and the venture capital career.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=-kB2zxsj5Zo&list=PLQTND4OzgUVRgM2YQWtSRlftF3QDBTHTk" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -112,7 +116,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Panel of CCE students talk about the 12 life-changing capabilities.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button disabled variant="primary">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -124,7 +128,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Daniel Chen talks about how he prepared for his future and how you can too.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -136,7 +140,19 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Rachel Chen shares how she found her passion in high school.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=s9eTus06NDY&list=PLQTND4OzgUVTcv10Rc9SZtBhB-iaJeU8n" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={successfulinterview} />
+                                        <Card.Body>
+                                            <Card.Title>Successful Interview & Onboarding</Card.Title>
+                                            <Card.Text>
+                                                Dr. Chen Chen talks about how to be successful in interviews and onboarding process.
+                                            </Card.Text>
+                                            <Button href="https://www.youtube.com/watch?v=y5lN9vMWwRs&list=PLQTND4OzgUVQc9yZ1vwJXdRK3VManDkOa" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -148,7 +164,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Howard Shan shares his experiences and journey into the trading industry.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -160,7 +176,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Panelist of mentors @ CCE talk about internship opportunities.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=9cRmugn6KzI&list=PLQTND4OzgUVTstlw8R1CpBm8TRT63Qnh5" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -172,7 +188,7 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Bindu Therthala talks about her journey through tech startups.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button disabled variant="primary">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -184,10 +200,46 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 David Su talks about his experience in the wireless semiconductor industry.
                                             </Card.Text>
-                                            <Button variant="primary">Learn More</Button>
+                                            <Button disabled variant="primary">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={walkwithothers} />
+                                        <Card.Body>
+                                            <Card.Title>Walk with Others</Card.Title>
+                                            <Card.Text>
+                                                Dr. Paul Petrus talks about the transition from college to professional life.
+                                            </Card.Text>
+                                            <Button disabled variant="primary">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={goodskills} />
+                                        <Card.Body>
+                                            <Card.Title>Good Skills to Succession</Card.Title>
+                                            <Card.Text>
+                                                Panelists from IFY CCE Prime talk about skills that lead to success.
+                                            </Card.Text>
+                                            <Button disabled variant="primary">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                {/* <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={collegewebinar} />
+                                        <Card.Body>
+                                            <Card.Title>College Education Exploration</Card.Title>
+                                            <Card.Text>
+                                                Listen to four families talk about each of their different education journeys.
+                                            </Card.Text>
+                                            <Button disabled variant="primary">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col> */}
                             </Row>
                         </Container>
                     </div>

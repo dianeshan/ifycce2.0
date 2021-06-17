@@ -31,7 +31,7 @@ class Home extends Component {
                     <div className="main-page">
                         <Container>
                             <Row>
-                                {/* <Col md="12" lg="4">
+                                <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faFireAlt} />
                                     </h2>
@@ -39,21 +39,22 @@ class Home extends Component {
                                     <p className="light">
                                         If you are interested in internships, checkout our internship page where
                                         you can find out all about it.
-                            </p>
-                                </Col> */}
-                                <Col lg="2"></Col>
+                                    </p>
+                                </Col>
+                                {/* <Col lg="2"></Col> */}
                                 <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">CCE Prime Webinar</h5>
+                                    <h5 className="text-center">College Education Exploration Journey</h5>
                                     <p className="light">
-                                        CCE Webinar designed and organized by CCE Prime Class Students (9-10th graders).
-                                        </p><p>6/5 (Sat.) 11-11:45AM PT
+                                        Webinar for families interested in learning about why and how to help children to prepare for college education and pursue career. We trust the diverse
+                                        presentation we have prepared will help identify a path that's best for your precious child.
+                                        </p><p>6/26 (Sat.) 11-12:00 PM PT
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}
-                                        {/*<Button color="info" href="https://bit.ly/ifycce02202021webinar" target="_blank" rel="noreferrer">Register</Button>*/}
+                                        <Button color="info" href="https://bit.ly/ifycce06262021webinar" target="_blank" rel="noreferrer">Register</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
@@ -68,7 +69,7 @@ class Home extends Component {
                                         this world, and we should always give back by serving others.
                                     </p>
                                 </Col>
-                                <Col lg="2"></Col>
+                                {/* <Col lg="2"></Col> */}
                             </Row>
                         </Container>
                     </div>

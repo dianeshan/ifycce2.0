@@ -20,6 +20,26 @@ hr {
   background-color: #37acf4;
 }
 
+.grey-text {
+  color: #c0f3ff;
+}
+
+#blue-container-focus {
+  background-color: #37acf4;
+  padding-top: 2em;
+}
+
+#grey-section {
+  background: #dcdbdd;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-top: 0;
+}
+
+#pink-section {
+  background: #ff1f85;
+}
+
 .navs {
   position: fixed;
   top: 0;
@@ -46,6 +66,10 @@ hr {
   max-width: 150px;
   max-height: 150px;
   padding: 1em;
+}
+
+.interntopics {
+  max-width: 75px;
 }
 
 .white-text {
