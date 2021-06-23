@@ -32,7 +32,7 @@ class Webinar extends Component {
                         <Container>
                             <h1>College Education Exploration Journey – How we walk together as a family</h1>
                             <Button color="info" href="https://bit.ly/ifycce06262021webinar" target="_blank" rel="noreferrer">Register</Button>
-                            <h2>6/26 Sat. 11-12:00 PM PT</h2>
+                            <h2>6/26 Sat. 11:00 AM PT</h2>
                             <img className="webinar-pics" src={collegewebinar} alt="0626webinar" />
                             <p></p>
                             <p>I Fly Young School is hosting an exclusive webinar for families interested in learning about why and

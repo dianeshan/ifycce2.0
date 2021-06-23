@@ -50,7 +50,7 @@ class Home extends Component {
                                     <p className="light">
                                         Webinar for families interested in learning about why and how to help children to prepare for college education and pursue career. We trust the diverse
                                         presentation we have prepared will help identify a path that's best for your precious child.
-                                        </p><p>6/26 (Sat.) 11-12:00 PM PT
+                                        </p><p>6/26 (Sat.) 11:00 AM PT
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}

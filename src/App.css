@@ -24,6 +24,18 @@ hr {
   color: #c0f3ff;
 }
 
+.modal-content {
+  background-color: #fefefe;
+  background-image: url("./resources/images/proj_bkgd/bio_lightbk.jpg");
+  background-size: cover;
+  /* margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 20px;
+  width: 80%; 
+  font-size: 1em; */
+}
+
 #blue-container-focus {
   background-color: #37acf4;
   padding-top: 2em;
@@ -152,11 +164,11 @@ hr {
   color: #7a7980;
 }
 
-.modals {
+/* .modals {
   background-color: #fefefe;
   background-image: url("./resources/images/proj_bkgd/bio_lightbk.jpg");
   background-size: cover;
-}
+} */
 
 .date {
   font-size: 14px;
