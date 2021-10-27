@@ -21,7 +21,7 @@ class YouCanDoThis extends Component {
                     <div className="main-page">
                         <Container className="text-center">
                             <h1>You Can Do This</h1>
-                            <h6 className="authors">BY JUSTIN CHOW &middot; RAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
+                            <h6 className="authors">BY YUCONG YANG &middot; RAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
                             <h6 className="date">Mar 12, 2021 &middot; 10 min read</h6>
                         </Container>
                         <Container className="text-center">
@@ -33,26 +33,26 @@ class YouCanDoThis extends Component {
                                 <Col md="8">
                                     <br></br>
                                     <p>Dr. Feng Li is an Associate Professor of Economics at Texas State University. She
-                                    is also a Faculty Research Fellow at
-                                    the LBJ Institute for STEM Education and Research. Dr. Li received her PhD in
-                                    Economics and Specialist in Education from
-                                    Florida State University. Her research focus is on the economics of education,
-                                    labor economics and health economics.
-                                    Aside from her academic career, she is also a passionate Christian and a Sunday
-                                    school teacher.</p>
+                                        is also a Faculty Research Fellow at
+                                        the LBJ Institute for STEM Education and Research. Dr. Li received her PhD in
+                                        Economics and Specialist in Education from
+                                        Florida State University. Her research focus is on the economics of education,
+                                        labor economics and health economics.
+                                        Aside from her academic career, she is also a passionate Christian and a Sunday
+                                        school teacher.</p>
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2><strong>What are you doing now?</strong></h2>
                                     <p>I am Associate Professor of Economics, and
-                                    I teach a lot. I teach the first economic course of undergraduate students,
-                                    and I also teach MBA students. In my research, I do a lot of educational policy
-                                    research, and I serve as one of the
-                                    board of directors of a national organization called Association for Education
-                                    Finance and Policy. I also do a lot of
-                                    funded grant research with the National Science Foundation. Outside of work, I
-                                    volunteer at my local church and teach
-                                    Sunday schools because I love my kids.</p>
+                                        I teach a lot. I teach the first economic course of undergraduate students,
+                                        and I also teach MBA students. In my research, I do a lot of educational policy
+                                        research, and I serve as one of the
+                                        board of directors of a national organization called Association for Education
+                                        Finance and Policy. I also do a lot of
+                                        funded grant research with the National Science Foundation. Outside of work, I
+                                        volunteer at my local church and teach
+                                        Sunday schools because I love my kids.</p>
                                     <h2><strong> That is a very diverse set of activities! Would you like
-                                    to first share more of your teaching experiences?</strong></h2>
+                                        to first share more of your teaching experiences?</strong></h2>
                                     <p>
                                         So it's called the principles of
                                         microeconomics, and it is probably my students’ first economics course. I’m super
@@ -88,7 +88,7 @@ class YouCanDoThis extends Component {
                                         path.
                                     </p>
                                     <h2><strong>That is a very encouraging story. I just wonder how you
-                                    convince your students to transfer to Economics?</strong></h2>
+                                        convince your students to transfer to Economics?</strong></h2>
                                     <p>
                                         Actually I don't intentionally do so. What
                                         I’m doing is modeling the behavior. I am modeling my passion for Economics.
@@ -106,7 +106,7 @@ class YouCanDoThis extends Component {
                                     </div>
                                     <br></br>
                                     <h2><strong>Following that thread, can you share more of how you
-                                    decide to become an economics major?</strong></h2>
+                                        decide to become an economics major?</strong></h2>
                                     <p>
                                         Before I switched to economics, I was in a
                                         major called International Developmental Education. There, once you get your
@@ -188,7 +188,7 @@ class YouCanDoThis extends Component {
                                         good thing.
                                     </p>
                                     <h2><strong>It sounds like life is a learning journey, and that it’s
-                                    normal to make mistakes.</strong></h2>
+                                        normal to make mistakes.</strong></h2>
                                     <p>
                                         Yes. I wanted to make sure that I’m not just
                                         telling a sad story, but because when young people are my age, you look
@@ -217,7 +217,7 @@ class YouCanDoThis extends Component {
                                         us that, you can do this, and encourage us along this navigation process.
                                     </p>
                                     <h2><strong>Do you have any recommendations on how young people can
-                                    find their support or their mentor?</strong></h2>
+                                        find their support or their mentor?</strong></h2>
                                     <p>
                                         The church is a wonderful place to start
                                         searching for a mentor because that’s where you won’t be judged. Career
@@ -271,17 +271,17 @@ class YouCanDoThis extends Component {
                                             <img className="chronicle-pics" src={build} alt="build" />
                                         </div>
                                         <br></br>
-                                    So I just gave you a whole bunch of different places. I really think looking for a
-                                    mentor is important in our modern
-                                    days, and you can start that even in high school. However, you will have to try a
-                                    few times before you find your mentor.
-                                    Out of the whole list of people available, maybe only one is really invested in you,
-                                    but that will be enough. You don’t
-                                    need to have a mentor in every area, but rather find which one is passionate about
-                                    your success. For example, I had one
-                                    undergraduate who got an A in my class, but got A+s in her other courses. In that
-                                    case, the other professors saw her
-                                    potential and helped her get to where she wanted to be.
+                                        So I just gave you a whole bunch of different places. I really think looking for a
+                                        mentor is important in our modern
+                                        days, and you can start that even in high school. However, you will have to try a
+                                        few times before you find your mentor.
+                                        Out of the whole list of people available, maybe only one is really invested in you,
+                                        but that will be enough. You don’t
+                                        need to have a mentor in every area, but rather find which one is passionate about
+                                        your success. For example, I had one
+                                        undergraduate who got an A in my class, but got A+s in her other courses. In that
+                                        case, the other professors saw her
+                                        potential and helped her get to where she wanted to be.
                                     </p>
                                     <p>
                                         Also, While it’s good to plan, it’s important to know that even if you didn’t get to
@@ -303,8 +303,8 @@ class YouCanDoThis extends Component {
                                         made a difference in someone else’s life.
                                     </p>
                                     <h2><strong>There was some media coverage on your research of how to
-                                    train and retain high quality teachers throughout the country.
-                                    Could you share more about that?</strong></h2>
+                                        train and retain high quality teachers throughout the country.
+                                        Could you share more about that?</strong></h2>
                                     <p>
                                         I had worked for one year at Shaanxi Normal University with many student teachers,
                                         and was thinking of becoming a
@@ -375,10 +375,10 @@ class YouCanDoThis extends Component {
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2 className="text-center"><strong>Tips for High School Students</strong></h2>
                                     <p>If you’re interested but don’t know if economics is for you, I would
-                                    recommend reading the Freakonomics series (they
-                                    also have a podcast), Naked Economics by Charles Wheelan, Thinking, Fast and
-                                    Slow, and Poor Economics by Esther Duflo
-                                    and Abhijit Banerjee.
+                                        recommend reading the Freakonomics series (they
+                                        also have a podcast), Naked Economics by Charles Wheelan, Thinking, Fast and
+                                        Slow, and Poor Economics by Esther Duflo
+                                        and Abhijit Banerjee.
                                     </p>
                                     <p>
                                         Also keep in mind that economics is a very broad subject, and is really
@@ -398,16 +398,16 @@ class YouCanDoThis extends Component {
                                     <p>
                                         Also look at what economists do. You can check out <a
                                             href="https://lifeng.wp.txstate.edu/" target="_blank" rel="noreferrer">my website</a> and
-                                    see if what I am researching are the kinds of
-                                    questions you are interested in researching as well, because these are the
-                                    difficult, challenging questions economists
-                                    ask and spend a lifetime answering. If so, you will be a good candidate for
-                                    an Econ major.
+                                        see if what I am researching are the kinds of
+                                        questions you are interested in researching as well, because these are the
+                                        difficult, challenging questions economists
+                                        ask and spend a lifetime answering. If so, you will be a good candidate for
+                                        an Econ major.
                                     </p>
                                     <p>
                                         If anyone is an Econ major or have any other questions, feel free to <a
                                             href="mailto:Li.Feng@txstate.edu" target="_blank" rel="noreferrer">email me</a>, and I’d
-                                    be happy to chat.</p>
+                                        be happy to chat.</p>
                                 </Col>
                                 <Col md="2"></Col>
                             </Row>

@@ -21,7 +21,7 @@ class InternshipsAreOpportunities extends Component {
                     <div className="main-page">
                         <Container className="text-center">
                             <h1>Internships are Opportunities</h1>
-                            <h6 className="authors">BY YUCONG YANG &middot; RACHEL CHEN &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
+                            <h6 className="authors">BY YUCONG YANG &middot; RACHEL CHEN &middot; SELINA YANG &middot; SABRINA TENG &middot; RAY CHANG &middot; HARRY SIO</h6>
                             <h6 className="date">Jan 30, 2021 &middot; 10 min read</h6>
                         </Container>
                         <Container className="text-center">
@@ -33,23 +33,23 @@ class InternshipsAreOpportunities extends Component {
                                 <Col md="8">
                                     <br></br>
                                     <p>Dr. Steve Xi is a machine learning engineer at Facebook, with expertise in ad
-                                    integrity and fraud detection. Dr. Xi has
-                                    a PhD in computer science at the University of California, Riverside. He is
-                                    interested in building machine-learning
-                                    models and applying them to a scalable system that can solve real production
-                                    problems.</p>
+                                        integrity and fraud detection. Dr. Xi has
+                                        a PhD in computer science at the University of California, Riverside. He is
+                                        interested in building machine-learning
+                                        models and applying them to a scalable system that can solve real production
+                                        problems.</p>
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2><strong>How would you describe what you are doing right now at Facebook?</strong></h2>
                                     <p>At Facebook, I'm working on a team trying
-                                    to build a machine learning system to protect the content shared in the
-                                    Facebook community, ensuring that the ads are high quality and don't violate fiscal
-                                    policies. My daily work involves
-                                    coding, machine learning, research, product design, and end-to-end solutions,
-                                    including working with OPs, PMs, and
-                                    engineers. I have worked in different companies like Google and Facebook and am
-                                    interested in building machine-learning
-                                    models and applying them to a scalable system that can solve real production
-                                    problems. </p>
+                                        to build a machine learning system to protect the content shared in the
+                                        Facebook community, ensuring that the ads are high quality and don't violate fiscal
+                                        policies. My daily work involves
+                                        coding, machine learning, research, product design, and end-to-end solutions,
+                                        including working with OPs, PMs, and
+                                        engineers. I have worked in different companies like Google and Facebook and am
+                                        interested in building machine-learning
+                                        models and applying them to a scalable system that can solve real production
+                                        problems. </p>
                                     <p>
                                         You can think of the end-to-end and back-end systems as the whole processing
                                         workflow. Production data, like user or ad
@@ -89,8 +89,8 @@ class InternshipsAreOpportunities extends Component {
                                         goals.
                                     </p>
                                     <h2><strong>What drove you to choose a STEM career path in math and
-                                    computer science (CS), and what motivates you to pursue
-                                    artificial intelligence (AI) and machine learning?</strong></h2>
+                                        computer science (CS), and what motivates you to pursue
+                                        artificial intelligence (AI) and machine learning?</strong></h2>
                                     <p>
                                         When I studied math as an undergraduate, my
                                         major also dealt with computational mathematics, numerical analysis and
@@ -120,7 +120,7 @@ class InternshipsAreOpportunities extends Component {
                                     </div>
                                     <br></br>
                                     <h2><strong>How did you respond when you found out that a lot of what you are doing in your career
-                                    is different from what you had learned in school?</strong></h2>
+                                        is different from what you had learned in school?</strong></h2>
                                     <p>
                                         There is always new technology coming out,
                                         especially in the software engineering and computer science areas. No matter
@@ -139,7 +139,7 @@ class InternshipsAreOpportunities extends Component {
                                         really help you in your career.
                                     </p>
                                     <h2><strong>Do you think it’s better for a CS major to go into a PhD
-                                    program or to get an early entrance into the industry?</strong></h2>
+                                        program or to get an early entrance into the industry?</strong></h2>
                                     <p>
                                         It depends on the individual. If you want to
                                         gain deeper knowledge in your field, you can apply to a graduate school and
@@ -155,8 +155,8 @@ class InternshipsAreOpportunities extends Component {
                                     </p>
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2><strong>I think a lot of people are facing this situation where
-                                    we're looking for our first work experience but then other jobs
-                                    are asking for prior experience. Is there any advice you can give to overcome that?</strong></h2>
+                                        we're looking for our first work experience but then other jobs
+                                        are asking for prior experience. Is there any advice you can give to overcome that?</strong></h2>
                                     <p>
                                         Every summer, there are many companies that
                                         have openings for internships. Most people can start to prepare for applying
@@ -244,7 +244,7 @@ class InternshipsAreOpportunities extends Component {
                                         there are rules that AI cannot be used by the military.
                                     </p>
                                     <h2><strong>What advice would you give to someone who doesn't really
-                                    know what their passion is or what they want to pursue?</strong></h2>
+                                        know what their passion is or what they want to pursue?</strong></h2>
                                     <p>
                                         Since you're still young, you can try to do whatever you want to do. The goal at the beginning of your career is to get
                                         hands-on experience in different areas. It is fine that you don't have the passion at the beginning, but as you're
@@ -262,47 +262,47 @@ class InternshipsAreOpportunities extends Component {
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2 className="text-center"><strong>Tips for College Students</strong></h2>
                                     <p>Even as I work in the industry, I still keep learning about time management
-                                    and what my priorities are. It’s hard
-                                    because you have to be committed, you have to have the vision, and you have
-                                    to do it every day. For college students, if
-                                    you can find a good mentor, which is what CCE is doing, I think that is very
-                                    good and meaningful. No matter if they’re
-                                    young professionals, or people already working in the industry for some
-                                    time, they can give you advice. They can set
-                                    examples that college students can see and learn from. Also, try to go
-                                    beyond the university and get some real working
-                                    experience, in terms of an internship. You can learn a lot even at a
-                                    part-time position, and that can help you bridge
-                                    the gap between what you learn from school and the skills you need for a
-                                    real industry job</p>
+                                        and what my priorities are. It’s hard
+                                        because you have to be committed, you have to have the vision, and you have
+                                        to do it every day. For college students, if
+                                        you can find a good mentor, which is what CCE is doing, I think that is very
+                                        good and meaningful. No matter if they’re
+                                        young professionals, or people already working in the industry for some
+                                        time, they can give you advice. They can set
+                                        examples that college students can see and learn from. Also, try to go
+                                        beyond the university and get some real working
+                                        experience, in terms of an internship. You can learn a lot even at a
+                                        part-time position, and that can help you bridge
+                                        the gap between what you learn from school and the skills you need for a
+                                        real industry job</p>
                                     <br></br>
                                     <h2 className="text-center"><strong>Tips for High School Students</strong></h2>
                                     <p>Let’s say you are interested in literature, or physics, mathematics, or
-                                    various science subjects. These interests will
-                                    help you decide which major you want to study more in university, and high
-                                    school students can prepare for it. If you
-                                    are in high school and want to learn computer science, you can do some
-                                    coding projects and online learning to prepare
-                                    for studying computer science. I know some high school students who can do
-                                    projects on their own, like making a mobile
-                                    app. There are many resources out there and maybe through CCE you can build
-                                    these connections!</p>
+                                        various science subjects. These interests will
+                                        help you decide which major you want to study more in university, and high
+                                        school students can prepare for it. If you
+                                        are in high school and want to learn computer science, you can do some
+                                        coding projects and online learning to prepare
+                                        for studying computer science. I know some high school students who can do
+                                        projects on their own, like making a mobile
+                                        app. There are many resources out there and maybe through CCE you can build
+                                        these connections!</p>
                                     <div className="text-center">
                                         <img className="chronicle-pics" src={expose} alt="Expose yourself" />
                                     </div>
                                     <br></br>
                                     <h2 className="text-center"><strong>Tips for People Interested in Computer Science Career</strong></h2>
                                     <p>If you are already in the computer science major, focus on the study. I know in US universities, the computer science
-                                    department teaches a lot from theory to real projects. If you finish all the projects and homework with 100% effort, you
-                                    will learn a lot and you can also learn the really basic skills, including data structures, introduction to algorithm
-                                    architecture, and other classics in computer science that are really fundamental and that you will want to learn. For
-                                    other students that are not in the computer science major yet and have additional time, I will say there are two
-                                    options. One is that there are many online courses like Coursera, Udacity, and other online resources, where you can get
-                                    the first step into computer science. The other is if you're still in university, you can try to audit or join a class
-                                    in the computer science department to see whether you like it or not. After one semester you will get more information
-                                    and more of a feeling about whether you really like this field, because there is a lot of coding and coding theory in
-                                    the homework. I think you definitely need to expose yourself to the actual classes and do hands-on learning before you
-                                    can decide whether that's something that you want to go for and to build a good foundation as you prepare for a career in industry.</p>
+                                        department teaches a lot from theory to real projects. If you finish all the projects and homework with 100% effort, you
+                                        will learn a lot and you can also learn the really basic skills, including data structures, introduction to algorithm
+                                        architecture, and other classics in computer science that are really fundamental and that you will want to learn. For
+                                        other students that are not in the computer science major yet and have additional time, I will say there are two
+                                        options. One is that there are many online courses like Coursera, Udacity, and other online resources, where you can get
+                                        the first step into computer science. The other is if you're still in university, you can try to audit or join a class
+                                        in the computer science department to see whether you like it or not. After one semester you will get more information
+                                        and more of a feeling about whether you really like this field, because there is a lot of coding and coding theory in
+                                        the homework. I think you definitely need to expose yourself to the actual classes and do hands-on learning before you
+                                        can decide whether that's something that you want to go for and to build a good foundation as you prepare for a career in industry.</p>
                                 </Col>
                                 <Col md="2"></Col>
                             </Row>

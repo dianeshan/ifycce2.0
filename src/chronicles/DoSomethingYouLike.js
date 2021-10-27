@@ -21,7 +21,7 @@ class DoSomethingYouLike extends Component {
                     <div className="main-page">
                         <Container className="text-center">
                             <h1>Do Something You Like</h1>
-                            <h6 className="authors">BY RAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
+                            <h6 className="authors">BY JUSTIN CHOW &middot; RAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
                             <h6 className="date">Apr 16, 2021 &middot; 10 min read</h6>
                         </Container>
                         <Container className="text-center">
@@ -33,28 +33,28 @@ class DoSomethingYouLike extends Component {
                                 <Col md="8">
                                     <br></br>
                                     <p>Timothy Ma is a Senior Tech Business Development and Product Manager at Amazon
-                                    Web Services (AWS), with many years of
-                                    expertise in Cloud and Data Center. He has a master degree in electrical
-                                    engineering at University of Michigan, and an
-                                    MBA at University of Pennsylvania. Before joining AWS, he also worked in Cisco
-                                    as engineer sales, technical marketing
-                                    engineer and product manager. Being a product manager, Timothy enjoys the
-                                    process of translating his vision in
-                                    technology into clear execution plans and seeing the actual product in
+                                        Web Services (AWS), with many years of
+                                        expertise in Cloud and Data Center. He has a master degree in electrical
+                                        engineering at University of Michigan, and an
+                                        MBA at University of Pennsylvania. Before joining AWS, he also worked in Cisco
+                                        as engineer sales, technical marketing
+                                        engineer and product manager. Being a product manager, Timothy enjoys the
+                                        process of translating his vision in
+                                        technology into clear execution plans and seeing the actual product in
                                         customer’s hands.</p>
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2><strong>Can you share a little bit about yourself?</strong></h2>
                                     <p>Sure! I grew up in Taiwan, then came to the
-                                    US for college. I studied at Ohio State, then later on I got my master’s at
-                                    the University of Michigan. Throughout my student career, I mostly focused on
-                                    electrical engineering and computer
-                                    science. When I graduated and actually started my career, it was 2008. It was a time
-                                    of financial crisis, so it was
-                                    pretty hard to find a job. I had to do a complete pivot from what I was studying,
-                                    and I actually started my first job in
-                                    sales, focusing on networking. I joined Cisco System, one of the leading vendors for
-                                    networking, and I was in a part of
-                                    the sales associate program. That’s where I started my career in the tech industry.
+                                        US for college. I studied at Ohio State, then later on I got my master’s at
+                                        the University of Michigan. Throughout my student career, I mostly focused on
+                                        electrical engineering and computer
+                                        science. When I graduated and actually started my career, it was 2008. It was a time
+                                        of financial crisis, so it was
+                                        pretty hard to find a job. I had to do a complete pivot from what I was studying,
+                                        and I actually started my first job in
+                                        sales, focusing on networking. I joined Cisco System, one of the leading vendors for
+                                        networking, and I was in a part of
+                                        the sales associate program. That’s where I started my career in the tech industry.
                                     </p>
                                     <p>
                                         I did a couple of years of sales, then pivoted to a more technical role as a
@@ -100,9 +100,9 @@ class DoSomethingYouLike extends Component {
                                         past. It’s a blended role of
                                         developing a product with the engineering team and working with the sales team to
                                         bring it to market and ramp up the
-                                    revenue.</p>
+                                        revenue.</p>
                                     <h2><strong>Can you talk more about what your specific role is as a
-                                    product manager in AWS?</strong></h2>
+                                        product manager in AWS?</strong></h2>
                                     <p>
                                         A unique feature of being a product manager
                                         at AWS is that we own what we call product definition. This is asking the
@@ -178,7 +178,7 @@ class DoSomethingYouLike extends Component {
                                     </div>
                                     <br></br>
                                     <h2><strong>What made you switch from engineering to product
-                                    managing? What interested you about it, compared to engineering?</strong></h2>
+                                        managing? What interested you about it, compared to engineering?</strong></h2>
                                     <p>
                                         Product managers and engineers share some
                                         similar characteristics; they identify and solve a problem by design or
@@ -201,7 +201,7 @@ class DoSomethingYouLike extends Component {
                                         enough initial customers.
                                     </p>
                                     <h2><strong>I noticed that you also work with Amazon Sage Maker. Can
-                                    you share your experience on that as well?</strong></h2>
+                                        you share your experience on that as well?</strong></h2>
                                     <p>
                                         Machine learning (ML) is kind of a buzzword.
                                         Most startups today will tag themselves with machine learning or AI to some
@@ -236,7 +236,7 @@ class DoSomethingYouLike extends Component {
                                         building the model and algorithm, which is specific for their application.
                                     </p>
                                     <h2><strong>What advice would you give to college students,
-                                    particularly STEM majors, in pursuing product management?</strong></h2>
+                                        particularly STEM majors, in pursuing product management?</strong></h2>
                                     <p>
                                         Most technical majors, statistics, or math
                                         majors definitely give you a very good base and all the necessary skills to
@@ -268,10 +268,10 @@ class DoSomethingYouLike extends Component {
                                         product manager in the future.
                                     </p>
                                     <h2><strong>It sounds like it’s very important to have that
-                                    engineering mindset, but not so much the school mindset. For college
-                                    students in general, what was your experience studying at Ohio State University? How
-                                    did your undergraduate degree help
-                                    you later on in your career?</strong></h2>
+                                        engineering mindset, but not so much the school mindset. For college
+                                        students in general, what was your experience studying at Ohio State University? How
+                                        did your undergraduate degree help
+                                        you later on in your career?</strong></h2>
                                     <p>
                                         The number one thing college gave me is a framework to learn different things. I
                                         focused on my major as an electrical
@@ -313,7 +313,7 @@ class DoSomethingYouLike extends Component {
                                         that’s unexpected, and that could help your career down the road.
                                     </p>
                                     <h2><strong>What was your experience pursuing an MBA, after working
-                                    in engineering, sales, and product management for several years?</strong></h2>
+                                        in engineering, sales, and product management for several years?</strong></h2>
                                     <p>
                                         So there are two avenues for an MBA.
                                         Typically people do an MBA after graduating; the golden timing is about three to
@@ -339,7 +339,7 @@ class DoSomethingYouLike extends Component {
                                         discipline and new skills through the MBA.
                                     </p>
                                     <h2><strong>Can you share your perspective or advice for college
-                                    students who are not sure about their future directions?</strong></h2>
+                                        students who are not sure about their future directions?</strong></h2>
                                     <p>
                                         Data scientists and business analysts are
                                         pretty hot right now. There are thousands of these job postings, and it’s
@@ -367,13 +367,13 @@ class DoSomethingYouLike extends Component {
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2 className="text-center"><strong>Tips for Looking for First Job</strong></h2>
                                     <p>My path was pretty direct; I just went to school career services. Typically
-                                    most companies, including Amazon, will have
-                                    a preferred education institution they work with. Every year, there will be
-                                    an internship, then a full time job will
-                                    come. You’ll need to be familiar with what your school offers regarding
-                                    career services and what company typically works
-                                    with your school.
-                                            </p>
+                                        most companies, including Amazon, will have
+                                        a preferred education institution they work with. Every year, there will be
+                                        an internship, then a full time job will
+                                        come. You’ll need to be familiar with what your school offers regarding
+                                        career services and what company typically works
+                                        with your school.
+                                    </p>
                                     <p>
                                         Another path is mentorship. I didn’t do it when I started my career, but I
                                         wish I could have. If you kind of know what
@@ -383,7 +383,7 @@ class DoSomethingYouLike extends Component {
                                         exposure to see if you want to launch that career
                                         and what you need to do. For example, what certification do you need to
                                         have? What kind of courses do you need to take?
-                                            </p>
+                                    </p>
                                     <p>
                                         Besides, note that certification is actually more important than a lot of
                                         people think. One of the reasons I was able to
@@ -396,56 +396,56 @@ class DoSomethingYouLike extends Component {
                                         first job or internship, since there’s no prior work experience to judge
                                         applicants by. Having certification will make
                                         your resume stand out pretty easily.
-                                        </p>
+                                    </p>
                                     <p>
                                         Also, interviewing skills are amazingly useful. Any customer-facing role
                                         requires the skill to help the customer, but
                                         most importantly to extract the main idea. It’s not taught at school a lot
                                         of the time and the importance of this skill
-                                            is often overlooked.</p>
+                                        is often overlooked.</p>
                                     <br></br>
                                     <h2 className="text-center"><strong>Tips for High School Students</strong></h2>
                                     <p>Taking AP courses in high school is one thing you can do. Computer science
-                                    was harder for me in college because I never
-                                    did coding in high school. We were taught all the theory when I grew up in
-                                    Taiwan, but we never actually implemented
-                                    coding. Getting hands-on experience at the high school level will be really
-                                    helpful for college. I saw my peers
-                                    understand what the professor wanted right away while I was still scratching
-                                    my head, and it turns out they had AP
-                                    computer science back in high school. If it’s an interest or major they want
-                                    to pursue, trying out classes in high
-                                            school will definitely give a much faster start in college.</p>
+                                        was harder for me in college because I never
+                                        did coding in high school. We were taught all the theory when I grew up in
+                                        Taiwan, but we never actually implemented
+                                        coding. Getting hands-on experience at the high school level will be really
+                                        helpful for college. I saw my peers
+                                        understand what the professor wanted right away while I was still scratching
+                                        my head, and it turns out they had AP
+                                        computer science back in high school. If it’s an interest or major they want
+                                        to pursue, trying out classes in high
+                                        school will definitely give a much faster start in college.</p>
                                     <div className="text-center">
                                         <img className="chronicle-pics" src={course} alt="Course" />
                                     </div>
                                     <br></br>
                                     <h2 className="text-center"><strong>Tips for International Students</strong></h2>
                                     <p>They’re very fortunate in the current time to have so many online courses to take,
-                                    like Coursera. Every online course
-                                    has a different target audience, so do some research to see which ones are good for
-                                    you. I recommend focusing on entry
-                                    level and going with a brand name in terms of e-learning educators. When I came here
-                                    from Taiwan, we didn’t have any of
-                                    those resources. I just kept going to office hours and tried to figure things out; I
-                                    think my TA really didn’t like me
-                                    because I visited so often. The language and the computer science barrier was pretty
-                                    hard. But international students in
-                                    the 21st century have way more options, it’s just up to them to spend time and
-                                    research. Maybe you only need to take a
-                                    couple courses, or even just a couple of bootcamps, and you’ll get a pretty good
-                                    idea of the language and computer
-                                    skills needed.</p>
+                                        like Coursera. Every online course
+                                        has a different target audience, so do some research to see which ones are good for
+                                        you. I recommend focusing on entry
+                                        level and going with a brand name in terms of e-learning educators. When I came here
+                                        from Taiwan, we didn’t have any of
+                                        those resources. I just kept going to office hours and tried to figure things out; I
+                                        think my TA really didn’t like me
+                                        because I visited so often. The language and the computer science barrier was pretty
+                                        hard. But international students in
+                                        the 21st century have way more options, it’s just up to them to spend time and
+                                        research. Maybe you only need to take a
+                                        couple courses, or even just a couple of bootcamps, and you’ll get a pretty good
+                                        idea of the language and computer
+                                        skills needed.</p>
                                     <br></br>
                                     <h2 className="text-center"><strong>Career Advice for Students</strong></h2>
                                     <p>For folks interning in the tech industry, there are definitely different ways to be
-                                    involved in it; you don’t really
-                                    need to be in computer science. For every tech company, there’s a need for finance,
-                                    marketing, sales, and engineering.
-                                    At the early career stage, go broad. The only way to go broader is to try different
-                                    roles in an organization or company.
-                                    That will really help you find something you like, and then be able to build upon it
-                                    over the course of the year.
+                                        involved in it; you don’t really
+                                        need to be in computer science. For every tech company, there’s a need for finance,
+                                        marketing, sales, and engineering.
+                                        At the early career stage, go broad. The only way to go broader is to try different
+                                        roles in an organization or company.
+                                        That will really help you find something you like, and then be able to build upon it
+                                        over the course of the year.
                                     </p>
                                     <p>
                                         The worst case scenario is being stuck in a role you don’t enjoy, but you’re
@@ -458,7 +458,7 @@ class DoSomethingYouLike extends Component {
                                         satisfied with. As your career extends,
                                         the pay isn’t going to be the major motivation, but really the fulfilment. The
                                         accomplishment will really be where the
-                                    job satisfaction comes from.</p>
+                                        job satisfaction comes from.</p>
                                 </Col>
                                 <Col md="2"></Col>
                             </Row>

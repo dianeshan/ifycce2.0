@@ -5,7 +5,7 @@ import Footer from './Footer';
 import logo from '../resources/images/CCELogo_square.png';
 import { Container, Row, Col, Button } from 'reactstrap';
 
-import collegewebinar from '../resources/images/webinars/06262021.png';
+import internlaunch from '../resources/images/webinars/11202021.png';
 
 class Webinar extends Component {
     render() {
@@ -30,35 +30,59 @@ class Webinar extends Component {
                     </div>
                     <div className="main-page">
                         <Container>
-                            <h1>College Education Exploration Journey – How we walk together as a family</h1>
-                            <Button color="info" href="https://bit.ly/ifycce06262021webinar" target="_blank" rel="noreferrer">Register</Button>
-                            <h2>6/26 Sat. 11:00 AM PT</h2>
-                            <img className="webinar-pics" src={collegewebinar} alt="0626webinar" />
+                            <h1>2022 Soaring Eagle Internship Program Launch</h1>
+                            <Button color="info" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register</Button>
+                            <h2>11/20 Sat. 11:00 AM - Noon PT</h2>
+                            <img className="webinar-pics" src={internlaunch} alt="1120webinar" />
                             <p></p>
-                            <p>I Fly Young School is hosting an exclusive webinar for families interested in learning about why and
-                            how to help children to prepare for college education and pursue career. We’ve invited 4 families with
-                            recent graduating high schoolers to share their precious family journey. These families have made very
-                            diverse choices in their selection of primary, secondary and post-secondary education paths. We trust
-                            this diverse presentation will help identify a path that’s best for your precious child. This webinar is
-                            sponsored by I FLY YOUNG CCE. Attendance is free of charge. Families and Educators and parents are
-                            welcome.</p>
+                            <p>Have you been eager to jumpstart your career alongside high-profile mentors in the industry? You are in
+                                for a special treat! I Fly Young CCE is proud to launch our 2022 internship program on 11/20 via live-
+                                stream. Come meet our industry veterans from top-brand companies and apply for technical
+                                specializations in UX design, AWS Cloud Computing, and Bio/Pharma. We will also launch our new job interview training program - a great opportunity to gain real world job interview experience from industry
+                                leaders.</p>
 
                             <h3>Speakers</h3>
-                            <p><strong>Moderator:</strong> Mr. Shengming Shan (Founder, I FLY YOUNG CCE)</p>
-                            <p><strong>Chen Family:</strong> Mr. Biyong Chen, Ms. Hongwen Gao, Mr. Jamin Chen, Jesse Chen (USC), Public (9-12th
-                            grade) + Private (1-8 th grade)</p>
-                            <p><strong>Yang Family:</strong> Mr. Simon Yang, Ms. Nina Tsai, Selina Yang (UC Berkeley), Public (1-12 th grade)</p>
-                            <p><strong>Charan Family:</strong> Mr. Charan Kumar, Ms. Sharadha Eswar, Ram Charan(Rhode Island School of Design),
-                            Private (1-12 th grade)</p>
-                            <p><strong>Bodine Family:</strong> Mr. Franklin Bodine, Mrs Mingi Bodine, Rachel Bodine (University of Minnesoda), Home
-                            schooling(1-12 th grade)</p>
+                            <p><strong>Host:</strong> Mr. John Cheung - CCE College Council Lead Mentor</p>
+                            <p><strong>Liju Huang:</strong> UX Design</p>
+                            <p><strong>Timothy Ma (MBA):</strong> AWS Cloud Computing</p>
+                            <p><strong>Dr. Jack Chen:</strong> Bio/Pharma</p>
+                            <p><strong>Woojin Kim:</strong> Job Interview Training Program</p>
 
                             <h3>Ask me about:</h3>
-                            <p>- Why do you decide to go to private/public/in-state/out of state colleges?</p>
-                            <p>- What are the challenges and solutions on this journey? How do you find the solutions?</p>
-                            <p>- How do I know what’s best for my child?</p>
-                            <p>- How to help my child see what’s best for him/her?</p>
-                            <p>- Recommendations for high schoolers and parents</p>
+                            <p>- Internship opportunities, what to expect &amp; how to apply online</p>
+                            <p>- Industry trends and career development advice for students and young professionals</p>
+                            <p>- Job interview training through mock interview with industry professionals</p>
+
+                            <h3>Speaker and Panelist Bio</h3>
+                            <h4>Liju Huang, UX &amp; Visual Design / Enterprise Software</h4>
+
+                            <p>Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources
+                                management software and services industry for 25+ years. Liju has been the lead designer in the areas
+                                of user interface and interaction design for many micro-learning templates, websites, menus, and
+                                learning management systems. Liju’s expertise is to combine user experience, brand, business and
+                                functional requirements with concise visual design to different products, services and platforms.
+                            </p>
+
+                            <h4>Timothy Ma, Business Development / Amazon Web Services</h4>
+                            <p>Timothy has 10+ years of industry experience in technical sales, business development, and product
+                                management focus on machine learning and cloud computing. He led multiple product developments,
+                                executions, and launches ranging from $10M to $100M run rates. Timothy is passionate about learning
+                                and building new products and a believer in giving back to the community. On a personal note, Timothy
+                                is a happy father and a family man who still tries to be better in both. He is also a big fan of college
+                                football and loves skiing and scuba diving.</p>
+                            <h4>Jack Chen, Oncology Research &amp; Development, Pfizer Inc</h4>
+                            <p>Jack is a R&amp;D Scientist with 15+ years of cancer research and oncology drug discovery experience. He is
+                                currently a research group leader mentoring PhD and non-PhD scientists for developing breakthrough
+                                cancer immunotherapies that may change patient life. Prior to Pfizer, he received his PhD degree at
+                                Johns Hopkins University and worked at Eli Lilly and OncoMed pharmaceuticals. His expertise includes
+                                R&amp;D pipeline leadership, targeted &amp; immunotherapy discovery, and precision medicine for patient-
+                                tailoring strategy.</p>
+
+                            <h4>Woojin Kim, Entrepreneur / E-Commerce</h4>
+                            <p>3x DTC Serial Entrepreneur</p>
+                            <p>Ex-CEO Caseology (Exited) - CPG Brand bootstrapped from $0 to $144M GMV (5 Years)</p>
+                            <p>Top 10 Amazon Seller - 9 Figures Sold on Amazon</p>
+                            <p>Consulted 2 DTC Brands from $10M to $30M (1 Exited)</p>
                         </Container>
                     </div>
                 </div>

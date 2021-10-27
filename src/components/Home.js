@@ -46,27 +46,23 @@ class Home extends Component {
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">College Education Exploration Journey</h5>
+                                    <h5 className="text-center">2022 Soaring Eagle Internship Program Launch</h5>
                                     <p className="light">
-                                        Webinar for families interested in learning about why and how to help children to prepare for college education and pursue career. We trust the diverse
-                                        presentation we have prepared will help identify a path that's best for your precious child.
-                                        </p><p>6/26 (Sat.) 11:00 AM PT
+                                        Webinar for college students seeking internship opportunities and learning about how you can jumpstart your career alongside high-profile mentors in the industry.
+                                    </p><p>11/20 (Sat.) 11:00 AM - Noon PT
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}
-                                        <Button color="info" href="https://bit.ly/ifycce06262021webinar" target="_blank" rel="noreferrer">Register</Button>
+                                        <Button color="info" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faBookOpen} />
                                     </h2>
-                                    <h5 className="text-center">CCE Chronicles: The Biggest Happiness</h5>
+                                    <h5 className="text-center">CCE Chronicles: Communication Is Key</h5>
                                     <p className="light">
-                                        In our ninth issue of the CCE Chronicles, we interviewed Woojin Kim who is an entrepreneur, specializing in eCommerce business. He is the ex-founder of Caseology, a
-                                        CPG brand bootstrapped from Zero to $144M in total revenue. He has served more than 6 million
-                                        customers, and was the top 10 Global Amazon Seller in 2017. Mr Kim believes that we are more than enough to make a difference in
-                                        this world, and we should always give back by serving others.
+                                        In our eleventh issue of the CCE Chronicles, we interviewed Bindu Therthala who is the director of software engineering working at ON Semiconductors. She was born in India and graduated from U.V.C.E., Bangalore University, majoring in computer science and engineering. Since graduating, she has worked in many different environments, with extensive experiences in startup companies, specializing in embedded software architecture, wireless and wire-line technologies, and network management. She is now taking more of a director role, with expertise in team building, release management, customer engagement, and process improvement.
                                     </p>
                                 </Col>
                                 {/* <Col lg="2"></Col> */}
@@ -80,14 +76,14 @@ class Home extends Component {
                                 <div className="col sm12">
                                     <h2><strong>About us</strong></h2>
                                     <p>We are a 501(c)(3) non-profit organization providing a complete support system to enable one to grow
-                                    healthily through
-                                different stages of career development.</p>
+                                        healthily through
+                                        different stages of career development.</p>
 
                                     <p>For college/graduate students and young professionals, we offer a platform where they can share
-                                    experiences, grow their
-                                    network and receive mentorship. For high school students, they will learn the 12 life changing capabilities
-                                    through CCE
-                                classes.</p>
+                                        experiences, grow their
+                                        network and receive mentorship. For high school students, they will learn the 12 life changing capabilities
+                                        through CCE
+                                        classes.</p>
                                 </div>
                             </div>
                         </Container>
@@ -97,29 +93,29 @@ class Home extends Component {
                         <Container>
                             <h1><strong>CCE Class:</strong></h1>
                             <p><strong>About CCE Class</strong>: Through these classes, high school students will
-                        learn the 12 life changing capabilities, how to receive and provide constructive feedback, various academic
-                        disciplines they can pursue in college and how to explore their careers.</p>
+                                learn the 12 life changing capabilities, how to receive and provide constructive feedback, various academic
+                                disciplines they can pursue in college and how to explore their careers.</p>
                             <p>Still don't know what CCE class is? Click the button below to learn all about CCE
-                        class in less than 10 minutes!</p>
+                                class in less than 10 minutes!</p>
                             <p><a className="btn btn-info btn-lg"
                                 href="https://www.youtube.com/watch?v=yG-WoryjAzk&amp;list=PLQTND4OzgUVTQmR_XCSEREjy9fy4Lpxo-" target="_blank"
                                 rel="noopener noreferrer">Learn More </a>  </p>
                             <p className="card-text style="><strong>Coach:</strong> Mr. Shengming Shan, who has more
-                        than 25 years of management experience in world renowned semiconductor companies. He is also a passionate leader
-                        who wants to challenge and release the full potential of the next generation. Before founding the CCE class for
-                        high school students in 2016, he has been mentoring career professionals for many years.</p>
+                                than 25 years of management experience in world renowned semiconductor companies. He is also a passionate leader
+                                who wants to challenge and release the full potential of the next generation. Before founding the CCE class for
+                                high school students in 2016, he has been mentoring career professionals for many years.</p>
                             <p><a className="btn btn-info btn-lg" href="https://bit.ly/cceifyreg" target="_blank" rel="noopener noreferrer">CCE Class Registration</a>  </p>
                             <h1><strong>CCE Community:</strong></h1>
                             <div className="row no-gutters">
                                 <div className="col-lg-6">
                                     <p><strong>About CCE PRO Platform</strong>: A community built for college/graduate students and young
-                                professionals, where everyone can get education, networking, mentorship, and grow healthily through giving and receiving.
-                            </p>
+                                        professionals, where everyone can get education, networking, mentorship, and grow healthily through giving and receiving.
+                                    </p>
                                     <p><strong>For Young Professionals</strong>: Did you know that a mentor can help set your career trajectory?
-                                Do you know how to find the right one(s)? Did you know that you can grow by being mentors to college and high
-                                school students? Do you know how valuable your experiences are for them?</p>
+                                        Do you know how to find the right one(s)? Did you know that you can grow by being mentors to college and high
+                                        school students? Do you know how valuable your experiences are for them?</p>
                                     <p><strong>For College Students</strong>: Did you know that the wisest person of all learns from other‘s successes?
-                                Do you know how much you can grow by learning from the young professionals, and at the same time helping out high school students?</p>
+                                        Do you know how much you can grow by learning from the young professionals, and at the same time helping out high school students?</p>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="card-body">

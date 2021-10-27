@@ -21,6 +21,7 @@ import danielding from '../resources/images/mentors/DanielDing.png';
 import chinjenchiang from '../resources/images/mentors/Chin-JenChiang.png';
 import bindu from '../resources/images/mentors/Bindu.png';
 import woojin from '../resources/images/mentors/WoojinKim.png';
+import jackchen from '../resources/images/mentors/JackChen.png';
 
 function Timothy(props) {
     return (
@@ -260,14 +261,14 @@ function Linda(props) {
                 <img className="headshot" src={lindalee} alt="Linda's Headshot" />
                 <h4>Corporate Debt Financing / Banking</h4>
                 <p>Linda has over two decades experience in the financial services industry including branch
-                operation, wealth management, and technology lending. Through her broad experiences,
-                Linda
-                has managed to fund over $600 million dollars loan transactions to companies in various
-                industries including a $100 million syndication loan to a multi-billion eCommerce
-                company as
-                the Lead Agent. Currently Linda is the Director of a premium commercial bank with the
-                exclusive focus on the United States and Greater China markets. Linda received her MBA
-                from Santa Clara University with focus on Finance and Marketing.</p>
+                    operation, wealth management, and technology lending. Through her broad experiences,
+                    Linda
+                    has managed to fund over $600 million dollars loan transactions to companies in various
+                    industries including a $100 million syndication loan to a multi-billion eCommerce
+                    company as
+                    the Lead Agent. Currently Linda is the Director of a premium commercial bank with the
+                    exclusive focus on the United States and Greater China markets. Linda received her MBA
+                    from Santa Clara University with focus on Finance and Marketing.</p>
                 <a href="https://www.linkedin.com/in/linda-lee-2b876a3/" target="_blank" rel="noreferrer">LinkedIn profile</a>
             </Modal.Body>
             <Modal.Footer>
@@ -294,13 +295,13 @@ function Kun(props) {
                 <img className="headshot" src={kunzan} alt="Kun's Headshot" />
                 <h4>Machine Learning & Data Science / Expedia</h4>
                 <p>Dr. Zan is a Sr. Manager of Data Science at Expedia Group. He is leading the Marketplace
-                Optimization team working on pricing and monetization problems of the travel platform.
-                Prior
-                to the management role, he worked on a variety of machine learning and data science
-                problems
-                in the vacation rental marketplace, such as pricing optimization and revenue management,
-                ranking system, marketing and sales. He got the PhD in Operations Research from the
-                University of Texas at Austin.
+                    Optimization team working on pricing and monetization problems of the travel platform.
+                    Prior
+                    to the management role, he worked on a variety of machine learning and data science
+                    problems
+                    in the vacation rental marketplace, such as pricing optimization and revenue management,
+                    ranking system, marketing and sales. He got the PhD in Operations Research from the
+                    University of Texas at Austin.
                 </p>
                 <a href="https://www.linkedin.com/in/kun-zan-a4656917" target="_blank" rel="noreferrer">LinkedIn profile</a>
             </Modal.Body>
@@ -328,19 +329,19 @@ function Steve(props) {
                 <img className="headshot" src={stevexi} alt="Steve's Headshot" />
                 <h4>Machine Learning & Fraud Detection / Facebook</h4>
                 <p>Dr. Xi has extensive experience in machine learning, AI infra and system design. He
-                received
-                his PhD degree in Computer Science at the University of California, Riverside. He has
-                been
-                working in the industry for 10+ years, with domain knowledge in fraud/risk detection and
-                ads
-                integrity. He is now a tech lead in the business integrity team at Facebook. Before
-                Facebook, he worked at Google for 7 years, building large scale ads policy review
-                systems to
-                classify Google search ads, display ads, mobile ads etc. Steve mentored many junior
-                engineers and interns during his career, he has a passion and enjoys to see young
-                professionals growing. He is also glad to share his work experience and life experience
-                with
-                mentees.
+                    received
+                    his PhD degree in Computer Science at the University of California, Riverside. He has
+                    been
+                    working in the industry for 10+ years, with domain knowledge in fraud/risk detection and
+                    ads
+                    integrity. He is now a tech lead in the business integrity team at Facebook. Before
+                    Facebook, he worked at Google for 7 years, building large scale ads policy review
+                    systems to
+                    classify Google search ads, display ads, mobile ads etc. Steve mentored many junior
+                    engineers and interns during his career, he has a passion and enjoys to see young
+                    professionals growing. He is also glad to share his work experience and life experience
+                    with
+                    mentees.
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -367,18 +368,18 @@ function John(props) {
                 <img className="headshot" src={johncheung} alt="John's Headshot" />
                 <h4>Network Testing & Automation / Intel</h4>
                 <p>John has been in the network test industry for 15+ years, with primary focus on
-                enterprise
-                and data center network infrastructure tests. He has worked in Cisco Systems for 11
-                years
-                where he has been doing software testing in switches, routers and POC (customer proof of
-                concept) testing for the various chassis based platforms including Nexus and Catalyst
-                platforms. John then worked at a startup company Barefoot Networks, where he tested
-                cutting
-                edge programmable data plane switches, as well as mentoring teammates with his all
-                rounded
-                networking expertise. Barefoot was then acquired by Intel in 2019. John has been
-                passionate
-                about automation to help on test coverage and improve efficiency on the test process.
+                    enterprise
+                    and data center network infrastructure tests. He has worked in Cisco Systems for 11
+                    years
+                    where he has been doing software testing in switches, routers and POC (customer proof of
+                    concept) testing for the various chassis based platforms including Nexus and Catalyst
+                    platforms. John then worked at a startup company Barefoot Networks, where he tested
+                    cutting
+                    edge programmable data plane switches, as well as mentoring teammates with his all
+                    rounded
+                    networking expertise. Barefoot was then acquired by Intel in 2019. John has been
+                    passionate
+                    about automation to help on test coverage and improve efficiency on the test process.
                 </p>
                 <a href="https://www.linkedin.com/in/john-c-928b3443" target="_blank" rel="noreferrer">LinkedIn profile</a>
             </Modal.Body>
@@ -406,11 +407,11 @@ function ChinJen(props) {
                 <img className="headshot" src={chinjenchiang} alt="Chin-Jen's Headshot" />
                 <h4>Semiconductor Device Physics / Lawrence Livermore National Laboratory</h4>
                 <p>Dr. Chiang is a staff scientist at Lawrence Livermore National Laboratory. His research
-                interests include semiconductor device physics, microfabrication, and accelerators. He
-                received his Ph.D. in Electrical Engineering from UC Davis. After graduation from UCD he
-                worked in academia for 5 years. He also had 5+ years of industry experience before
-                joining
-                LLNL.
+                    interests include semiconductor device physics, microfabrication, and accelerators. He
+                    received his Ph.D. in Electrical Engineering from UC Davis. After graduation from UCD he
+                    worked in academia for 5 years. He also had 5+ years of industry experience before
+                    joining
+                    LLNL.
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -437,16 +438,16 @@ function Bindu(props) {
                 <img className="headshot" src={bindu} alt="Bindu's Headshot" />
                 <h4>Embedded Software Architecture / Wireless Technology</h4>
                 <p>Bindu Therthala has 25 years of experience in Software engineering and management across
-                all stages of growth from small
-                startups to large public companies. She is currently the Director of Software
-                Engineering at ON Semiconductors through
-                the acquisition of Wi-Fi technology leader Quantenna communications. Bindu is passionate
-                about technology and values
-                being part of purpose-driven teams. She has been a key contributor at Packet
-                Engines/Alcatel, Mesh Networks/Motorola,
-                Tropos Networks/ABB Wireless, Meru Networks/Fortinet, and Atheros
-                Communications/Qualcomm. She enjoys reading,
-                traveling, volunteering and Zen meditation.
+                    all stages of growth from small
+                    startups to large public companies. She is currently the Director of Software
+                    Engineering at ON Semiconductors through
+                    the acquisition of Wi-Fi technology leader Quantenna communications. Bindu is passionate
+                    about technology and values
+                    being part of purpose-driven teams. She has been a key contributor at Packet
+                    Engines/Alcatel, Mesh Networks/Motorola,
+                    Tropos Networks/ABB Wireless, Meru Networks/Fortinet, and Atheros
+                    Communications/Qualcomm. She enjoys reading,
+                    traveling, volunteering and Zen meditation.
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -473,23 +474,23 @@ function Paul(props) {
                 <img className="headshot" src={paulpetrus} alt="Paul's Headshot" />
                 <h4>Network Infrastructure / Wireless Technology</h4>
                 <p>Dr. Paul Petrus is the CTO of Radar, a startup company working on inventory location for
-                retail and other
-                industries. He is leading the product development and product strategy. Paul is a
-                wireless industry
-                veteran with more than 25 years of experience in product development and has shipped
-                products worth
-                more than $1B. Prior to joining RadaR, he was the Vice President of Engineering at
-                Ruckus Networks,
-                where he led the LTE Small Cells product development. This product is now deployed in a
-                variety of
-                Enterprises like malls, MDUs and K-12 schools. Prior to that, Paul held several senior
-                engineering
-                positions in semiconductor companies like Qualcomm and Atheros. The products he
-                developed have
-                gone into Xbox360 controller, Macbook and other laptops. <br></br>Paul received his
-                Doctorate degree in Electrical Engineering from Virginia Tech. He has authored more
-                than 20 IEEE papers and he is also an inventor of more than 30 patents.<br></br>
-                He is married and father of two teenage boys. He loves to sing and cook.
+                    retail and other
+                    industries. He is leading the product development and product strategy. Paul is a
+                    wireless industry
+                    veteran with more than 25 years of experience in product development and has shipped
+                    products worth
+                    more than $1B. Prior to joining RadaR, he was the Vice President of Engineering at
+                    Ruckus Networks,
+                    where he led the LTE Small Cells product development. This product is now deployed in a
+                    variety of
+                    Enterprises like malls, MDUs and K-12 schools. Prior to that, Paul held several senior
+                    engineering
+                    positions in semiconductor companies like Qualcomm and Atheros. The products he
+                    developed have
+                    gone into Xbox360 controller, Macbook and other laptops. <br></br>Paul received his
+                    Doctorate degree in Electrical Engineering from Virginia Tech. He has authored more
+                    than 20 IEEE papers and he is also an inventor of more than 30 patents.<br></br>
+                    He is married and father of two teenage boys. He loves to sing and cook.
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -516,9 +517,40 @@ function Woojin(props) {
                 <img className="headshot" src={woojin} alt="Woojin's Headshot" />
                 <h4>Entrepreneur / E-Commerce</h4>
                 <p>3x DTC Serial Entrepreneur <br></br>
-                Ex-CEO Caseology (Exited) - CPG Brand bootstrapped from $0 to $144M GMV (5 Years) <br></br>
-                Top 10 Amazon Seller - 9 Figures Sold on Amazon <br></br>
-                Consulted 2 DTC Brands from $10M to $30M (1 Exited)
+                    Ex-CEO Caseology (Exited) - CPG Brand bootstrapped from $0 to $144M GMV (5 Years) <br></br>
+                    Top 10 Amazon Seller - 9 Figures Sold on Amazon <br></br>
+                    Consulted 2 DTC Brands from $10M to $30M (1 Exited)
+                </p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button onClick={props.onHide}>Close</Button>
+            </Modal.Footer>
+        </Modal>
+    );
+}
+
+function Jack(props) {
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    Dr. Jack Chen
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <img className="headshot" src={jackchen} alt="Jack's Headshot" />
+                <h4>Oncology Research &amp; Development / Pfizer Inc</h4>
+                <p>Jack is a R&amp;D Scientist with 15+ years of cancer research and oncology drug discovery experience. He is
+                    currently a research group leader mentoring PhD and non-PhD scientists for developing breakthrough
+                    cancer immunotherapies that may change patient life. Prior to Pfizer, he received his PhD degree at
+                    Johns Hopkins University and worked at Eli Lilly and OncoMed pharmaceuticals. His expertise includes
+                    R&amp;D pipeline leadership, targeted &amp; immunotherapy discovery, and precision medicine for patient-
+                    tailoring strategy.
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -544,6 +576,7 @@ const Team = () => {
     const [modalShow12, setModalShow12] = useState(false);
     const [modalShow13, setModalShow13] = useState(false);
     const [modalShow14, setModalShow14] = useState(false);
+    const [modalShow15, setModalShow15] = useState(false);
 
     return (
         <div className="all-content">
@@ -720,6 +753,16 @@ const Team = () => {
                                         <Woojin
                                             show={modalShow14}
                                             onHide={() => setModalShow14(false)}
+                                        />
+                                    </Col>
+                                    <Col sm="12" md="3" className="text-center">
+                                        <Button variant="link" onClick={() => setModalShow15(true)}>
+                                            <img className="headshot" src={jackchen} alt="Jack's Headshot" /></Button>
+                                        <h6>Dr. Jack Chen</h6>
+                                        <p>Oncology Research &amp; Development / Pfizer Inc</p>
+                                        <Jack
+                                            show={modalShow15}
+                                            onHide={() => setModalShow15(false)}
                                         />
                                     </Col>
                                 </Row>

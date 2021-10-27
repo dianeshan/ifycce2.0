@@ -21,7 +21,7 @@ class TheBiggestHappiness extends Component {
                     <div className="main-page">
                         <Container className="text-center">
                             <h1>The Biggest Happiness</h1>
-                            <h6 className="authors">BY RAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
+                            <h6 className="authors">BY YUCONG YANG &middot; 5tRAY CHANG &middot; SELINA YANG &middot; SABRINA TENG &middot; HARRY SIO</h6>
                             <h6 className="date">May 27, 2021 &middot; 15 min read</h6>
                         </Container>
                         <a href="#" id="introduction"></a>
@@ -34,11 +34,11 @@ class TheBiggestHappiness extends Component {
                                 <Col md="8">
                                     <br></br>
                                     <p>Woojin Kim is an entrepreneur, specializing in eCommerce business. He is the ex-founder of Caseology, a
-                                    CPG brand bootstrapped from Zero to $144M in total revenue. He has served more than 6 million
-                                    customers, and was the top 10 Global Amazon Seller in 2017. He runs a faith-driven business, which is
-                                    on a mission to support eCommerce brands through growth capital and operations support. After being
-                                    saved by Grace from the Lord, Mr Kim believes that we are more than enough to make a difference in
-                                    this world, and we should always give back by serving others.</p>
+                                        CPG brand bootstrapped from Zero to $144M in total revenue. He has served more than 6 million
+                                        customers, and was the top 10 Global Amazon Seller in 2017. He runs a faith-driven business, which is
+                                        on a mission to support eCommerce brands through growth capital and operations support. After being
+                                        saved by Grace from the Lord, Mr Kim believes that we are more than enough to make a difference in
+                                        this world, and we should always give back by serving others.</p>
                                     <h1 className="text-center">&middot; &middot; &middot;</h1>
                                     <h2><strong>How would you describe yourself and what you're doing now professionally?</strong></h2>
                                     <p>Our area of focus is eCommerce. A lot of eCommerce owners start as a side job -- there’s actually no “eCommerce” profession yet, no major consumer goods, so it’s an interesting growing part of the business world. I’ve been doing it for 11 years, making products, creating value for customers, and fixing their problems. So, in overall business, I would say I am pretty experienced in problem solving. </p>

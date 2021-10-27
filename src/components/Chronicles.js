@@ -16,6 +16,8 @@ import passion from '../resources/images/chronicles/passion.png';
 import network from '../resources/images/chronicles/network.png';
 import certification from '../resources/images/chronicles/certification.png';
 import confidence from '../resources/images/chronicles/confidence.png';
+import resource from '../resources/images/chronicles/resource.png';
+import passionate from '../resources/images/chronicles/passionateAbout.png';
 
 class Chronicles extends Component {
     render() {
@@ -28,6 +30,44 @@ class Chronicles extends Component {
                     </div>
                     <div className="main-page">
                         <Container>
+                            <Row>
+                                <Col md="4" className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={resource} />
+                                        <Card.Body>
+                                            <Card.Title>Certification Helps!</Card.Title>
+                                            <Card.Text>
+                                                Certification helps for concrete skills, and also helps for landing your first or second job.
+                                            </Card.Text>
+                                            <Button href="/certificationhelps" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md="4" className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={passionate} />
+                                        <Card.Body>
+                                            <Card.Title>Communication Is Key</Card.Title>
+                                            <Card.Text>
+                                                Education is necessary to learn the technical points, but soft skills are vital to your success.
+                                            </Card.Text>
+                                            <Button href="/communicationiskey" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                {/* <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={passion} />
+                                        <Card.Body>
+                                            <Card.Title>Stem Students ≠ "Nerds"</Card.Title>
+                                            <Card.Text>
+                                                Life is VERY hard to predict. You just have to follow your passion, become your best self, and when opportunities knock, be ready.
+                                            </Card.Text>
+                                            <Button href="/stemnotnerds" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col> */}
+                            </Row>
                             <Row>
                                 <Col className="card-spacing">
                                     <Card className="card-spacing">
@@ -113,7 +153,7 @@ class Chronicles extends Component {
                                             <Card.Text>
                                                 Not only do we need to understand the technology, but also how this technology is useful for our potential clients.
                                             </Card.Text>
-                                            <Button href="/goodtech" className="btn-color"><span className="btn-font">Learn More</span></Button>
+                                            <Button href="/goodtech" className="btn-color">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>

@@ -11,18 +11,18 @@ export default class Footer extends Component {
             <Row className="main-page">
                 <Col sm="3"></Col>
                 <Col sm="2">
-                    <h6 className="text-center white-text" href="/webinar">
-                        Webinars
+                    <h6 className="text-center white-text">
+                        <a className="white-text" href="/webinar">Webinar</a>
                     </h6>
                 </Col>
                 <Col sm="2">
-                    <h6 className="text-center white-text" href="/chronicles">
-                        Chronicles
+                    <h6 className="text-center">
+                        <a className="white-text" href="/chronicles">Chronicles</a>
                     </h6>
                 </Col>
                 <Col sm="2">
                     <h6 className="text-center white-text">
-                        Contact
+                        <a className="white-text" rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/i-fly-young-cce/">Contact</a>
                     </h6>
                 </Col>
             </Row>

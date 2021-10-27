@@ -22,7 +22,9 @@ import techstartups from '../resources/images/webinars/01162021.png';
 import careerandyou from '../resources/images/webinars/01302021.png';
 import walkwithothers from '../resources/images/webinars/02202021.png';
 import goodskills from '../resources/images/webinars/06052021.png';
-//import collegewebinar from '../resources/images/webinars/06262021.png';
+import collegewebinar from '../resources/images/webinars/06262021.png';
+import interngrad from '../resources/images/webinars/07312021.png';
+// import internlaunch from '../resources/images/webinars/11202021.png';
 
 class PastWebinar extends Component {
     render() {
@@ -228,7 +230,7 @@ class PastWebinar extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                {/* <Col className="card-spacing">
+                                <Col className="card-spacing">
                                     <Card className="card-spacing">
                                         <Card.Img variant="top" src={collegewebinar} />
                                         <Card.Body>
@@ -236,7 +238,32 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Listen to four families talk about each of their different education journeys.
                                             </Card.Text>
-                                            <Button disabled variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={interngrad} />
+                                        <Card.Body>
+                                            <Card.Title>Intern Graduation Showcase</Card.Title>
+                                            <Card.Text>
+                                                Learn what some of our interns have accomplished.
+                                            </Card.Text>
+                                            <Button href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3" variant="primary">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col></Col>
+                                {/* <Col className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={internlaunch} />
+                                        <Card.Body>
+                                            <Card.Title>2022 Soaring Eagle Internship</Card.Title>
+                                            <Card.Text>
+                                                Mentors @ CCE talk about internship and mock interview opportunities.
+                                            </Card.Text>
+                                            <Button variant="primary" disabled>Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col> */}
