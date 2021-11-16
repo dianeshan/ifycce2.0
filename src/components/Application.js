@@ -7,11 +7,9 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import banner from '../resources/images/application/M_bannerImage2.jpg';
 import timeline from '../resources/images/application/TimeLine2022.png';
 import soaringeaglestory from '../resources/images/application/SoaringEagleStory.png';
-import AI from '../resources/images/application/AI.png';
 import cloud from '../resources/images/application/Cloud.png';
 import web from '../resources/images/application/Web.png';
 import UX from '../resources/images/application/UX.png';
-import ads from '../resources/images/application/Ads1.png';
 
 class Application extends Component {
     render() {

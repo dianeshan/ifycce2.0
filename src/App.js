@@ -20,6 +20,7 @@ import TheBiggestHappiness from './chronicles/TheBiggestHappiness';
 import Application from './components/Application';
 import CertificationHelps from './chronicles/CertificationHelps';
 import CommunicationIsKey from './chronicles/CommunicationIsKey';
+import Interview from './components/Interview';
 
 class App extends Component {
   render() {
@@ -43,6 +44,7 @@ class App extends Component {
           <Route path='/thebiggesthappiness' exact={true} component={TheBiggestHappiness} />
           <Route path='/certificationhelps' exact={true} component={CertificationHelps} />
           <Route path='/communicationiskey' exact={true} component={CommunicationIsKey} />
+          <Route path='/interview' exact={true} component={Interview} />
         </Switch>
       </Router>
     )

@@ -6,6 +6,14 @@ import logo from '../resources/images/CCELogo_square.png';
 import { Container, Row, Col, Button } from 'reactstrap';
 
 import internlaunch from '../resources/images/webinars/11202021.png';
+import title from '../resources/images/webinarpage/Title.png';
+import programs from '../resources/images/webinarpage/Programs.png';
+import plane from '../resources/images/webinarpage/airplane_Icon.png';
+import interntracks from '../resources/images/webinarpage/Tracks_title.png';
+import cloud from '../resources/images/application/Cloud.png';
+import web from '../resources/images/application/Web.png';
+import UX from '../resources/images/application/UX.png';
+import bios from '../resources/images/webinarpage/SpeakerBio_title_Blue.png';
 
 class Webinar extends Component {
     render() {
@@ -28,32 +36,90 @@ class Webinar extends Component {
                             </div>
                         </Container>
                     </div>
-                    <div className="main-page">
-                        <Container>
-                            <h1>2022 Soaring Eagle Internship Program Launch</h1>
-                            <Button color="info" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register</Button>
-                            <h2>11/20 Sat. 11:00 AM - Noon PT</h2>
-                            <img className="webinar-pics" src={internlaunch} alt="1120webinar" />
-                            <p></p>
-                            <p>Have you been eager to jumpstart your career alongside high-profile mentors in the industry? You are in
-                                for a special treat! I Fly Young CCE is proud to launch our 2022 internship program on 11/20 via live-
-                                stream. Come meet our industry veterans from top-brand companies and apply for technical
-                                specializations in UX design, AWS Cloud Computing, and Bio/Pharma. We will also launch our new job interview training program - a great opportunity to gain real world job interview experience from industry
-                                leaders.</p>
+                    <div className="larger-margin"></div>
+                    <Container>
+                        <Row>
+                            <Col sm={5}>
+                                <img className="sei-title" src={title} alt="title" />
+                                <div className="button-margin text-center">
+                                    <Button className="" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button>
+                                </div>
+                                <Row className="button-margin">
+                                    <Col sm={2}></Col>
+                                    <Col sm={1}>
+                                        <img src={plane} className="plane-logo" />
+                                    </Col>
+                                    <Col sm={8} className="blue-text">
+                                        Learn more about how to <br></br>
+                                        apply to the Intern Program
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col sm={5}>
+                                <img className="webinar-pics" src={internlaunch} alt="1120webinar" />
+                            </Col>
+                            <Col sm={2}></Col>
+                        </Row>
+                        <Row className="larger-margin">
+                            <Container>
+                                <Container>
+                                    <img width="100%" src={programs} />
+                                </Container>
+                            </Container>
+                        </Row>
 
-                            <h3>Speakers</h3>
+                    </Container>
+                    <div className="blue-container text-center">
+                        <img className="tracks-title larger-margin" src={interntracks} />
+                        <Row>
+                            <Col md="1"></Col>
+                            <Col md="3">
+                                <h5 className="text-center">
+                                    <img className="interntopics" src={UX} alt="UX" />
+                                </h5>
+                                <h5 className="text-center white-text">UX Design: Front End</h5>
+                                <p className="text-center white-text"><strong>UX Design Intern</strong></p>
+                                <p className="text-center white-text">
+                                    This project is ideal for those who are early in their UI/UX career, those who are new
+                                    to the field and are trying to break in, or any UX designer who wants to understand how to create
+                                    a good portfolio, and how to use story telling to showcase their work in a portfolio review.
+                                </p>
+                            </Col>
+                            <Col md="4">
+                                <h5 className="text-center">
+                                    <img className="interntopics" src={cloud} alt="cloud" />
+                                </h5>
+                                <h5 className="text-center white-text">Cloud:</h5>
+                                <p className="text-center white-text"><strong>AWS Cloud Computing Associate Intern</strong></p>
+                                <p className="text-center white-text">
+                                    Launch your cloud career with AWS cloud computing associate Internship to develop technical skills and domain knowledge through industry-recognized certification and proven learning curriculum, experiment with real-world, on-the-job experience through automated hands-on projects and exposure to a wide variety of  cloud career paths and gain invaluable insights into career planning and trajectory from experienced industry leaders. This internship also help you build interview readiness skills, a professional portfolio, and your personal brand to stand out at every step of the hiring process with cloud computing companies.
+                                </p>
+                            </Col>
+                            <Col md="3">
+                                <h5 className="text-center">
+                                    <img className="interntopics" src={web} alt="web" />
+                                </h5>
+                                <h5 className="text-center white-text">Biotech/Pharma:</h5>
+                                <p className="text-center white-text"><strong>Oncology Drug Discovery Intern</strong></p>
+                                <p className="text-center white-text">
+                                    The program is designed for who are interested in drug R&D in biotech and pharmaceutical industries for their future career. The ideal candidates are current graduate students at biology related major. This is a good opportunity to learn the basic knowledge of how to identify and discover new therapeutics via in vitro and in vivo validation in a highly matrix cross-functional team before moving into clinical trials.
+                                </p>
+                            </Col>
+                            <Col md="1"></Col>
+                        </Row>
+                    </div>
+                    <div id="orange-section" className="dark-blue-text">
+                        <Container>
+                            <div className="text-center medium-margin" >
+                                <img className="tracks-title" src={bios} />
+                            </div>
+                            <h3>Speakers: </h3>
                             <p><strong>Host:</strong> Mr. John Cheung - CCE College Council Lead Mentor</p>
                             <p><strong>Liju Huang:</strong> UX Design</p>
                             <p><strong>Timothy Ma (MBA):</strong> AWS Cloud Computing</p>
                             <p><strong>Dr. Jack Chen:</strong> Bio/Pharma</p>
                             <p><strong>Woojin Kim:</strong> Job Interview Training Program</p>
-
-                            <h3>Ask me about:</h3>
-                            <p>- Internship opportunities, what to expect &amp; how to apply online</p>
-                            <p>- Industry trends and career development advice for students and young professionals</p>
-                            <p>- Job interview training through mock interview with industry professionals</p>
-
-                            <h3>Speaker and Panelist Bio</h3>
+                            <h3>Bios:</h3>
                             <h4>Liju Huang, UX &amp; Visual Design / Enterprise Software</h4>
 
                             <p>Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources

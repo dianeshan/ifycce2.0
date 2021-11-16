@@ -31,10 +31,15 @@ export default class AppNavbar extends Component {
                             </NavDropdown>
                             <NavDropdown className="dropdowns" title="Jun 2021 - Sept 2021" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/certificationhelps">Certification Helps</NavDropdown.Item>
-                                <NavDropdown.Item href="/communicationiskey">Coomunication Is Key</NavDropdown.Item>
+                                <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown className="dropdowns" title="Oct 2021 - Jan 2022" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/certificationhelps">Dr. Mehdi Kargar</NavDropdown.Item>
+                                {/* <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item> */}
                             </NavDropdown>
                         </NavDropdown>
                         <Nav.Link href="/application">Apply</Nav.Link>
+                        <Nav.Link href="/interview">Interview</Nav.Link>
                     </Nav>
                     {/* <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
