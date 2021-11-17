@@ -18,6 +18,7 @@ import certification from '../resources/images/chronicles/certification.png';
 import confidence from '../resources/images/chronicles/confidence.png';
 import resource from '../resources/images/chronicles/resource.png';
 import passionate from '../resources/images/chronicles/passionateAbout.png';
+import reflection from '../resources/images/chronicles/selfReflection.png';
 
 class Chronicles extends Component {
     render() {
@@ -33,13 +34,13 @@ class Chronicles extends Component {
                             <Row>
                                 <Col md="4" className="card-spacing">
                                     <Card className="card-spacing">
-                                        <Card.Img variant="top" src={resource} />
+                                        <Card.Img variant="top" src={reflection} />
                                         <Card.Body>
-                                            <Card.Title>Certification Helps!</Card.Title>
+                                            <Card.Title>Become the Strongest Person</Card.Title>
                                             <Card.Text>
-                                                Certification helps for concrete skills, and also helps for landing your first or second job.
+                                                When you empower other people and allow them to empower you, you become the strongest person.
                                             </Card.Text>
-                                            <Button href="/certificationhelps" className="btn-color">Learn More</Button>
+                                            <Button href="/becomestrongestperson" className="btn-color">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -55,18 +56,18 @@ class Chronicles extends Component {
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                {/* <Col className="card-spacing">
+                                <Col md="4" className="card-spacing">
                                     <Card className="card-spacing">
-                                        <Card.Img variant="top" src={passion} />
+                                        <Card.Img variant="top" src={resource} />
                                         <Card.Body>
-                                            <Card.Title>Stem Students ≠ "Nerds"</Card.Title>
+                                            <Card.Title>Certification Helps!</Card.Title>
                                             <Card.Text>
-                                                Life is VERY hard to predict. You just have to follow your passion, become your best self, and when opportunities knock, be ready.
+                                                Certification helps for concrete skills, and also helps for landing your first or second job.
                                             </Card.Text>
-                                            <Button href="/stemnotnerds" className="btn-color">Learn More</Button>
+                                            <Button href="/certificationhelps" className="btn-color">Learn More</Button>
                                         </Card.Body>
                                     </Card>
-                                </Col> */}
+                                </Col>
                             </Row>
                             <Row>
                                 <Col className="card-spacing">

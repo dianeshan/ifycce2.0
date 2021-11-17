@@ -8,6 +8,13 @@ hr {
   background-color: #37acf4 !important;
 }
 
+.btn-orange {
+  background-color: #FF9700 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  align-self: center !important;
+}
+
 .btn-font {
   font-family: 'Source Serif Pro', serif;
 }
@@ -36,13 +43,6 @@ hr {
 
 .blue-container {
   background-color: #37acf4;
-}
-
-.why-apply {
-  background-image: url("./resources/images/interview/whyApply.png");
-  background-size: cover;
-  height: 700px;
-  margin-top: 0;
 }
 
 .grey-text {
@@ -90,6 +90,40 @@ hr {
   margin-top: 0;
 }
 
+.why-apply-section {
+  position: relative;
+  width: 100%;
+}
+
+.why-apply-section img {
+  width: 100%;
+  height: auto;
+}
+
+.why-apply-section .apply-button-1 {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+}
+
+.foot-section {
+  position: relative;
+  width: 100%;
+}
+
+.foot-section img {
+  width: 100%;
+  height: auto;
+}
+
+.foot-section .apply-button-2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .navs {
   position: fixed;
   top: 0;
@@ -117,17 +151,13 @@ hr {
   margin-bottom: 2em;
 }
 
-.apply-button-1 {
+/* .apply-button-1 {
   margin-left: 4.5em;
-}
+} */
 
-.apply-button-2 {
+/* .apply-button-2 {
   margin-top: 10em;
-}
-
-.apply-button-3 {
-  margin-top: 33em;
-}
+} */
 
 .dark-blue-text {
   color: #1D3C68;
@@ -137,17 +167,17 @@ hr {
   margin-bottom: 2em;
 }
 
-.foot {
+/* .foot {
   background-image: url(./resources/images/interview/Footer.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 17em;
   margin-top: 0;
-}
+} */
 
 #light-grey-section {
   background-color: #ececec;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   margin-top: 0;
 }
 
@@ -229,21 +259,15 @@ hr {
   .sei-title {
     width: 300px;
   }
-  .foot {
+  /* .foot {
     height: 7em;
-  }
+  } */
   .apply-button-1 {
     margin-left: 1.75em;
   }
-  .apply-button-2 {
+  /* .apply-button-2 {
     margin-top: 3em;
-  }
-  .apply-button-3 {
-    margin-top: 12em;
-  }
-  .why-apply {
-    height: 300px;
-  }
+  } */
 }
 
 .socials {

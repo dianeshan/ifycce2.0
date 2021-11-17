@@ -145,7 +145,7 @@ class Application extends Component {
                         <img width="100%" src={timeline} alt="timeline" />
                         <br></br>
                         <div className="text-center">
-                            <Button size="lg" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfEBdA-4XQf5Od-JdzWkbVQH8_pdIWd9_a_sLrswNVQoimmVQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Apply Now</Button>
+                            <Button size="lg" className="btn-orange" color="warning" href="https://docs.google.com/forms/d/e/1FAIpQLSfEBdA-4XQf5Od-JdzWkbVQH8_pdIWd9_a_sLrswNVQoimmVQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Apply Now</Button>
                         </div>
                         <br></br>
                     </div>

@@ -39,10 +39,10 @@ class Webinar extends Component {
                     <div className="larger-margin"></div>
                     <Container>
                         <Row>
-                            <Col sm={5}>
+                            <Col md={5}>
                                 <img className="sei-title" src={title} alt="title" />
                                 <div className="button-margin text-center">
-                                    <Button className="" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button>
+                                    <Button size="lg" className="btn-orange" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button>
                                 </div>
                                 <Row className="button-margin">
                                     <Col sm={2}></Col>
@@ -55,10 +55,10 @@ class Webinar extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col sm={5}>
+                            <Col md={5}>
                                 <img className="webinar-pics" src={internlaunch} alt="1120webinar" />
                             </Col>
-                            <Col sm={2}></Col>
+                            <Col md={2}></Col>
                         </Row>
                         <Row className="larger-margin">
                             <Container>
@@ -122,11 +122,7 @@ class Webinar extends Component {
                             <h3>Bios:</h3>
                             <h4>Liju Huang, UX &amp; Visual Design / Enterprise Software</h4>
 
-                            <p>Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources
-                                management software and services industry for 25+ years. Liju has been the lead designer in the areas
-                                of user interface and interaction design for many micro-learning templates, websites, menus, and
-                                learning management systems. Liju’s expertise is to combine user experience, brand, business and
-                                functional requirements with concise visual design to different products, services and platforms.
+                            <p>Liju Huang has 25+ years of experience in visual, media and UX/UI design in the software service industry.  Liju was previously a lead designer in an enterprise learning organization. She led many developments in the area of user interface and interaction design, micro-learning templates, websites, apps, and learning management systems. Liju’s expertise is to combine user experience, brand, and business requirements with concise visual design to different products, services, and platforms.
                             </p>
 
                             <h4>Timothy Ma, Business Development / Amazon Web Services</h4>

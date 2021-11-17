@@ -21,6 +21,7 @@ import Application from './components/Application';
 import CertificationHelps from './chronicles/CertificationHelps';
 import CommunicationIsKey from './chronicles/CommunicationIsKey';
 import Interview from './components/Interview';
+import BecomeStrongestPerson from './chronicles/BecomeStrongestPerson';
 
 class App extends Component {
   render() {
@@ -44,6 +45,7 @@ class App extends Component {
           <Route path='/thebiggesthappiness' exact={true} component={TheBiggestHappiness} />
           <Route path='/certificationhelps' exact={true} component={CertificationHelps} />
           <Route path='/communicationiskey' exact={true} component={CommunicationIsKey} />
+          <Route path='/becomestrongestperson' exact={true} component={BecomeStrongestPerson} />
           <Route path='/interview' exact={true} component={Interview} />
         </Switch>
       </Router>
