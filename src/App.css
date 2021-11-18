@@ -259,15 +259,12 @@ hr {
   .sei-title {
     width: 300px;
   }
-  /* .foot {
-    height: 7em;
-  } */
   .apply-button-1 {
     margin-left: 1.75em;
   }
-  /* .apply-button-2 {
-    margin-top: 3em;
-  } */
+  .btn-orange {
+    font-size: small !important;
+  }
 }
 
 .socials {

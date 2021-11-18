@@ -133,7 +133,7 @@ class Application extends Component {
                     <br></br>
                     <Row>
                         <Col md="3"></Col>
-                        <Col md="6">
+                        <Col md="6" className="text-center">
                             <p>- Gain valuable working experience on projects valued by the industries</p>
                             <p>- Learn from and mentored by industry professionals</p>
                             <p>- Join CCE's healthy ecosystem of growing through giving and recieving</p>

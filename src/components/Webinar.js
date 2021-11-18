@@ -50,8 +50,10 @@ class Webinar extends Component {
                                         <img src={plane} className="plane-logo" />
                                     </Col>
                                     <Col sm={8} className="blue-text">
-                                        Learn more about how to <br></br>
-                                        apply to the Intern Program
+                                        <a href="/application">
+                                            Learn more about how to <br></br>
+                                            apply to the Intern Program
+                                        </a>
                                     </Col>
                                 </Row>
                             </Col>
