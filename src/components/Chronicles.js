@@ -40,7 +40,7 @@ class Chronicles extends Component {
                                             <Card.Text>
                                                 When you empower other people and allow them to empower you, you become the strongest person.
                                             </Card.Text>
-                                            <Button href="/becomestrongestperson" className="btn-color">Learn More</Button>
+                                            {/* <Button href="/becomestrongestperson" className="btn-color">Learn More</Button> */}
                                         </Card.Body>
                                     </Card>
                                 </Col>
