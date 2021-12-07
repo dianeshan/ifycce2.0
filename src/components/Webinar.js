@@ -4,6 +4,7 @@ import AppNavbar from './AppNavbar';
 import Footer from './Footer';
 import logo from '../resources/images/CCELogo_square.png';
 import { Container, Row, Col, Button } from 'reactstrap';
+import { PopupButton } from '@typeform/embed-react';
 
 import internlaunch from '../resources/images/webinars/11202021.png';
 import title from '../resources/images/webinarpage/Title.png';
@@ -42,7 +43,10 @@ class Webinar extends Component {
                             <Col md={5}>
                                 <img className="sei-title" src={title} alt="title" />
                                 <div className="button-margin text-center">
-                                    <Button size="lg" className="btn-orange" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button>
+                                    <PopupButton id="DPqNJx0P" className="btn-orange">
+                                        Register for the Webinar
+                                    </PopupButton>
+                                    {/* <Button size="lg" className="btn-orange" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button> */}
                                 </div>
                                 <Row className="button-margin">
                                     <Col sm={2}></Col>

@@ -33,10 +33,10 @@ export default class AppNavbar extends Component {
                                 <NavDropdown.Item href="/certificationhelps">Certification Helps</NavDropdown.Item>
                                 <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item>
                             </NavDropdown>
-                            {/* <NavDropdown className="dropdowns" title="Oct 2021 - Jan 2022" id="basic-nav-dropdown"> */}
-                            {/* <NavDropdown.Item href="/becomestrongestperson">Become the Strongest Person</NavDropdown.Item> */}
-                            {/* <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item> */}
-                            {/* </NavDropdown> */}
+                            <NavDropdown className="dropdowns" title="Oct 2021 - Jan 2022" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/becomestrongestperson">Become the Strongest Person</NavDropdown.Item>
+                                {/* <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item> */}
+                            </NavDropdown>
                         </NavDropdown>
                         <Nav.Link href="/application">Internship</Nav.Link>
                         <Nav.Link href="/interview">Interview</Nav.Link>

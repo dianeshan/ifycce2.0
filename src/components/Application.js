@@ -17,7 +17,11 @@ class Application extends Component {
             <div className="all-content">
                 <div className="content-wrap">
                     <AppNavbar />
-                    <img width="100%" src={banner} alt="banner" />
+                    {/* <img width="100%" src={banner} alt="banner" /> */}
+                    <div class="banner-section">
+                        <img width="100%" src={banner} alt="banner" />
+                        <Button className="btn-orange apply-button-4" size="lg" color="warning" href="https://docs.google.com/forms/d/e/1FAIpQLSfEBdA-4XQf5Od-JdzWkbVQH8_pdIWd9_a_sLrswNVQoimmVQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Apply Now</Button>
+                    </div>
                     <img width="100%" src={soaringeaglestory} alt="soaringeagle" />
                     <div id="grey-section">
                         <Container>
@@ -35,34 +39,38 @@ class Application extends Component {
                                 </Col>
                                 <Col md="3"></Col>
                             </Row>
+                            <div className="text-center">
+                                <Button className="btn-orange apply-button-3" size="lg" color="warning" href="https://docs.google.com/forms/d/e/1FAIpQLSfEBdA-4XQf5Od-JdzWkbVQH8_pdIWd9_a_sLrswNVQoimmVQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Apply Now</Button>
+                            </div>
                         </Container>
                     </div>
-
                     <div id="blue-container-focus">
                         <h1 className="white-text text-center">Focus Areas</h1>
-                        <Row>
-                            <Col md="2"></Col>
-                            <Col md="8">
-                                <div className="grey-text"><strong className="white-text">"How did you find your internships?"</strong>{' '}
-                                    How did you overcome the catch-22
-                                    of needing prior experience, even for your first job?" These are the most commonly
-                                    asked questions by frustrated job seekers, and we design the CCE internship program to
-                                    address this exact problem.</div>
-                                <br></br>
-                                <div className="grey-text"><strong className="white-text">How?</strong>{' '}
-                                    We value "determination" more than "experience".
-                                    As long as you meet the requirements (see each position for details), can demonstrate
-                                    the eagerness to learn and commitment to quality deliverables, we will give you a chance.</div>
-                                <br></br>
-                                <div className="grey-text"><strong className="white-text">Who is this for?</strong>{' '}
-                                    Whether you are looking for a first internship, or exploring career options that better fit your talents, you are all welcome to apply.</div>
-                                <br></br>
-                                <div className="grey-text">While we expect more programs in the future to cover broader areas of expertise, below are the {' '}<strong className="white-text">3 focus areas</strong>{' '}
-                                    that we are accepting applicants for CCE Internship: Soaring Eagle Winter 2022.</div>
-                                <br></br>
-                            </Col>
-                            <Col md="2"></Col>
-                        </Row>
+                        <Container>
+                            <Row>
+                                <Col md="2"></Col>
+                                <Col md="8">
+                                    <div className="grey-text"><strong className="white-text">"How did you find your internships?"</strong>{' '}
+                                        How did you overcome the catch-22
+                                        of needing prior experience, even for your first job?" These are the most commonly
+                                        asked questions by frustrated job seekers, and we design the CCE internship program to
+                                        address this exact problem.</div>
+                                    <br></br>
+                                    <div className="grey-text"><strong className="white-text">How?</strong>{' '}
+                                        We value "determination" more than "experience".
+                                        As long as you meet the requirements (see each position for details), can demonstrate
+                                        the eagerness to learn and commitment to quality deliverables, we will give you a chance.</div>
+                                    <br></br>
+                                    <div className="grey-text"><strong className="white-text">Who is this for?</strong>{' '}
+                                        Whether you are looking for a first internship, or exploring career options that better fit your talents, you are all welcome to apply.</div>
+                                    <br></br>
+                                    <div className="grey-text">While we expect more programs in the future to cover broader areas of expertise, below are the {' '}<strong className="white-text">3 focus areas</strong>{' '}
+                                        that we are accepting applicants for CCE Internship: Soaring Eagle Winter 2022.</div>
+                                    <br></br>
+                                </Col>
+                                <Col md="2"></Col>
+                            </Row>
+                        </Container>
                         <Row>
                             <Col md="1"></Col>
                             <Col md="3">

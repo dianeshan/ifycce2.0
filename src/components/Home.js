@@ -62,7 +62,7 @@ class Home extends Component {
                                     </h2>
                                     <h5 className="text-center">CCE Chronicles: Become the Strongest Person</h5>
                                     <p className="light">
-                                        In our twelfth issue of the CCE Chronicles, we interviewed Dr. Mehdi Kargar who is the CEO and co-founder of Maxterial, Inc, a material science startup company. Dr Kargar has a Ph.D. in mechanical engineering at Virginia Tech, where he was working on bio-inspired nanotechnology-based boating and biomaterials. In his company, he is able to commercialize his expertise and provide affordable metallic coating to protect the surfaces while reducing the usage of environmentally toxic or carcinogenic coating material. He encourages young people to live a life where your life is alive and moving, rather than just following the track and trend that everybody else does.
+                                        In our twelfth issue of the CCE Chronicles, we interviewed Dr. Mehdi Kargar who is the CEO and co-founder of Maxterial, Inc, a material science technology company. Dr. Kargar has a Ph.D. in mechanical engineering from Virginia Tech., where he was working on advanced coating and biomaterials. In his company, he aims to provide affordable metallic coating to protect the surfaces against wear and corrosion while reducing the usage of dangerous chemicals. Dr. Kargar encourages young people to live a life, rather than just following the track and trend that everybody else does.
                                     </p>
                                 </Col>
                                 {/* <Col lg="2"></Col> */}

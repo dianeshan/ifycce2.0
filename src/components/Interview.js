@@ -23,7 +23,7 @@ class Interview extends Component {
                         <img width="100%" src={whyapply} alt="why apply" />
                     </div>
                     <div id="light-grey-section" className="text-center">
-                        <Button className="btn-orange" size="lg" color="warning" href="https://bit.ly/ifycceinterview" target="_blank" rel="noreferrer">Apply Now</Button>
+                        <Button className="btn-orange apply-button-3" size="lg" color="warning" href="https://bit.ly/ifycceinterview" target="_blank" rel="noreferrer">Apply Now</Button>
                     </div>
                     <img width="100%" src={whoweare} alt="who we are" />
                     <img width="100%" src={whyCCE} alt="why CCE" />
