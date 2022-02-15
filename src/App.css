@@ -312,6 +312,24 @@ hr {
   color: #7a7980;
 }
 
+.seperate-line{
+  color: lightgrey;
+  background-color: lightgrey;
+  height: 0.5;
+}
+
+.caret{
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.caret.up {
+  -moz-transform:rotate(-180deg);
+  -webkit-transform:rotate(-180deg);
+  transform:rotate(-180deg);
+}
+
 /* .modals {
   background-color: #fefefe;
   background-image: url("./resources/images/proj_bkgd/bio_lightbk.jpg");
