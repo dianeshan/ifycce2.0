@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.41b9d4a9.chunk.css",
-    "main.js": "/static/js/main.5312d727.chunk.js",
-    "main.js.map": "/static/js/main.5312d727.chunk.js.map",
+    "main.js": "/static/js/main.0a6c44cf.chunk.js",
+    "main.js.map": "/static/js/main.0a6c44cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3917d1a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.3917d1a0.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
-    "static/js/2.38d8c081.chunk.js": "/static/js/2.38d8c081.chunk.js",
-    "static/js/2.38d8c081.chunk.js.map": "/static/js/2.38d8c081.chunk.js.map",
+    "static/js/2.951c942f.chunk.js": "/static/js/2.951c942f.chunk.js",
+    "static/js/2.951c942f.chunk.js.map": "/static/js/2.951c942f.chunk.js.map",
     "static/js/3.67e04860.chunk.js": "/static/js/3.67e04860.chunk.js",
     "static/js/3.67e04860.chunk.js.map": "/static/js/3.67e04860.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
     "static/css/main.41b9d4a9.chunk.css.map": "/static/css/main.41b9d4a9.chunk.css.map",
-    "static/js/2.38d8c081.chunk.js.LICENSE.txt": "/static/js/2.38d8c081.chunk.js.LICENSE.txt",
+    "static/js/2.951c942f.chunk.js.LICENSE.txt": "/static/js/2.951c942f.chunk.js.LICENSE.txt",
     "static/media/01162021.28f9d7d3.png": "/static/media/01162021.28f9d7d3.png",
     "static/media/01302021.4da79e69.png": "/static/media/01302021.4da79e69.png",
     "static/media/02202021.cbbc5b71.png": "/static/media/02202021.cbbc5b71.png",
@@ -66,6 +66,7 @@
     "static/media/WhoWeAre.e2c5f5ab.png": "/static/media/WhoWeAre.e2c5f5ab.png",
     "static/media/WhyCCE.b61ece95.png": "/static/media/WhyCCE.b61ece95.png",
     "static/media/WoojinKim.9d6784dd.png": "/static/media/WoojinKim.9d6784dd.png",
+    "static/media/alumni.fee5ee37.png": "/static/media/alumni.fee5ee37.png",
     "static/media/beopen.ef370904.png": "/static/media/beopen.ef370904.png",
     "static/media/App.css": "/static/media/bio_lightbk.adb1e508.jpg",
     "static/media/build.f7ea0935.png": "/static/media/build.f7ea0935.png",
@@ -77,6 +78,7 @@
     "static/media/expose.4fcf2028.png": "/static/media/expose.4fcf2028.png",
     "static/media/groupofpeople.8486c4ed.png": "/static/media/groupofpeople.8486c4ed.png",
     "static/media/hike.d49a66ce.png": "/static/media/hike.d49a66ce.png",
+    "static/media/industry.4e9cd512.png": "/static/media/industry.4e9cd512.png",
     "static/media/john.bbce81e5.png": "/static/media/john.bbce81e5.png",
     "static/media/laptopanddesk.772f8fa5.png": "/static/media/laptopanddesk.772f8fa5.png",
     "static/media/lightbulb.5f37fe70.png": "/static/media/lightbulb.5f37fe70.png",
@@ -89,7 +91,9 @@
     "static/media/paul-wong.9cb5de95.jpg": "/static/media/paul-wong.9cb5de95.jpg",
     "static/media/psychology.55ce459c.png": "/static/media/psychology.55ce459c.png",
     "static/media/question.8a8ef5f9.png": "/static/media/question.8a8ef5f9.png",
+    "static/media/research.715beace.png": "/static/media/research.715beace.png",
     "static/media/resource.acbcf67a.png": "/static/media/resource.acbcf67a.png",
+    "static/media/scholar.db35da76.png": "/static/media/scholar.db35da76.png",
     "static/media/selfReflection.ce81ae12.png": "/static/media/selfReflection.ce81ae12.png",
     "static/media/softskills.85c699cb.png": "/static/media/softskills.85c699cb.png",
     "static/media/steps.92bfb5f1.png": "/static/media/steps.92bfb5f1.png",
@@ -103,8 +107,8 @@
   "entrypoints": [
     "static/js/runtime-main.3917d1a0.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.38d8c081.chunk.js",
+    "static/js/2.951c942f.chunk.js",
     "static/css/main.41b9d4a9.chunk.css",
-    "static/js/main.5312d727.chunk.js"
+    "static/js/main.0a6c44cf.chunk.js"
   ]
 }

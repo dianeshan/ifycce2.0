@@ -22,6 +22,7 @@ import CertificationHelps from './chronicles/CertificationHelps';
 import CommunicationIsKey from './chronicles/CommunicationIsKey';
 import Interview from './components/Interview';
 import BecomeStrongestPerson from './chronicles/BecomeStrongestPerson';
+import RemindYourselfMotivation from './chronicles/RemindYourselfMotivation';
 
 class App extends Component {
   render() {
@@ -47,6 +48,7 @@ class App extends Component {
           <Route path='/communicationiskey' exact={true} component={CommunicationIsKey} />
           <Route path='/becomestrongestperson' exact={true} component={BecomeStrongestPerson} />
           <Route path='/interview' exact={true} component={Interview} />
+          <Route path='/remindyourselfmotivation' exact={true} component={RemindYourselfMotivation} />
         </Switch>
       </Router>
     )

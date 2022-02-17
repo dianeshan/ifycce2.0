@@ -43,10 +43,7 @@ class Webinar extends Component {
                             <Col md={5}>
                                 <img className="sei-title" src={title} alt="title" />
                                 <div className="button-margin text-center">
-                                    <PopupButton id="DPqNJx0P" className="btn-orange">
-                                        Register for the Webinar
-                                    </PopupButton>
-                                    {/* <Button size="lg" className="btn-orange" color="warning" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register for the Webinar</Button> */}
+                                    <Button size="lg" className="btn-orange" color="warning" href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq" target="_blank" rel="noreferrer">Recorded Webinar</Button>
                                 </div>
                                 <Row className="button-margin">
                                     <Col sm={2}></Col>

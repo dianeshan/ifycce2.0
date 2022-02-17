@@ -24,7 +24,7 @@ import walkwithothers from '../resources/images/webinars/02202021.png';
 import goodskills from '../resources/images/webinars/06052021.png';
 import collegewebinar from '../resources/images/webinars/06262021.png';
 import interngrad from '../resources/images/webinars/07312021.png';
-// import internlaunch from '../resources/images/webinars/11202021.png';
+import internlaunch from '../resources/images/webinars/11202021.png';
 
 class PastWebinar extends Component {
     render() {
@@ -250,12 +250,11 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Learn what some of our interns have accomplished.
                                             </Card.Text>
-                                            <Button href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3" variant="primary">Learn More</Button>
+                                            <Button href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col></Col>
-                                {/* <Col className="card-spacing">
+                                <Col className="card-spacing">
                                     <Card className="card-spacing">
                                         <Card.Img variant="top" src={internlaunch} />
                                         <Card.Body>
@@ -263,10 +262,10 @@ class PastWebinar extends Component {
                                             <Card.Text>
                                                 Mentors @ CCE talk about internship and mock interview opportunities.
                                             </Card.Text>
-                                            <Button variant="primary" disabled>Learn More</Button>
+                                            <Button href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq" variant="primary" target="_blank" rel="noreferrer">Learn More</Button>
                                         </Card.Body>
                                     </Card>
-                                </Col> */}
+                                </Col>
                             </Row>
                         </Container>
                     </div>

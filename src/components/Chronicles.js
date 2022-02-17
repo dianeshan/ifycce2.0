@@ -19,6 +19,7 @@ import confidence from '../resources/images/chronicles/confidence.png';
 import resource from '../resources/images/chronicles/resource.png';
 import passionate from '../resources/images/chronicles/passionateAbout.png';
 import reflection from '../resources/images/chronicles/selfReflection.png';
+import alumni from '../resources/images/chronicles/alumni.png';
 
 class Chronicles extends Component {
     render() {
@@ -31,6 +32,44 @@ class Chronicles extends Component {
                     </div>
                     <div className="main-page">
                         <Container>
+                            <Row>
+                                {/* <Col md="4" className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={reflection} />
+                                        <Card.Body>
+                                            <Card.Title>Become the Strongest Person</Card.Title>
+                                            <Card.Text>
+                                                When you empower other people and allow them to empower you, you become the strongest person.
+                                            </Card.Text>
+                                            <Button href="/becomestrongestperson" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md="4" className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={passionate} />
+                                        <Card.Body>
+                                            <Card.Title>Communication Is Key</Card.Title>
+                                            <Card.Text>
+                                                Education is necessary to learn the technical points, but soft skills are vital to your success.
+                                            </Card.Text>
+                                            <Button href="/communicationiskey" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col> */}
+                                <Col md="4" className="card-spacing">
+                                    <Card className="card-spacing">
+                                        <Card.Img variant="top" src={alumni} />
+                                        <Card.Body>
+                                            <Card.Title>Remind Yourself Your Motivation!</Card.Title>
+                                            <Card.Text>
+                                                Regardless of how many kinds of challenges happen down the road, you can remind yourself - your initial motivation.
+                                            </Card.Text>
+                                            <Button href="/remindyourselfmotivation" className="btn-color">Learn More</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
                             <Row>
                                 <Col md="4" className="card-spacing">
                                     <Card className="card-spacing">
