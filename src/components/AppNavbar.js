@@ -35,7 +35,7 @@ export default class AppNavbar extends Component {
                             </NavDropdown>
                             <NavDropdown className="dropdowns" title="Oct 2021 - Jan 2022" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/becomestrongestperson">Become the Strongest Person</NavDropdown.Item>
-                                {/* <NavDropdown.Item href="/communicationiskey">Communication Is Key</NavDropdown.Item> */}
+                                <NavDropdown.Item href="/remindyourselfmotivation">Remind Yourself Your Motivation</NavDropdown.Item>
                             </NavDropdown>
                         </NavDropdown>
                         <Nav.Link href="/application">Internship</Nav.Link>

@@ -53,16 +53,16 @@ class Home extends Component {
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}
-                                        <Button color="info" href="https://bit.ly/ifycce11202021webinar" target="_blank" rel="noreferrer">Register</Button>
+                                        <Button color="info" href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq" target="_blank" rel="noreferrer">Recorded Webinar</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faBookOpen} />
                                     </h2>
-                                    <h5 className="text-center">CCE Chronicles: Become the Strongest Person</h5>
+                                    <h5 className="text-center">CCE Chronicles: Remind Yourself Your Initial Motivation</h5>
                                     <p className="light">
-                                        In our twelfth issue of the CCE Chronicles, we interviewed Dr. Mehdi Kargar who is the CEO and co-founder of Maxterial, Inc, a material science technology company. Dr. Kargar has a Ph.D. in mechanical engineering from Virginia Tech., where he was working on advanced coating and biomaterials. In his company, he aims to provide affordable metallic coating to protect the surfaces against wear and corrosion while reducing the usage of dangerous chemicals. Dr. Kargar encourages young people to live a life, rather than just following the track and trend that everybody else does.
+                                        In our thirteenth issue of the CCE Chronicles, we interviewed Dr. Jack Chen who is the associate research fellow and research group lead in the cancer immunology discovery team at Pfizer, with years of experience in leading and mentoring the drug discovery team and cross-functional team communications. He has a Ph.D. in Oncology & Immunology at Johns Hopkins University, with expertise in cancer cell-immune cell interaction in microvasculature and their role in metastasis.
                                     </p>
                                 </Col>
                                 {/* <Col lg="2"></Col> */}
