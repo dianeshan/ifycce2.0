@@ -343,6 +343,10 @@ hr {
   font-size: 14px;
 }
 
+.webinar-date{
+  font-weight: 500;
+}
+
 /*Event*/
 .webinar-content{
   width: 100%;
@@ -365,6 +369,7 @@ hr {
   /* background-color: red; */
   margin-top: 5%;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 
@@ -388,23 +393,23 @@ hr {
 
 .event-card{
   position: relative;
-  width: 85%;
-  height: 80%;
+  width: 88%;
+  height: 83%;
   background-color: white;
-  top: 10%;
-  left: 4%;
+  top: 8%;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .event-flyer{
   position: relative;
-  width: 44%;
-  height: 86%;
-  top:7.2%;
-  left: 3%;
+  width: 31.94rem;
+  height: 17.96rem;
+  left: 4%;
+  cursor: pointer;
 }
 
 .event-flyer:hover{
@@ -412,20 +417,23 @@ hr {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
+.event-flyer-modal-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .event-flyer-modal{
   position: relative;
-  width: 60%;
-  height: 60%;
-  margin-left:20%;
-  margin-top: 10%;
-  margin-bottom: 100%;
+  width: 63.88rem;
+  height: 35.92rem;
 }
 
 .event-detail{
   position: relative;
-  width: 46%;
+  width: 40%;
   height: 92%;
-  top: 4%;
   left: 7%;
   /* background-color: #ff1f85; */
   font-size: 19px;
@@ -441,7 +449,9 @@ hr {
 }
 
 .event-detail-time{
+  color: #ff1f85;
   font-size: 1.5rem;
+  font-weight: 500;
   margin-top: 0.5rem;
   margin-bottom: 0rem;
   width: 100%;
@@ -469,8 +479,8 @@ hr {
   padding: 0.3rem 1.25rem 0.3rem 1.25rem;
   text-align: center;
   border-radius: 10px;
-  -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
+  -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .event-detail-link:hover{
@@ -479,7 +489,7 @@ hr {
   text-decoration: none;
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1370px){
   .webinar-content{
     width: 100%;
     height: auto;
@@ -501,6 +511,7 @@ hr {
     /* background-color: red; */
     margin-top: 5%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
   
@@ -510,11 +521,10 @@ hr {
   
   .event-card{
     position: relative;
-    width: 83%;
+    width: 85%;
     height: 100%;
     background-color: white;
     top: 10%;
-    left: 9%;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -523,23 +533,23 @@ hr {
   
   .event-flyer{
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 50%;
     margin-top: 2rem;
-    left: 9.5%;
+    left: 5%;
+    cursor: pointer;
   }
   
   .event-flyer:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   }
   
   .event-flyer-modal{
     position: relative;
     width: 90%;
-    margin-left:5%;
-    margin-top: 15%;
-    margin-bottom: 100%;
+    height: 50%;
+    left: 5%;
   }
   
   .event-detail{
@@ -562,6 +572,7 @@ hr {
   }
   
   .event-detail-time{
+  color: #ff1f85;
     font-size: 1.5rem;
     margin-top: 0.5rem;
     width: 100%;
@@ -581,21 +592,4 @@ hr {
     bottom: 0.5rem;
   }
 
-  .event-detail-link{
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: black;
-    background-color: #49b7fc;
-    padding: 0.3rem 1.25rem 0.3rem 1.25rem;
-    text-align: center;
-    border-radius: 10px;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-  }
-  
-  .event-detail-link:hover{
-    color: black;
-    background-color:#0060b9;
-    text-decoration: none;
-  }
 }

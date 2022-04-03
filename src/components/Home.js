@@ -46,14 +46,16 @@ class Home extends Component {
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">2022 Soaring Eagle Internship Program Launch</h5>
+                                    <h5 className="text-center">2022 Financial Literacy Workshop</h5>
+                                    <p className='webinar-date text-center'>Sat. Apr 16 • 11am -12 pm PT</p>
+                                    <p className='webinar-date text-center'>Sat. Apr 30 • 11am -12 pm PT</p>
                                     <p className="light">
-                                        Webinar for college students seeking internship opportunities and learning about how you can jumpstart your career alongside high-profile mentors in the industry.
-                                    </p><p>11/20 (Sat.) 11:00 AM - Noon PT
+                                    It’s the time of the year again! Our 2nd annual Operation HOPE workshops are here!
+                                    These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime.  We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!                                    
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}
-                                        <Button color="info" href="https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq" target="_blank" rel="noreferrer">Recorded Webinar</Button>
+                                        <Button color="info" href="https://bit.ly/ifycceMoneySmartWebinar" target="_blank" rel="noreferrer">Sign-Up</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
