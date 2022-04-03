@@ -55,7 +55,7 @@ class Home extends Component {
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{' '}
-                                        <Button color="info" href="https://bit.ly/ifycceMoneySmartWebinar" target="_blank" rel="noreferrer">Sign-Up</Button>
+                                        <Button color="info" href="https://bit.ly/ifycceMoneySmartWebinar" target="_blank" rel="noreferrer">Sign Up</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">

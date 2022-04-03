@@ -29,7 +29,7 @@ const Event = (props) => {
                     <p className="event-detail-time">{time}</p>
                     {title}
                     <p className="event-detail-content">{content}</p>
-                    <p className="event-detail-link-container"><a className="event-detail-link" href={link} target="_blank">Sign-Up</a></p>
+                    <p className="event-detail-link-container"><a className="event-detail-link" href={link} target="_blank">Sign Up</a></p>
                 </div>
             </div>
             <Modal 

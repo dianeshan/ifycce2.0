@@ -408,7 +408,7 @@ hr {
   position: relative;
   width: 31.94rem;
   height: 17.96rem;
-  left: 4%;
+  left: 3.5%;
   cursor: pointer;
 }
 
@@ -432,7 +432,7 @@ hr {
 
 .event-detail{
   position: relative;
-  width: 40%;
+  width: 42%;
   height: 92%;
   left: 7%;
   /* background-color: #ff1f85; */
@@ -452,7 +452,7 @@ hr {
   color: #ff1f85;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   margin-bottom: 0rem;
   width: 100%;
 }
@@ -474,18 +474,18 @@ hr {
 .event-detail-link{
   font-size: 1.25rem;
   font-weight: 500;
-  color: black;
-  background-color: #49b7fc;
+  color: white;
+  background-color: #17a2b8;
   padding: 0.3rem 1.25rem 0.3rem 1.25rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
 
 .event-detail-link:hover{
-  color: black;
-  background-color:#0060b9;
+  color: white;
+  background-color:#137d8d;
   text-decoration: none;
 }
 
