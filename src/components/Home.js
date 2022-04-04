@@ -54,7 +54,7 @@ class Home extends Component {
                                     These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime.  We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!                                    
                                     </p>
                                     <div className="text-center">
-                                        <Button color="info" href="/webinar">Learn More</Button>{' '}
+                                        <Button color="info" href="/webinar">Learn More</Button>{'      '}
                                         <Button color="info" href="https://bit.ly/ifycceMoneySmartWebinar" target="_blank" rel="noreferrer">Sign Up</Button>
                                     </div>
                                 </Col>
