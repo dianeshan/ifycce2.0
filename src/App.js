@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import './App.css';
 import Home from './components/Home';
 import Webinar from './components/Webinar';
@@ -23,9 +23,14 @@ import CommunicationIsKey from './chronicles/CommunicationIsKey';
 import Interview from './components/Interview';
 import BecomeStrongestPerson from './chronicles/BecomeStrongestPerson';
 import RemindYourselfMotivation from './chronicles/RemindYourselfMotivation';
+import TagManager from 'react-gtm-module/dist/TagManager';
 
-class App extends Component {
-  render() {
+const App = () => {
+  
+    useEffect(() => {
+      TagManager.initialize({gtmId:"GTM-KQB8XG7"});
+    },[]);
+
     return (
       <Router>
         <Switch>
@@ -51,8 +56,7 @@ class App extends Component {
           <Route path='/remindyourselfmotivation' exact={true} component={RemindYourselfMotivation} />
         </Switch>
       </Router>
-    )
-  }
+    );
 }
 
 export default App;

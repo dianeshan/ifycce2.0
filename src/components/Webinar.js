@@ -15,9 +15,11 @@ import cloud from '../resources/images/application/Cloud.png';
 import web from '../resources/images/application/Web.png';
 import UX from '../resources/images/application/UX.png';
 import bios from '../resources/images/webinarpage/SpeakerBio_title_Blue.png';
+import flyer from '../resources/images/webinarpage/flyer.png';
+import Event from './Event';
 
-class Webinar extends Component {
-    render() {
+const Webinar = () => {
+
         return (
             <div className="all-content">
                 <div className="content-wrap">
@@ -37,8 +39,26 @@ class Webinar extends Component {
                             </div>
                         </Container>
                     </div>
-                    <div className="larger-margin"></div>
-                    <Container>
+                    <div className='webinar-content'>
+                        <Event date = {"Apr 16"}
+                               time = {"Sat. Apr 16 • 11 am - 12 pm PT"}
+                               title = {"Financial Literacy Workshop"} 
+                               subtitle= {"Budgeting & Credit"}
+                               content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
+                               link = {"https://bit.ly/ifycceMoneySmartWebinar"}
+                               img = {flyer}/>
+                        <Event date = {"Apr 30"}
+                               time = {"Sat. Apr 30 • 11 am - 12 pm PT"}
+                               title = {"Financial Literacy Workshop"} 
+                               subtitle = {"Saving & Investing"}
+                               content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
+                               link = {"https://bit.ly/ifycceMoneySmartWebinar"}
+                               img = {flyer}/>
+                        <div className="content-margin"></div>
+                    </div>
+                    
+                    {/* <div className="larger-margin"></div> */}
+                    {/* <Container>
                         <Row>
                             <Col md={5}>
                                 <img className="sei-title" src={title} alt="title" />
@@ -71,8 +91,8 @@ class Webinar extends Component {
                             </Container>
                         </Row>
 
-                    </Container>
-                    <div className="blue-container text-center">
+                    </Container> */}
+                    {/* <div className="blue-container text-center">
                         <img className="tracks-title larger-margin" src={interntracks} />
                         <Row>
                             <Col md="1"></Col>
@@ -149,12 +169,11 @@ class Webinar extends Component {
                             <p>Top 10 Amazon Seller - 9 Figures Sold on Amazon</p>
                             <p>Consulted 2 DTC Brands from $10M to $30M (1 Exited)</p>
                         </Container>
-                    </div>
+                    </div> */}
                 </div>
                 <Footer />
             </div>
         );
-    }
 }
 
 export default Webinar;
