@@ -373,28 +373,10 @@ hr {
   flex-wrap: nowrap;
 }
 
-.event-date-card {
-  position: relative;
-  width: 9rem;
-  height: 9rem;
-  background-color: white;
-  top:35%;
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
-  font-size: 2.25rem;
-  font-weight: 500;
-}
-
-.event-date{
-  position: relative;
-  top: 7%;
-  text-align: center;
-}
-
 .event-card{
   position: relative;
-  width: 88%;
-  height: 83%;
+  width: 70rem;
+  height: 26.5rem;
   background-color: white;
   top: 8%;
   border-radius: 10px;
@@ -434,7 +416,7 @@ hr {
   position: relative;
   width: 42%;
   height: 92%;
-  left: 7%;
+  left: 5.5rem;
   /* background-color: #ff1f85; */
   font-size: 19px;
   display: flex;
@@ -446,6 +428,14 @@ hr {
   font-weight: 500;
   margin-bottom: 0;
   width: 100%;
+}
+
+.event-detail-subtitle{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  width: 100%;
+  color: #37acf4;
 }
 
 .event-detail-time{
@@ -489,7 +479,7 @@ hr {
   text-decoration: none;
 }
 
-@media (max-width: 1370px){
+@media (max-width: 1250px){
   .webinar-content{
     width: 100%;
     height: auto;

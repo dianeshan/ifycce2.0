@@ -5,7 +5,8 @@ import Modal from '@mui/material/Modal';
 const Event = (props) => {
 
     const date = props.date?.split(' ').map(s => <p className="event-date">{s}</p>);
-    const title = props.title?.split(':').map(s => <p className="event-detail-title">{s}</p>);
+    const title = props.title;
+    const subtitle = props.subtitle;
     const time = props.time;
     const content = props.content;
     const link = props.link;
@@ -27,7 +28,8 @@ const Event = (props) => {
                 <img src={img} className="event-flyer" onClick={handleClick}></img>
                 <div className="event-detail">
                     <p className="event-detail-time">{time}</p>
-                    {title}
+                    <p className="event-detail-title">{title}</p>
+                    <p className="event-detail-subtitle">{subtitle}</p>
                     <p className="event-detail-content">{content}</p>
                     <p className="event-detail-link-container"><a className="event-detail-link" href={link} target="_blank">Sign Up</a></p>
                 </div>

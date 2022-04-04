@@ -42,13 +42,15 @@ const Webinar = () => {
                     <div className='webinar-content'>
                         <Event date = {"Apr 16"}
                                time = {"Sat. Apr 16 • 11 am - 12 pm PT"}
-                               title = {"Financial Literacy Workshop:Budgeting & Credit"} 
+                               title = {"Financial Literacy Workshop"} 
+                               subtitle= {"Budgeting & Credit"}
                                content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
                                link = {"https://bit.ly/ifycceMoneySmartWebinar"}
                                img = {flyer}/>
                         <Event date = {"Apr 30"}
                                time = {"Sat. Apr 30 • 11 am - 12 pm PT"}
-                               title = {"Financial Literacy Workshop:Saving & Investing"} 
+                               title = {"Financial Literacy Workshop"} 
+                               subtitle = {"Saving & Investing"}
                                content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
                                link = {"https://bit.ly/ifycceMoneySmartWebinar"}
                                img = {flyer}/>
