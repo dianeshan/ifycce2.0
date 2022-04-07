@@ -24,6 +24,7 @@ import Interview from './components/Interview';
 import BecomeStrongestPerson from './chronicles/BecomeStrongestPerson';
 import RemindYourselfMotivation from './chronicles/RemindYourselfMotivation';
 import TagManager from 'react-gtm-module/dist/TagManager';
+import FailEarly from './chronicles/FailEarly';
 
 const App = () => {
   
@@ -54,6 +55,7 @@ const App = () => {
           <Route path='/becomestrongestperson' exact={true} component={BecomeStrongestPerson} />
           <Route path='/interview' exact={true} component={Interview} />
           <Route path='/remindyourselfmotivation' exact={true} component={RemindYourselfMotivation} />
+          <Route path='/failearly' exact={true} component={FailEarly} />
         </Switch>
       </Router>
     );

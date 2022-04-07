@@ -20,6 +20,7 @@ import resource from '../resources/images/chronicles/resource.png';
 import passionate from '../resources/images/chronicles/passionateAbout.png';
 import reflection from '../resources/images/chronicles/selfReflection.png';
 import alumni from '../resources/images/chronicles/alumni.png';
+import best from '../resources/images/chronicles/best.png';
 
 class Chronicles extends Component {
     render() {
@@ -44,19 +45,19 @@ class Chronicles extends Component {
                                             <Button href="/becomestrongestperson" className="btn-color">Learn More</Button>
                                         </Card.Body>
                                     </Card>
-                                </Col>
+                                </Col> */}
                                 <Col md="4" className="card-spacing">
                                     <Card className="card-spacing">
-                                        <Card.Img variant="top" src={passionate} />
+                                        <Card.Img variant="top" src={best} />
                                         <Card.Body>
-                                            <Card.Title>Communication Is Key</Card.Title>
+                                            <Card.Title>If You Want to Fail, Fail Early</Card.Title>
                                             <Card.Text>
-                                                Education is necessary to learn the technical points, but soft skills are vital to your success.
+                                                If we need to pivot to a different solution then so be it. If you're not taking risks, you're also not going to innovate.
                                             </Card.Text>
-                                            <Button href="/communicationiskey" className="btn-color">Learn More</Button>
+                                            <Button href="/failearly" className="btn-color">Learn More</Button>
                                         </Card.Body>
                                     </Card>
-                                </Col> */}
+                                </Col>
                                 <Col md="4" className="card-spacing">
                                     <Card className="card-spacing">
                                         <Card.Img variant="top" src={alumni} />

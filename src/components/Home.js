@@ -62,9 +62,9 @@ class Home extends Component {
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faBookOpen} />
                                     </h2>
-                                    <h5 className="text-center">CCE Chronicles: Remind Yourself Your Initial Motivation</h5>
+                                    <h5 className="text-center">CCE Chronicles: If You Want to Fail, Fail Early</h5>
                                     <p className="light">
-                                        In our thirteenth issue of the CCE Chronicles, we interviewed Dr. Jack Chen who is the associate research fellow and research group lead in the cancer immunology discovery team at Pfizer, with years of experience in leading and mentoring the drug discovery team and cross-functional team communications. He has a Ph.D. in Oncology & Immunology at Johns Hopkins University, with expertise in cancer cell-immune cell interaction in microvasculature and their role in metastasis.
+                                        In our fourteenth issue of the CCE Chronicles, we interviewed Jensen Tjeng who is the director of engineering for an SoC (System-on-Chip) design team at Nvidia. Jensen has a master degree in electrical engineering from Stanford University, and a masters diploma in strategy and innovation from University of Oxford. He has extensive experiences in different aspects of hardware engineering, from CPU (Central Processing Unit) design to system level design, and he is always passionate about empowering his team and building the next leaders in the company. 
                                     </p>
                                 </Col>
                                 {/* <Col lg="2"></Col> */}
