@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e2312039.chunk.css",
-    "main.js": "/static/js/main.91f8b7bd.chunk.js",
-    "main.js.map": "/static/js/main.91f8b7bd.chunk.js.map",
+    "main.js": "/static/js/main.e01e84e2.chunk.js",
+    "main.js.map": "/static/js/main.e01e84e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e4814db1.js",
     "runtime-main.js.map": "/static/js/runtime-main.e4814db1.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
@@ -82,7 +82,7 @@
     "static/media/groupofpeople.8486c4ed.png": "/static/media/groupofpeople.8486c4ed.png",
     "static/media/hike.d49a66ce.png": "/static/media/hike.d49a66ce.png",
     "static/media/industry.4e9cd512.png": "/static/media/industry.4e9cd512.png",
-    "static/media/jensen.b810e8d7.png": "/static/media/jensen.b810e8d7.png",
+    "static/media/jensen3x.11a0dcd0.png": "/static/media/jensen3x.11a0dcd0.png",
     "static/media/john.bbce81e5.png": "/static/media/john.bbce81e5.png",
     "static/media/laptopanddesk.772f8fa5.png": "/static/media/laptopanddesk.772f8fa5.png",
     "static/media/lightbulb.5f37fe70.png": "/static/media/lightbulb.5f37fe70.png",
@@ -113,6 +113,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.6657e521.chunk.js",
     "static/css/main.e2312039.chunk.css",
-    "static/js/main.91f8b7bd.chunk.js"
+    "static/js/main.e01e84e2.chunk.js"
   ]
 }

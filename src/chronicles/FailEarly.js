@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 // import ChroniclesHeader from '../components/ChroniclesHeader';
 import best from '../resources/images/chronicles/best.png';
 import decision from '../resources/images/chronicles/decision.png';
-import jensen from '../resources/images/chronicles/jensen.png';
+import jensen from '../resources/images/chronicles/jensen3x.png';
 import { Button } from 'react-bootstrap';
 
 class FailEarly extends Component {

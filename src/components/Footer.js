@@ -43,7 +43,7 @@ export default class Footer extends Component {
                 <Col sm="2"></Col>
                 <Col sm="8" className="text-center">
                     <p className="white-text copyright">
-                        If you have any questions, woudld like to get involved, or want to learn more, don't hesitate to contact us!
+                        If you have any questions, would like to get involved, or want to learn more, don't hesitate to contact us!
                         We would love to get to know each and every one of you better and can't wait for you to join the community.
                         You will get the chance to both give and recieve help and as we like to say, "Giving is receiving"!
                         You can reach us at cce.info@iflyyoung.com!
