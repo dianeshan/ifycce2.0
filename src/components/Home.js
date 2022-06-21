@@ -47,15 +47,13 @@ class Home extends Component {
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
                                     <h5 className="text-center">2022 Financial Literacy Workshop</h5>
-                                    <p className='webinar-date text-center'>Sat. Apr 16 • 11am -12 pm PT</p>
-                                    <p className='webinar-date text-center'>Sat. Apr 30 • 11am -12 pm PT</p>
+                                    <p className='webinar-date text-center'>Sat. Jul 16 • 11 am -12 pm PT</p>
                                     <p className="light">
-                                    It’s the time of the year again! Our 2nd annual Operation HOPE workshops are here!
-                                    These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime.  We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!                                    
+                                    I Fly Young School is hosting an exclusive webinar for college students seeking internship opportunities and learning more about how you can jumpstart your career alongside high-profile mentors in the industry. We have invited 6 interns who are recently graduating from the CCE Internship Program to showcase their excellent work and learnings from their internships in UX Design, Cloud Computing, and Bio/Pharma. This webinar is sponsored by I FLY YOUNG CCE. Attendance is free of charge. Young professionals, college/high school students, parents and educators are welcome.
                                     </p>
                                     <div className="text-center">
                                         <Button color="info" href="/webinar">Learn More</Button>{'      '}
-                                        <Button color="info" href="https://bit.ly/ifycceMoneySmartWebinar" target="_blank" rel="noreferrer">Sign Up</Button>
+                                        <Button color="info" href="https://bit.ly/ifycce2022interngrad" target="_blank" rel="noreferrer">Sign Up</Button>
                                     </div>
                                 </Col>
                                 <Col md="12" lg="4">
