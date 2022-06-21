@@ -46,7 +46,7 @@ class Home extends Component {
                                     <h2 className="text-center">
                                         <FontAwesomeIcon icon={faAtom} />
                                     </h2>
-                                    <h5 className="text-center">2022 Financial Literacy Workshop</h5>
+                                    <h5 className="text-center">Soaring Eagle Intern <br/> Graduation Showcase 2022</h5>
                                     <p className='webinar-date text-center'>Sat. Jul 16 • 11 am -12 pm PT</p>
                                     <p className="light">
                                     I Fly Young School is hosting an exclusive webinar for college students seeking internship opportunities and learning more about how you can jumpstart your career alongside high-profile mentors in the industry. We have invited 6 interns who are recently graduating from the CCE Internship Program to showcase their excellent work and learnings from their internships in UX Design, Cloud Computing, and Bio/Pharma. This webinar is sponsored by I FLY YOUNG CCE. Attendance is free of charge. Young professionals, college/high school students, parents and educators are welcome.
