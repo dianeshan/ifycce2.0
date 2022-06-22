@@ -21,7 +21,7 @@ class FailEarly extends Component {
                     <div className="main-page">
                         <Container className="text-center">
                             <h1>If You Want to Fail, Fail Early</h1>
-                            <h6 className="authors">BY JUSTIN CHOW &middot; RAY CHANG &middot; SELINA YANG &middot; NATHAN YANG &middot; HARRY SIO</h6>
+                            <h6 className="authors">BY JUSTIN CHOW &middot; RAY CHANG &middot; SELINA YANG &middot; NATHAN YANG &middot; YUCONG YANG &middot; HARRY SIO</h6>
                             <h6 className="date">April 8, 2022 &middot; 15 min read</h6>
                         </Container>
                         <a href="#" id="introduction"></a>
