@@ -15,7 +15,7 @@ import cloud from '../resources/images/application/Cloud.png';
 import web from '../resources/images/application/Web.png';
 import UX from '../resources/images/application/UX.png';
 import bios from '../resources/images/webinarpage/SpeakerBio_title_Blue.png';
-import flyer from '../resources/images/webinarpage/flyer.png';
+import flyer from '../resources/images/webinarpage/grad2022.jpg';
 import Event from './Event';
 
 const Webinar = () => {
@@ -40,20 +40,13 @@ const Webinar = () => {
                         </Container>
                     </div>
                     <div className='webinar-content'>
-                        <Event date = {"Apr 16"}
-                               time = {"Sat. Apr 16 • 11 am - 12 pm PT"}
-                               title = {"Financial Literacy Workshop"} 
-                               subtitle= {"Budgeting & Credit"}
-                               content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
-                               link = {"https://bit.ly/ifycceMoneySmartWebinar"}
+                        <Event
+                               time = {"Sat. Jul 16 • 11 am - 12 pm PT"}
+                               title = {"Soaring Eagle Intern \r Graduation Showcase 2022"} 
+                               content={"I Fly Young School is hosting an exclusive webinar for college students seeking internship opportunities and learning more about how you can jumpstart your career alongside with high-profile mentors in the industry. We’ve invited 6 interns who recently graduating from CCE Internship Program to showcase their excellent work and learnings from the internships in UX Design, Cloud Computing, and Bio/Pharma. This webinar is sponsored by I FLY YOUNG CCE. Attendance is free of charge. Young professionals, College/high school students, parents and educators are welcome."}
+                               link = {"https://bit.ly/ifycce2022interngrad"}
                                img = {flyer}/>
-                        <Event date = {"Apr 30"}
-                               time = {"Sat. Apr 30 • 11 am - 12 pm PT"}
-                               title = {"Financial Literacy Workshop"} 
-                               subtitle = {"Saving & Investing"}
-                               content={"These workshops are perfect for high school and college students who want to learn how to make smarter financial decisions that will last a lifetime. We have professionals leading these interactive courses on how to better manage finances, sign up with the link below!"}
-                               link = {"https://bit.ly/ifycceMoneySmartWebinar"}
-                               img = {flyer}/>
+
                         <div className="content-margin"></div>
                     </div>
                     

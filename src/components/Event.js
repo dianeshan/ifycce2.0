@@ -21,9 +21,6 @@ const Event = (props) => {
     // console.log(width);
     return(
         <div className="Event">
-            {/* <div className="event-date-card">
-                {date}
-            </div> */}
             <div className="event-card">
                 <img src={img} className="event-flyer" onClick={handleClick}></img>
                 <div className="event-detail">
