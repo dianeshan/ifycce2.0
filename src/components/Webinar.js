@@ -1,57 +1,49 @@
-import React, { Component } from 'react';
-import '../App.css';
-import AppNavbar from './AppNavbar';
-import Footer from './Footer';
-import logo from '../resources/images/CCELogo_square.png';
-import { Container, Row, Col, Button } from 'reactstrap';
-import { PopupButton } from '@typeform/embed-react';
+import React, { Component } from "react";
+import "../App.css";
+import AppNavbar from "./AppNavbar";
+import Footer from "./Footer";
+import logo from "../resources/images/CCELogo_square.png";
+import { Container, Row, Col, Button } from "reactstrap";
 
-import internlaunch from '../resources/images/webinars/11202021.png';
-import title from '../resources/images/webinarpage/Title.png';
-import programs from '../resources/images/webinarpage/Programs.png';
-import plane from '../resources/images/webinarpage/airplane_Icon.png';
-import interntracks from '../resources/images/webinarpage/Tracks_title.png';
-import cloud from '../resources/images/application/Cloud.png';
-import web from '../resources/images/application/Web.png';
-import UX from '../resources/images/application/UX.png';
-import bios from '../resources/images/webinarpage/SpeakerBio_title_Blue.png';
-import flyer from '../resources/images/webinarpage/grad2022.jpg';
-import Event from './Event';
+import flyer from "../resources/images/webinars/2023SoaringEagleWebinar.png";
+import Event from "./Event";
 
 const Webinar = () => {
+  return (
+    <div className="all-content">
+      <div className="content-wrap">
+        <AppNavbar />
+        <div className="blue-container">
+          <Container>
+            <div className="white-text">
+              <Row>
+                <Col md="4">
+                  <img className="headings" src={logo} alt="cce logo" />
+                </Col>
+                <Col className="headings3" md="8">
+                  <h1 className="headings2">Webinar Series</h1>
+                  <h4>Feeling lost? Gain some knowledge with no cost!</h4>
+                </Col>
+              </Row>
+            </div>
+          </Container>
+        </div>
+        <div className="webinar-content">
+          <Event
+            time={"Sat. Dec 17 • 11 am - 12 pm PT"}
+            title={"Internship and Interview \r Program Launch 2023"}
+            content={
+              "I Fly Young CCE is hosting an exclusive webinar for college students seeking internship opportunities and job interview training. You can jumpstart your career alongside high-profile mentors in the industry. We will launch two programs - 1. Internship program with Cloud Computing and Bio/Pharma tracks. 2. Interview training program. Please attend the webinar and visit our Intern and Interview program pages for more details. Attendance is free of charge. Young professionals, college/high school students, parents and educators are welcome."
+            }
+            link={"https://bit.ly/ifycce2023internlaunch"}
+            img={flyer}
+          />
 
-        return (
-            <div className="all-content">
-                <div className="content-wrap">
-                    <AppNavbar />
-                    <div className="blue-container">
-                        <Container>
-                            <div className="white-text">
-                                <Row>
-                                    <Col md="4">
-                                        <img className="headings" src={logo} alt="cce logo" />
-                                    </Col>
-                                    <Col className="headings3" md="8">
-                                        <h1 className="headings2">Webinar Series</h1>
-                                        <h4>Feeling lost? Gain some knowledge with no cost!</h4>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Container>
-                    </div>
-                    <div className='webinar-content'>
-                        <Event
-                               time = {"Sat. Jul 16 • 11 am - 12 pm PT"}
-                               title = {"Soaring Eagle Intern \r Graduation Showcase 2022"} 
-                               content={"I Fly Young School is hosting an exclusive webinar for college students seeking internship opportunities and learning more about how you can jumpstart your career alongside with high-profile mentors in the industry. We’ve invited 6 interns who recently graduating from CCE Internship Program to showcase their excellent work and learnings from the internships in UX Design, Cloud Computing, and Bio/Pharma. This webinar is sponsored by I FLY YOUNG CCE. Attendance is free of charge. Young professionals, College/high school students, parents and educators are welcome."}
-                               link = {"https://bit.ly/ifycce2022interngrad"}
-                               img = {flyer}/>
+          <div className="content-margin"></div>
+        </div>
 
-                        <div className="content-margin"></div>
-                    </div>
-                    
-                    {/* <div className="larger-margin"></div> */}
-                    {/* <Container>
+        {/* <div className="larger-margin"></div> */}
+        {/* <Container>
                         <Row>
                             <Col md={5}>
                                 <img className="sei-title" src={title} alt="title" />
@@ -85,7 +77,7 @@ const Webinar = () => {
                         </Row>
 
                     </Container> */}
-                    {/* <div className="blue-container text-center">
+        {/* <div className="blue-container text-center">
                         <img className="tracks-title larger-margin" src={interntracks} />
                         <Row>
                             <Col md="1"></Col>
@@ -163,10 +155,10 @@ const Webinar = () => {
                             <p>Consulted 2 DTC Brands from $10M to $30M (1 Exited)</p>
                         </Container>
                     </div> */}
-                </div>
-                <Footer />
-            </div>
-        );
-}
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default Webinar;

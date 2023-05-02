@@ -53,23 +53,22 @@ class Home extends Component {
                     <FontAwesomeIcon icon={faAtom} />
                   </h2>
                   <h5 className="text-center">
-                    Soaring Eagle Intern <br /> Graduation Showcase 2022
+                    Internship and Interview <br /> Program Launch 2023
                   </h5>
                   <p className="webinar-date text-center">
-                    Sat. Jul 16 • 11 am -12 pm PT
+                    Sat. Dec 17 • 11 am -12 pm PT
                   </p>
                   <p className="light">
-                    I Fly Young School is hosting an exclusive webinar for
-                    college students seeking internship opportunities and
-                    learning more about how you can jumpstart your career
-                    alongside high-profile mentors in the industry. We have
-                    invited 6 interns who are recently graduating from the CCE
-                    Internship Program to showcase their excellent work and
-                    learnings from their internships in UX Design, Cloud
-                    Computing, and Bio/Pharma. This webinar is sponsored by I
-                    FLY YOUNG CCE. Attendance is free of charge. Young
-                    professionals, college/high school students, parents and
-                    educators are welcome.
+                    I Fly Young CCE is hosting an exclusive webinar for college
+                    students seeking internship opportunities and job interview
+                    training. You can jumpstart your career alongside
+                    high-profile mentors in the industry. We will launch two
+                    programs - 1. Internship program with Cloud Computing and
+                    Bio/Pharma tracks. 2. Interview training program. Please
+                    attend the webinar and visit our Intern and Interview
+                    program pages for more details. Attendance is free of
+                    charge. Young professionals, college/high school students,
+                    parents and educators are welcome.
                   </p>
                   <div className="text-center">
                     <Button color="info" href="/webinar">
@@ -78,7 +77,7 @@ class Home extends Component {
                     {"      "}
                     <Button
                       color="info"
-                      href="https://bit.ly/ifycce2022interngrad"
+                      href="https://bit.ly/ifycce2023internlaunch"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -91,18 +90,23 @@ class Home extends Component {
                     <FontAwesomeIcon icon={faBookOpen} />
                   </h2>
                   <h5 className="text-center">
-                    CCE Chronicles: Go Ahead And Ask
+                    CCE Chronicles: Everyone Is Different
                   </h5>
                   <p className="light">
-                    In our fifteenth issue of the CCE Chronicles, we interviewed
-                    Dr. Daniel Ding who is currently a software engineer in
-                    computer aided design at Samsung Austin Research Center. Dr.
-                    Ding has a PhD in electrical and computer engineering at the
-                    University of Texas at Austin. Before joining Samsung, he
-                    had six years of experience at Oracle as a hardware
-                    engineer. In this interview, he provides insights on his
-                    career, advice for future college students, and
-                    philosophies.
+                    In our sixteenth issue of the CCE Chronicles, we interviewed
+                    Dr. Yu Chen who is an Associate Professor of Electrical and
+                    Computer Engineering at the State University of New York
+                    Binghamton. He received a Ph. D. in Electrical Engineering
+                    from the University of Southern California (USC) in 2006
+                    under the supervision of Professor Kai Hwang. Before joining
+                    Professor Hwang’s group, he was working as a research
+                    assistant in the Advanced Interconnection and Network
+                    Technology Lab led by Professor Anthony F.J. Levi. He has
+                    authored or co-authored more than 200 scientific papers in
+                    refereed journals, conferences, and book chapters. In his
+                    interview, he shares personal experiences on his academia
+                    career, answer tough ethical dilemmas, and share advice for
+                    future students.
                   </p>
                 </Col>
                 {/* <Col lg="2"></Col> */}

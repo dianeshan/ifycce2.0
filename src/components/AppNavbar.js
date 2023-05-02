@@ -99,7 +99,9 @@ export default class AppNavbar extends Component {
                     <NavDropdown.Item href="/goaheadandask">
                       Go Ahead And Ask
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/remindyourselfmotivation">Remind Yourself Your Motivation</NavDropdown.Item> */}
+                    <NavDropdown.Item href="/everyoneisdifferent">
+                      Everyone Is Different
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </NavDropdown>
                 <Nav.Link href="/application">Internship</Nav.Link>

@@ -26,6 +26,7 @@ import RemindYourselfMotivation from "./chronicles/RemindYourselfMotivation";
 import TagManager from "react-gtm-module/dist/TagManager";
 import FailEarly from "./chronicles/FailEarly";
 import GoAheadAndAsk from "./chronicles/GoAheadAndAsk";
+import EveryoneIsDifferent from "./chronicles/EveryoneIsDifferent";
 
 const App = () => {
   useEffect(() => {
@@ -89,6 +90,11 @@ const App = () => {
         />
         <Route path="/failearly" exact={true} component={FailEarly} />
         <Route path="/goaheadandask" exact={true} component={GoAheadAndAsk} />
+        <Route
+          path="/everyoneisdifferent"
+          exact={true}
+          component={EveryoneIsDifferent}
+        />
       </Switch>
     </Router>
   );

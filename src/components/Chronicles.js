@@ -22,6 +22,7 @@ import reflection from "../resources/images/chronicles/selfReflection.png";
 import alumni from "../resources/images/chronicles/alumni.png";
 import best from "../resources/images/chronicles/best.png";
 import mission from "../resources/images/chronicles/mission.png";
+import openMind from "../resources/images/chronicles/openMind.png";
 
 class Chronicles extends Component {
   render() {
@@ -34,6 +35,53 @@ class Chronicles extends Component {
           </div>
           <div className="main-page">
             <Container>
+              <Row>
+                {/* <Col md="4" className="card-spacing">
+                  <Card className="card-spacing">
+                    <Card.Img variant="top" src={mission} />
+                    <Card.Body>
+                      <Card.Title>Go Ahead And Ask</Card.Title>
+                      <Card.Text>
+                        You'll be surprised at what you get if you just ask.
+                      </Card.Text>
+                      <Button href="/goaheadandask" className="btn-color">
+                        Learn More
+                      </Button>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md="4" className="card-spacing">
+                  <Card className="card-spacing">
+                    <Card.Img variant="top" src={best} />
+                    <Card.Body>
+                      <Card.Title>If You Want to Fail, Fail Early</Card.Title>
+                      <Card.Text>
+                        If we need to pivot to a different solution then so be
+                        it. If you're not taking risks, you're also not going to
+                        innovate.
+                      </Card.Text>
+                      <Button href="/failearly" className="btn-color">
+                        Learn More
+                      </Button>
+                    </Card.Body>
+                  </Card>
+                </Col> */}
+                <Col md="4" className="card-spacing">
+                  <Card className="card-spacing">
+                    <Card.Img variant="top" src={openMind} />
+                    <Card.Body>
+                      <Card.Title>Everyone Is Different</Card.Title>
+                      <Card.Text>
+                        Everyone has different approaches, personalities,
+                        concerns, and worries.
+                      </Card.Text>
+                      <Button href="/everyoneisdifferent" className="btn-color">
+                        Learn More
+                      </Button>
+                    </Card.Body>
+                  </Card>
+                </Col>
+              </Row>
               <Row>
                 <Col md="4" className="card-spacing">
                   <Card className="card-spacing">
