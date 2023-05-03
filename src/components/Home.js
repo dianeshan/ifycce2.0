@@ -54,29 +54,29 @@ class Home extends Component {
                   <h2 className="text-center">
                     <FontAwesomeIcon icon={faAtom} />
                   </h2>
-                  <h5 className="text-center">
-                    Internship and Interview <br /> Program Launch 2023
-                  </h5>
-                  <p className="webinar-date text-center">
+                  <h5 className="text-center">Office Hour Recordings</h5>
+                  {/* <p className="webinar-date text-center">
                     Sat. Dec 17 • 11 am -12 pm PT
+                  </p> */}
+                  <p className="light">
+                    I Fly Young CCE office hours are now officially posted on
+                    the website! Head over to the office hours page by clicking
+                    on the button below or navigating to "Office Hours" at the
+                    top of the page.
                   </p>
                   <p className="light">
-                    I Fly Young CCE is hosting an exclusive webinar for college
-                    students seeking internship opportunities and job interview
-                    training. You can jumpstart your career alongside
-                    high-profile mentors in the industry. We will launch two
-                    programs - 1. Internship program with Cloud Computing and
-                    Bio/Pharma tracks. 2. Interview training program. Please
-                    attend the webinar and visit our Intern and Interview
-                    program pages for more details. Attendance is free of
-                    charge. Young professionals, college/high school students,
-                    parents and educators are welcome.
+                    Learn about some of our CCE Mentors' journies to discovering
+                    their talents, how to succeed in the workplace, how to
+                    become a blessing, and much much more. Whether you are a
+                    high school student, college student, young professional, or
+                    a seasoned professional, everything shared will definitely
+                    be of help, so go on and take a listen today!
                   </p>
                   <div className="text-center">
-                    <Button color="info" href="/webinar">
+                    <Button color="info" href="/officehours">
                       Learn More
                     </Button>
-                    {"      "}
+                    {/* {"      "}
                     <Button
                       color="info"
                       href="https://bit.ly/ifycce2023internlaunch"
@@ -84,7 +84,7 @@ class Home extends Component {
                       rel="noreferrer"
                     >
                       Sign Up
-                    </Button>
+                    </Button> */}
                   </div>
                 </Col>
                 <Col md="12" lg="4">

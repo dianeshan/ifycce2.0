@@ -61,14 +61,8 @@ hr {
 
 .modal-content {
   background-color: #fefefe;
-  background-image: url("./resources/images/proj_bkgd/bio_lightbk.jpg");
+  background-image: url("./images/proj_bkgd/bio_lightbk.jpg");
   background-size: cover;
-  /* margin: 15% auto; 
-  padding: 20px;
-  border: 1px solid #888;
-  border-radius: 20px;
-  width: 80%; 
-  font-size: 1em; */
 }
 
 #blue-container-focus {
@@ -172,14 +166,6 @@ hr {
   margin-bottom: 2em;
 }
 
-/* .apply-button-1 {
-  margin-left: 4.5em;
-} */
-
-/* .apply-button-2 {
-  margin-top: 10em;
-} */
-
 .dark-blue-text {
   color: #1d3c68;
 }
@@ -187,14 +173,6 @@ hr {
 .bottom-margin {
   margin-bottom: 2em;
 }
-
-/* .foot {
-  background-image: url(./resources/images/interview/Footer.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 17em;
-  margin-top: 0;
-} */
 
 #light-grey-section {
   background-color: #ececec;
@@ -332,12 +310,6 @@ hr {
   transform: rotate(-180deg);
 }
 
-/* .modals {
-  background-color: #fefefe;
-  background-image: url("./resources/images/proj_bkgd/bio_lightbk.jpg");
-  background-size: cover;
-} */
-
 .date {
   font-size: 14px;
 }
@@ -415,7 +387,6 @@ hr {
   width: 42%;
   height: 92%;
   left: 5.5rem;
-  /* background-color: #ff1f85; */
   font-size: 19px;
   display: flex;
   flex-wrap: wrap;
