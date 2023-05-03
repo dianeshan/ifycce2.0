@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import "../App.css";
 import AppNavbar from "./AppNavbar";
 import Footer from "./Footer";
 import logo from "../resources/images/CCELogo_square.png";
 import AudioPlayer from "./AudioPlayer";
+import Player from "./Player";
+import { tracks } from "../data/tracks";
 
 class OfficeHours extends Component {
   render() {
@@ -30,6 +32,11 @@ class OfficeHours extends Component {
           </div>
           <div className="main-page">
             <AudioPlayer />
+            {tracks.map((track, idx) => (
+              <div key={idx}>
+                <Player currentTrack={track} />
+              </div>
+            ))}
           </div>
         </div>
         <Footer />

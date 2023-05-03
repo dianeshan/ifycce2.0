@@ -8,6 +8,12 @@ body {
   margin: 0 10px;
 }
 
+.player {
+  margin: 4em;
+  border-radius: 50px;
+  border: 2px solid #37acf4;
+}
+
 .inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -71,7 +77,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .controls button,
