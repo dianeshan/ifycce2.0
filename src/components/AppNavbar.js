@@ -15,6 +15,7 @@ export default class AppNavbar extends Component {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/webinar">Webinar</Nav.Link>
                 <Nav.Link href="/pastwebinar">Past Webinars</Nav.Link>
+                <Nav.Link href="/officehours">Office Hours</Nav.Link>
                 <Nav.Link href="/team">Our Team</Nav.Link>
                 <NavDropdown title="Chronicles" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/chronicles">All</NavDropdown.Item>
