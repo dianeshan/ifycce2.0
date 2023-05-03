@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import "../App.css";
-import AppNavbar from "../components/AppNavbar";
-import Footer from "../components/Footer";
 import { Container, Row, Col } from "reactstrap";
-import grade from "../resources/images/chronicles/grade.png";
-import openMind from "../resources/images/chronicles/openMind.png";
-import yuChen from "../resources/images/chronicles/yuChenPic.png";
 import { Button } from "react-bootstrap";
+
+import "../../App.css";
+import AppNavbar from "../AppNavbar";
+import Footer from "../Footer";
+
+import grade from "../../images/chronicles/grade.png";
+import openMind from "../../images/chronicles/openMind.png";
+import yuChen from "../../images/chronicles/yuChenPic.png";
 
 class EveryoneIsDifferent extends Component {
   render() {

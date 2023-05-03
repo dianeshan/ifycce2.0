@@ -1,15 +1,15 @@
 import React, { Component } from "react";
+import { Button } from "reactstrap";
+
 import "../App.css";
 import AppNavbar from "./AppNavbar";
 import Footer from "./Footer";
-import { Button } from "reactstrap";
 
-import whyapply from "../resources/images/interview/whyapp.png";
-// import timeline from '../resources/images/application/TimeLine2022.png';
-import pagetitle from "../resources/images/interview/PageTitleImage.png";
-import whoweare from "../resources/images/interview/WhoWeAre.png";
-import whyCCE from "../resources/images/interview/WhyCCE.png";
-import foot from "../resources/images/interview/Footer.png";
+import whyapply from "../images/interview/whyapp.png";
+import pagetitle from "../images/interview/PageTitleImage.png";
+import whoweare from "../images/interview/WhoWeAre.png";
+import whyCCE from "../images/interview/WhyCCE.png";
+import foot from "../images/interview/Footer.png";
 
 class Interview extends Component {
   render() {
@@ -45,7 +45,6 @@ class Interview extends Component {
           </div>
           <img width="100%" src={whoweare} alt="who we are" />
           <img width="100%" src={whyCCE} alt="why CCE" />
-          {/* <img width="100%" src={timeline} alt="timeline" /> */}
           <div className="foot-section text-center">
             <img width="100%" src={foot} alt="foot" />
             <Button

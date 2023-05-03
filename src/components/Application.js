@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import { Container, Row, Col, Button } from "reactstrap";
+
 import "../App.css";
 import AppNavbar from "./AppNavbar";
 import Footer from "./Footer";
-import { Container, Row, Col, Button } from "reactstrap";
 
-import banner from "../resources/images/application/M_bannerImage2.jpg";
-import timeline from "../resources/images/application/TimeLine2023.png";
-import soaringeaglestory from "../resources/images/application/SoaringEagleStory.png";
-import cloud from "../resources/images/application/Cloud.png";
-import web from "../resources/images/application/Web.png";
+import banner from "../images/application/M_bannerImage2.jpg";
+import timeline from "../images/application/TimeLine2023.png";
+import soaringeaglestory from "../images/application/SoaringEagleStory.png";
+import cloud from "../images/application/Cloud.png";
+import web from "../images/application/Web.png";
 
 class Application extends Component {
   render() {
@@ -16,7 +17,6 @@ class Application extends Component {
       <div className="all-content">
         <div className="content-wrap">
           <AppNavbar />
-          {/* <img width="100%" src={banner} alt="banner" /> */}
           <div class="banner-section">
             <img width="100%" src={banner} alt="banner" />
             <Button
@@ -124,18 +124,6 @@ class Application extends Component {
             </Container>
             <Row>
               <Col md="2"></Col>
-              {/* <Col md="3">
-                                <h5 className="text-center">
-                                    <img className="interntopics" src={UX} alt="UX" />
-                                </h5>
-                                <h5 className="text-center white-text">UX Design: Front End</h5>
-                                <p className="text-center white-text"><strong>UX Design Intern</strong></p>
-                                <p className="text-center white-text">
-                                    This project is ideal for those who are early in their UI/UX career, those who are new
-                                    to the field and are trying to break in, or any UX designer who wants to understand how to create
-                                    a good portfolio, and how to use story telling to showcase their work in a portfolio review.
-                                </p>
-                            </Col> */}
               <Col md="4">
                 <h5 className="text-center">
                   <img className="interntopics" src={cloud} alt="cloud" />
@@ -179,34 +167,6 @@ class Application extends Component {
               </Col>
               <Col md="2"></Col>
             </Row>
-            {/* <Row>
-                            <Col md="3"></Col>
-                            <Col md="3">
-                                <h5 className="text-center">
-                                    <img className="interntopics" src={UX} alt="UX" />
-                                </h5>
-                                <h5 className="text-center white-text">UX Design: Front End</h5>
-                                <p className="text-center white-text"><strong>UX Design Intern</strong></p>
-                                <p className="text-center white-text">
-                                    This project is ideal for those who are early in their UI/UX career, those who are new
-                                    to the field and are trying to break in, or any UX designer who wants to understand how to create
-                                    a good portfolio, and how to use story telling to showcase their work in a portfolio review.
-                                </p>
-                            </Col>
-                            <Col md="3">
-                                <h5 className="text-center">
-                                    <img className="interntopics" src={ads} alt="Ads" />
-                                </h5>
-                                <h5 className="text-center white-text">Business Analytics: Ads</h5>
-                                <p className="text-center white-text"><strong>Facebook Ads Management Intern</strong></p>
-                                <p className="text-center white-text">
-                                    If you are interested in Digital Marketing and Web Analytics, this is a great opportunity to
-                                    learn how to manage advertisements and perform analytics on social media platforms. You will gain
-                                    valuable industry experience and career guidance by working with leaders from Facebook.
-                                </p>
-                            </Col>
-                            <Col md="3"></Col>
-                        </Row> */}
           </div>
           <br></br>
           <h1 className="text-center">Why Apply?</h1>

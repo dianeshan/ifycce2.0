@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
-import AppNavbar from "./AppNavbar";
-import Footer from "./Footer";
-import logo from "../resources/images/CCELogo_square.png";
 import { Button, Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +6,12 @@ import {
   faAtom,
   faBookOpen,
 } from "@fortawesome/free-solid-svg-icons";
+
+import "../App.css";
+import AppNavbar from "./AppNavbar";
+import Footer from "./Footer";
+
+import logo from "../images/CCELogo_square.png";
 
 class Home extends Component {
   render() {
@@ -113,7 +115,6 @@ class Home extends Component {
               </Row>
             </Container>
           </div>
-          {/* <Button color="link"><Link to="/customers">Manage Customer List</Link></Button> */}
           <div className="main-page">
             <Container>
               <div className="row">

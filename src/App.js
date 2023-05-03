@@ -1,33 +1,35 @@
-import React, { Component, useEffect } from "react";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import "./App.css";
+
 import Home from "./components/Home";
 import Webinar from "./components/Webinar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import CustomerList from './components/CustomerList';
-// import CustomerEdit from './components/CustomerEdit';
-import Chronicles from "./components/Chronicles";
 import PastWebinar from "./components/PastWebinar";
-import Team from "./components/Team";
-import StemNotNerds from "./chronicles/StemNotNerds";
-import ConstExposure from "./chronicles/ConstExposure";
-import GoodTech from "./chronicles/GoodTech";
-import ExploreRealWorld from "./chronicles/ExploreRealWorld";
-import InternshipsAreOpportunities from "./chronicles/InternshipsAreOpportunities";
-import PsychIsCalling from "./chronicles/PsychIsCalling";
-import YouCanDoThis from "./chronicles/YouCanDoThis";
-import DoSomethingYouLike from "./chronicles/DoSomethingYouLike";
-import TheBiggestHappiness from "./chronicles/TheBiggestHappiness";
-import Application from "./components/Application";
-import CertificationHelps from "./chronicles/CertificationHelps";
-import CommunicationIsKey from "./chronicles/CommunicationIsKey";
-import Interview from "./components/Interview";
-import BecomeStrongestPerson from "./chronicles/BecomeStrongestPerson";
-import RemindYourselfMotivation from "./chronicles/RemindYourselfMotivation";
-import TagManager from "react-gtm-module/dist/TagManager";
-import FailEarly from "./chronicles/FailEarly";
-import GoAheadAndAsk from "./chronicles/GoAheadAndAsk";
-import EveryoneIsDifferent from "./chronicles/EveryoneIsDifferent";
 import OfficeHours from "./components/OfficeHours";
+import Team from "./components/Team";
+import Chronicles from "./components/Chronicles";
+import Application from "./components/Application";
+import Interview from "./components/Interview";
+
+import StemNotNerds from "./components/chronicles/StemNotNerds";
+import ConstExposure from "./components/chronicles/ConstExposure";
+import GoodTech from "./components/chronicles/GoodTech";
+import ExploreRealWorld from "./components/chronicles/ExploreRealWorld";
+import InternshipsAreOpportunities from "./components/chronicles/InternshipsAreOpportunities";
+import PsychIsCalling from "./components/chronicles/PsychIsCalling";
+import YouCanDoThis from "./components/chronicles/YouCanDoThis";
+import DoSomethingYouLike from "./components/chronicles/DoSomethingYouLike";
+import TheBiggestHappiness from "./components/chronicles/TheBiggestHappiness";
+import CertificationHelps from "./components/chronicles/CertificationHelps";
+import CommunicationIsKey from "./components/chronicles/CommunicationIsKey";
+import BecomeStrongestPerson from "./components/chronicles/BecomeStrongestPerson";
+import RemindYourselfMotivation from "./components/chronicles/RemindYourselfMotivation";
+import FailEarly from "./components/chronicles/FailEarly";
+import GoAheadAndAsk from "./components/chronicles/GoAheadAndAsk";
+import EveryoneIsDifferent from "./components/chronicles/EveryoneIsDifferent";
+
+import TagManager from "react-gtm-module/dist/TagManager";
 
 const App = () => {
   useEffect(() => {

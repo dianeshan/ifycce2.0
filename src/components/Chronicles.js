@@ -1,28 +1,29 @@
 import React, { Component } from "react";
+import { Container, Col, Row } from "reactstrap";
+import { Card, Button } from "react-bootstrap";
+
 import "../App.css";
 import AppNavbar from "./AppNavbar";
 import Footer from "./Footer";
 import ChroniclesHeader from "./ChroniclesHeader";
-import { Container, Col, Row } from "reactstrap";
-import { Card, Button } from "react-bootstrap";
 
 //pics for chronicles
-import expose from "../resources/images/chronicles/expose.png";
-import psychology from "../resources/images/chronicles/psychology.png";
-import steps from "../resources/images/chronicles/steps.png";
-import timer from "../resources/images/chronicles/timer.png";
-import lapanddesk from "../resources/images/chronicles/laptopanddesk.png";
-import passion from "../resources/images/chronicles/passion.png";
-import network from "../resources/images/chronicles/network.png";
-import certification from "../resources/images/chronicles/certification.png";
-import confidence from "../resources/images/chronicles/confidence.png";
-import resource from "../resources/images/chronicles/resource.png";
-import passionate from "../resources/images/chronicles/passionateAbout.png";
-import reflection from "../resources/images/chronicles/selfReflection.png";
-import alumni from "../resources/images/chronicles/alumni.png";
-import best from "../resources/images/chronicles/best.png";
-import mission from "../resources/images/chronicles/mission.png";
-import openMind from "../resources/images/chronicles/openMind.png";
+import expose from "../images/chronicles/expose.png";
+import psychology from "../images/chronicles/psychology.png";
+import steps from "../images/chronicles/steps.png";
+import timer from "../images/chronicles/timer.png";
+import lapanddesk from "../images/chronicles/laptopanddesk.png";
+import passion from "../images/chronicles/passion.png";
+import network from "../images/chronicles/network.png";
+import certification from "../images/chronicles/certification.png";
+import confidence from "../images/chronicles/confidence.png";
+import resource from "../images/chronicles/resource.png";
+import passionate from "../images/chronicles/passionateAbout.png";
+import reflection from "../images/chronicles/selfReflection.png";
+import alumni from "../images/chronicles/alumni.png";
+import best from "../images/chronicles/best.png";
+import mission from "../images/chronicles/mission.png";
+import openMind from "../images/chronicles/openMind.png";
 
 class Chronicles extends Component {
   render() {

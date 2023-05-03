@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
-//add logo to navbar!!!
 export default class AppNavbar extends Component {
   render() {
     return (
@@ -90,7 +89,6 @@ export default class AppNavbar extends Component {
                     <NavDropdown.Item href="/failearly">
                       If You Want to Fail, Fail Early
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/remindyourselfmotivation">Remind Yourself Your Motivation</NavDropdown.Item> */}
                   </NavDropdown>
                   <NavDropdown
                     className="dropdowns"
@@ -108,10 +106,6 @@ export default class AppNavbar extends Component {
                 <Nav.Link href="/application">Internship</Nav.Link>
                 <Nav.Link href="/interview">Interview</Nav.Link>
               </Nav>
-              {/* <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="success">Search</Button>
-                    </Form> */}
             </Navbar.Collapse>
           </Navbar>
         </Container>

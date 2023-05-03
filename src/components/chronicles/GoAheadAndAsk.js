@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import "../App.css";
-import AppNavbar from "../components/AppNavbar";
-import Footer from "../components/Footer";
 import { Container, Row, Col } from "reactstrap";
-// import ChroniclesHeader from '../components/ChroniclesHeader';
-import path from "../resources/images/chronicles/Path.png";
-import mission from "../resources/images/chronicles/mission.png";
-import daniel from "../resources/images/chronicles/daniel.png";
 import { Button } from "react-bootstrap";
+
+import "../../App.css";
+import AppNavbar from "../AppNavbar";
+import Footer from "../Footer";
+
+import path from "../../images/chronicles/Path.png";
+import mission from "../../images/chronicles/mission.png";
+import daniel from "../../images/chronicles/daniel.png";
 
 class GoAheadAndAsk extends Component {
   render() {
@@ -15,9 +16,6 @@ class GoAheadAndAsk extends Component {
       <div className="all-content">
         <div className="content-wrap">
           <AppNavbar />
-          {/* <div className="blue-container">
-                        <ChroniclesHeader />
-                    </div> */}
           <div className="main-page">
             <Container className="text-center">
               <h1>Go Ahead And Ask</h1>
