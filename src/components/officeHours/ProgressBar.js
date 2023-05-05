@@ -1,5 +1,5 @@
-import "../styles/audio-player.css";
-import "../styles/customize-progress-bar.css";
+import "../../styles/audio-player.css";
+import "../../styles/customize-progress-bar.css";
 
 const ProgressBar = ({ progressBarRef, audioRef, timeProgress, duration }) => {
   const handleProgressChange = () => {

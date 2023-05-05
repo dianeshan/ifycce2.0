@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { tracks } from "../data/tracks";
+import { tracks } from "../../data/tracks";
 
 // import components
 import DisplayTrack from "./DisplayTrack";
@@ -7,7 +7,7 @@ import Controls from "./Controls";
 import ProgressBar from "./ProgressBar";
 
 //import style
-import "../styles/audio-player.css";
+import "../../styles/audio-player.css";
 
 const AudioPlayer = () => {
   // states

@@ -21,6 +21,7 @@ const DisplayTrack = ({
         <div className="text">
           <p className="title">{currentTrack.currentTrack.title}</p>
           <p>{currentTrack.currentTrack.date}</p>
+          <p>{currentTrack.currentTrack.info}</p>
         </div>
       </div>
     </div>

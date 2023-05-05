@@ -36,6 +36,7 @@ const DisplayTrack = ({
         <div className="text">
           <p className="title">{currentTrack.title}</p>
           <p>{currentTrack.date}</p>
+          <p>{currentTrack.info}</p>
         </div>
       </div>
     </div>

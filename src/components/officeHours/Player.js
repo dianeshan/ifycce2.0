@@ -6,7 +6,7 @@ import PlayerControls from "./PlayerControls";
 import ProgressBar from "./ProgressBar";
 
 //import style
-import "../styles/audio-player.css";
+import "../../styles/audio-player.css";
 
 const AudioPlayer = (currentTrack) => {
   // states

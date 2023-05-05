@@ -6,11 +6,15 @@ import "./App.css";
 import Home from "./components/Home";
 import Webinar from "./components/Webinar";
 import PastWebinar from "./components/PastWebinar";
-import OfficeHours from "./components/OfficeHours";
+import OfficeHours from "./components/officeHours/OfficeHours";
 import Team from "./components/Team";
 import Chronicles from "./components/Chronicles";
 import Application from "./components/Application";
 import Interview from "./components/Interview";
+
+import OfficeHours2 from "./components/officeHours/Oct2022Dec2022";
+import OfficeHours3 from "./components/officeHours/Jan2023Mar2023";
+import OfficeHours4 from "./components/officeHours/Apr2023Jun2023";
 
 import StemNotNerds from "./components/chronicles/StemNotNerds";
 import ConstExposure from "./components/chronicles/ConstExposure";
@@ -43,6 +47,9 @@ const App = () => {
         <Route path="/webinar" exact={true} component={Webinar} />
         <Route path="/pastwebinar" exact={true} component={PastWebinar} />
         <Route path="/officehours" exact={true} component={OfficeHours} />
+        <Route path="/officehours2" exact={true} component={OfficeHours2} />
+        <Route path="/officehours3" exact={true} component={OfficeHours3} />
+        <Route path="/officehours4" exact={true} component={OfficeHours4} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />

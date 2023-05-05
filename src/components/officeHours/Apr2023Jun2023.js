@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import "../App.css";
-import AppNavbar from "./AppNavbar";
-import Footer from "./Footer";
+import "../../App.css";
+import AppNavbar from "../AppNavbar";
+import Footer from "../Footer";
 import AudioPlayer from "./AudioPlayer";
 import Player from "./Player";
-import { tracks } from "../data/tracks";
+import { tracks4 } from "../../data/tracksApr23Jun23";
 
-import logo from "../images/CCELogo_square.png";
+import logo from "../../images/CCELogo_square.png";
 
-class OfficeHours extends Component {
+class OfficeHours4 extends Component {
   render() {
     return (
       <div className="all-content">
@@ -24,7 +24,10 @@ class OfficeHours extends Component {
                     <img className="headings" src={logo} alt="cce logo" />
                   </Col>
                   <Col className="headings3" md="8">
-                    <h1 className="headings2">Office Hours</h1>
+                    <h1 className="headings">
+                      Mandarin Office Hours <br />
+                      溝通與職涯探索 職場問答時間
+                    </h1>
                     <h4>Tune in to wisdom from CCE Mentors</h4>
                   </Col>
                 </Row>
@@ -32,8 +35,17 @@ class OfficeHours extends Component {
             </Container>
           </div>
           <div className="main-page">
+            <h1 className="inner">About</h1>
+            <div className="inner">
+              美西時間週一晚上Monday 8:30--9:30PM <br />
+              北京/台灣時間週二中午Tuesday <br />
+              11:30--12:00 等候神 <br />
+              12:00--12:30 職場問題回應 <br />
+              Zoom Meeting ID: 841 <br />
+              0068 2160 Passcode: 042263
+            </div>
             <AudioPlayer />
-            {tracks.map((track, idx) => (
+            {tracks4.map((track, idx) => (
               <div key={idx}>
                 <Player currentTrack={track} />
               </div>
@@ -46,4 +58,4 @@ class OfficeHours extends Component {
   }
 }
 
-export default OfficeHours;
+export default OfficeHours4;
