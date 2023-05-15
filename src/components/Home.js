@@ -73,7 +73,7 @@ class Home extends Component {
                     be of help, so go on and take a listen today!
                   </p>
                   <div className="text-center">
-                    <Button color="info" href="/officehours">
+                    <Button color="info" href="/officehoursabout">
                       Learn More
                     </Button>
                     {/* {"      "}
