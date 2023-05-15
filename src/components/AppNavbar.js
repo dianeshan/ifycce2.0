@@ -15,6 +15,9 @@ export default class AppNavbar extends Component {
                 <Nav.Link href="/webinar">Webinar</Nav.Link>
                 <Nav.Link href="/pastwebinar">Past Webinars</Nav.Link>
                 <NavDropdown title="Office Hours" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/officehoursabout">
+                    About
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="/officehours">
                     Jul 2022 - Sep 2022
                   </NavDropdown.Item>

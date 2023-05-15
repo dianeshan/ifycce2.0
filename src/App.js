@@ -12,6 +12,7 @@ import Chronicles from "./components/Chronicles";
 import Application from "./components/Application";
 import Interview from "./components/Interview";
 
+import OfficeHoursAbout from "./components/officeHours/OfficeHoursAbout";
 import OfficeHours2 from "./components/officeHours/Oct2022Dec2022";
 import OfficeHours3 from "./components/officeHours/Jan2023Mar2023";
 import OfficeHours4 from "./components/officeHours/Apr2023Jun2023";
@@ -46,6 +47,11 @@ const App = () => {
         <Route path="/" exact={true} component={Home} />
         <Route path="/webinar" exact={true} component={Webinar} />
         <Route path="/pastwebinar" exact={true} component={PastWebinar} />
+        <Route
+          path="/officehoursabout"
+          exact={true}
+          component={OfficeHoursAbout}
+        />
         <Route path="/officehours" exact={true} component={OfficeHours} />
         <Route path="/officehours2" exact={true} component={OfficeHours2} />
         <Route path="/officehours3" exact={true} component={OfficeHours3} />
