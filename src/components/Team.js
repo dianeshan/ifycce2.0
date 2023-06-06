@@ -24,6 +24,7 @@ import chinjenchiang from "../images/mentors/Chin-JenChiang.png";
 import bindu from "../images/mentors/Bindu.png";
 import woojin from "../images/mentors/WoojinKim.png";
 import jackchen from "../images/mentors/JackChen.png";
+import sheanachen from "../images/mentors/SheanaChen.png";
 
 function Timothy(props) {
   return (
@@ -593,6 +594,64 @@ function Jack(props) {
   );
 }
 
+function Sheana(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Sheana Chen
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={sheanachen} alt="Sheana's Headshot" />
+        <h4>General Counsel &amp; Vice President / Diodes Inc</h4>
+        <p>
+          Sheana Chen is a senior legal executive with over 20 years of experience in 
+          international commercial transactions and supply chain, M&amp;A, IP strategies, 
+          cross-border dispute resolution, ethics and compliance, enterprise risk management 
+          as well as ESG (environmental, social and governance). <br/>
+
+          As a forward-thinking international lawyer, Sheana is passionate about the 
+          intersection between law and technology.   She brings innovative solutions to help 
+          companies solve complex legal and business challenges.   Sheana has extensive 
+          experience in the semiconductor industry.  She leads a global legal team to counsel 
+          business units, R&amp;D, sales, manufacturing and support entities, while managing ethics 
+          and compliance.  Sheana currently  serves as the General Counsel, Vice President of
+          Diodes Incorporated.  Prior to Joining Diodes Incorporated, Sheana was the Vice 
+          President, Assistance General Counsel with Texas Instruments. <br/>
+
+          Sheana also serves as the Policy Advisor, Chair of the Oversight Committee, and a 
+          board member of the Chinese Institute of Engineers/USA-DFW Chapter (CIE). She leads a 
+          CIE mentoring group and is also a mentor at Te Ohaka – the Cetre for Growth and 
+          Innovation (startup incubation).
+
+          Sheana is a dual qualified English Solicitor and Barrister and a qualified New York 
+          State Attorney.  Sheana was a Partner at Baker &amp; McKenzie and has worked in Dallas, 
+          Taipei, Shanghai, Singapore and London.
+
+          Sheana holds a Master’s degree in International Commercial Law from the University of 
+          London and a LL. B Honors degree from the University of Manchester. She also has a 
+          Postgraduate Degree in Professional Legal Skills from the Inns of Court School of Law 
+          in the U.K.
+
+          Sheana has completed the Harvard Business School Executive Education program, and the 
+          INSEAD Women Leading Global Change Program in France and is a Fellow with the 
+          International Women’s Forum.  
+
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Team = () => {
   const [modalShow, setModalShow] = useState(false);
   const [modalShow2, setModalShow2] = useState(false);
@@ -609,6 +668,7 @@ const Team = () => {
   const [modalShow13, setModalShow13] = useState(false);
   const [modalShow14, setModalShow14] = useState(false);
   const [modalShow15, setModalShow15] = useState(false);
+  const [modalShow16, setModalShow16] = useState(false);
 
   return (
     <div className="all-content">
@@ -875,6 +935,21 @@ const Team = () => {
                     <Jack
                       show={modalShow15}
                       onHide={() => setModalShow15(false)}
+                    />
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={sheanachen}
+                        alt="Sheana's Headshot"
+                      />
+                    </Button>
+                    <h6>Sheana Chen</h6>
+                    <p>General Counsel &amp; Vice President / Diodes Inc</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
                     />
                   </Col>
                 </Row>
