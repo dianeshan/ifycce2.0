@@ -78,7 +78,7 @@ function Nina(props) {
       </Modal.Header>
       <Modal.Body>
         <img className="headshot" src={ninatsai} alt="Nina's Headshot" />
-        <h4>Data Science & Product Analysis / Facebook</h4>
+        <h4>Data Science & Analytics /Google</h4>
         <p>
           Nina Tsai has 20+ years of industry experience in Data Science and
           Analytics fields. She is currently a product analytics manager at
@@ -724,7 +724,7 @@ const Team = () => {
                       />
                     </Button>
                     <h6>Nina Tsai</h6>
-                    <p>Data Science & Product Analysis / Facebook</p>
+                    <p>Data Science & Analytics / Google</p>
                     <Nina
                       show={modalShow2}
                       onHide={() => setModalShow2(false)}
@@ -947,6 +947,87 @@ const Team = () => {
                     </Button>
                     <h6>Sheana Chen</h6>
                     <p>General Counsel &amp; Vice President / Diodes Inc</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
+                    />
+                  </Col>
+                </Row>
+                <hr></hr>
+                <Row>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={""}
+                        alt="Weixu's Headshot"
+                      />
+                    </Button>
+                    <h6>Weixu Meng</h6>
+                    <p>Senior Principal Scientist / Pfizer Inc</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
+                    />
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={""}
+                        alt="Irene's Headshot"
+                      />
+                    </Button>
+                    <h6>Irene Yuan</h6>
+                    <p>Chief Executive Officer &amp; Founder / Voltraware Semiconductor Co., LTD</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
+                    />
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={""}
+                        alt="Rong's Headshot"
+                      />
+                    </Button>
+                    <h6>Rong Yue</h6>
+                    <p>Lead engineer / Mentor Graphics</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
+                    />
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={""}
+                        alt="Ta-Chang's Headshot"
+                      />
+                    </Button>
+                    <h6>Ta-Chang Fu</h6>
+                    <p>Mechanical Engineering Technologist / Western Digital</p>
+                    <Sheana
+                      show={modalShow16}
+                      onHide={() => setModalShow16(false)}
+                    />
+                  </Col>
+                </Row>
+                <hr></hr>
+                <Row>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow16(true)}>
+                      <img
+                        className="headshot"
+                        src={""}
+                        alt="Marcus's Headshot"
+                      />
+                    </Button>
+                    <h6>Marcus White</h6>
+                    <p>Design Strategist / Booz Allen Hamilton</p>
                     <Sheana
                       show={modalShow16}
                       onHide={() => setModalShow16(false)}
