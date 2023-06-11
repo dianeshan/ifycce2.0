@@ -25,6 +25,11 @@ import bindu from "../images/mentors/Bindu.png";
 import woojin from "../images/mentors/WoojinKim.png";
 import jackchen from "../images/mentors/JackChen.png";
 import sheanachen from "../images/mentors/SheanaChen.png";
+import weixumeng from "../images/mentors/WeixuMeng.png";
+import ireneyuan from "../images/mentors/IreneYuan.png";
+import rongyue from "../images/mentors/RongYue.png";
+import tachengfu from "../images/mentors/TaChengFu.png";
+import marcuswhite from "../images/mentors/MarcusWhite.png";
 
 function Timothy(props) {
   return (
@@ -959,7 +964,7 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow16(true)}>
                       <img
                         className="headshot"
-                        src={""}
+                        src={weixumeng}
                         alt="Weixu's Headshot"
                       />
                     </Button>
@@ -974,7 +979,7 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow16(true)}>
                       <img
                         className="headshot"
-                        src={""}
+                        src={ireneyuan}
                         alt="Irene's Headshot"
                       />
                     </Button>
@@ -989,7 +994,7 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow16(true)}>
                       <img
                         className="headshot"
-                        src={""}
+                        src={rongyue}
                         alt="Rong's Headshot"
                       />
                     </Button>
@@ -1004,7 +1009,7 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow16(true)}>
                       <img
                         className="headshot"
-                        src={""}
+                        src={tachengfu}
                         alt="Ta-Chang's Headshot"
                       />
                     </Button>
@@ -1022,7 +1027,7 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow16(true)}>
                       <img
                         className="headshot"
-                        src={""}
+                        src={marcuswhite}
                         alt="Marcus's Headshot"
                       />
                     </Button>
