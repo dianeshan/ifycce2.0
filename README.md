@@ -6,9 +6,10 @@ This website gives people information about I Fly Young CCE (Communication and C
 
 ## How to run
 
-In the project directory, you can run:
+In the project directory:
 
-### `npm start`
+1. `npm install`
+2. `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
