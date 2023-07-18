@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
@@ -16,6 +16,7 @@ import OfficeHoursAbout from "./components/officeHours/OfficeHoursAbout";
 import OfficeHours2 from "./components/officeHours/Oct2022Dec2022";
 import OfficeHours3 from "./components/officeHours/Jan2023Mar2023";
 import OfficeHours4 from "./components/officeHours/Apr2023Jun2023";
+import OfficeHours5 from "./components/officeHours/Jul2023Sep2023";
 
 import StemNotNerds from "./components/chronicles/StemNotNerds";
 import ConstExposure from "./components/chronicles/ConstExposure";
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="/officehours2" exact={true} component={OfficeHours2} />
         <Route path="/officehours3" exact={true} component={OfficeHours3} />
         <Route path="/officehours4" exact={true} component={OfficeHours4} />
+        <Route path="/officehours5" exact={true} component={OfficeHours5} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />

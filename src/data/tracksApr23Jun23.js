@@ -3,6 +3,11 @@ import bossnovalue from "./CCE20230403_我的老闆不重視我的意見.mp3";
 import blessvsobey from "./CCE_20230410_銷售價格_祝福老闆和順服老闆的不同.mp3";
 import howtoblesshardboss from "./CCE20230417_祝福不容易愛的老板_應收賬款.mp3";
 import faithtowork from "./CCE20230424_信仰在職場上的幫助.mp3";
+import greatestworkpressure from "./CCE20230508_壓力的來源與應對.mp3";
+import highexpectationandpeacemaker from "./CCE20230515_1責任感與高期望2和平之子mp3.mp3";
+import nextjob from "./CCE20230529_1下一個工作2做準備mp3.mp3";
+import opportunities from "./CCE20230605_尋找機會mp3.mp3";
+import questions from "./CCE20230612_提問mp3.mp3";
 
 export const tracks4 = [
   {
@@ -28,5 +33,35 @@ export const tracks4 = [
     src: faithtowork,
     date: "4/24/2023",
     info: "我的信仰如何成爲我在職場上的幫助?",
+  },
+  {
+    title: "Where does the biggest pressure in work come from?",
+    src: greatestworkpressure,
+    date: "5/8/2023",
+    info: "工作上最主要壓力的來源是什麽？我怎麽應付這樣的壓力？",
+  },
+  {
+    title: "How to handle my high expectations and be a peacemaker at work",
+    src: highexpectationandpeacemaker,
+    date: "5/15/2023",
+    info: "Q1. 我有很強的責任感，對工作也有很高的期望。 因此，我不惜熬夜來保證工作成果的品質。 這樣有什麼問題嗎？ 我還有什麽應該考慮或應該做的？ Q2. 我怎樣才能在同事中成為一個好的和平締造者（在工作場)？",
+  },
+  {
+    title: "How to prepare for your next job?",
+    src: nextjob,
+    date: "5/29/2023",
+    info: "Q1 你的下一個工作是什麼？ Q2 如何為下一個工作做準備？",
+  },
+  {
+    title: "All about opportunities",
+    src: opportunities,
+    date: "6/5/2023",
+    info: "我們都需要機會，許多人都在尋找機會： Q1：機會是什麼？ Q2：如何尋找機會？ Q3：對我來說有什麼好機會？",
+  },
+  {
+    title: "Asking questions",
+    src: questions,
+    date: "6/12/2023",
+    info: "主題：提問 1.你的老闆會問很難的問題嗎？ 那些問題是什麼？ 如何給出最好的回答？ 2.在工作中要問（我的老闆/同事/我自己？）哪些重要問題？",
   },
 ];

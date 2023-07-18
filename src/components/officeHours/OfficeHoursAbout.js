@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Component } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import "../../App.css";
 import AppNavbar from "../AppNavbar";
@@ -33,6 +33,11 @@ class OfficeHoursAbout extends Component {
             </Container>
           </div>
           <div className="main-page">
+            <div className="inner">
+              <Button color="primary" href="/officehours">
+                Office Hour Recordings
+              </Button>
+            </div>
             <h1 className="inner">About</h1>
             <div className="inner">
               美西時間週一晚上Monday 8:30--9:30PM <br />
@@ -67,6 +72,11 @@ class OfficeHoursAbout extends Component {
               數據中心專用硬碟機研發部技術主管，柏克萊加州大學機械工程博士，從事硬碟機研發27年經驗
             </div>
             <AudioPlayer />
+            <div className="inner">
+              <Button color="primary" href="/officehours">
+                Next
+              </Button>
+            </div>
           </div>
         </div>
         <Footer />

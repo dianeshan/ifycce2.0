@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Component } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import "../../App.css";
 import AppNavbar from "../AppNavbar";
@@ -35,21 +35,29 @@ class OfficeHours2 extends Component {
             </Container>
           </div>
           <div className="main-page">
-            <h1 className="inner">About</h1>
             <div className="inner">
-              美西時間週一晚上Monday 8:30--9:30PM <br />
-              北京/台灣時間週二中午Tuesday <br />
-              11:30--12:00 等候神 <br />
-              12:00--12:30 職場問題回應 <br />
-              Zoom Meeting ID: 841 <br />
-              0068 2160 Passcode: 042263
+              <Button color="primary" href="/officehours">
+                Previous
+              </Button>{" "}
+              <Button color="primary" href="/officehours3">
+                Next
+              </Button>
             </div>
+            <h1 className="inner">Oct 2022 - Dec 2022</h1>
             <AudioPlayer />
             {tracks2.map((track, idx) => (
               <div key={idx}>
                 <Player currentTrack={track} />
               </div>
             ))}
+            <div className="inner">
+              <Button color="primary" href="/officehours">
+                Previous
+              </Button>{" "}
+              <Button color="primary" href="/officehours3">
+                Next
+              </Button>
+            </div>
           </div>
         </div>
         <Footer />

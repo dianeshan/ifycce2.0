@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "@mui/material/Modal";
+import { Modal } from "react-bootstrap";
 
 // import WindowDimensions from "./WindowDimensions";
 
