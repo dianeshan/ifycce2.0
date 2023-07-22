@@ -51,10 +51,10 @@ class OfficeHours3 extends Component {
               </div>
             ))}
             <div className="inner">
-              <Button color="primary" href="/officehours2">
+              <Button color="info" href="/officehours2">
                 Previous
               </Button>{" "}
-              <Button color="primary" href="/officehours4">
+              <Button color="info" href="/officehours4">
                 Next
               </Button>
             </div>

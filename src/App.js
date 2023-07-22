@@ -11,6 +11,7 @@ import Team from "./components/Team";
 import Chronicles from "./components/Chronicles";
 import Application from "./components/Application";
 import Interview from "./components/Interview";
+import FocusGroup from "./components/FocusGroup";
 
 import OfficeHoursAbout from "./components/officeHours/OfficeHoursAbout";
 import OfficeHours2 from "./components/officeHours/Oct2022Dec2022";
@@ -61,6 +62,7 @@ const App = () => {
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />
+        <Route path="/focusgroup" exact={true} component={FocusGroup} />
         <Route path="/stemnotnerds" exact={true} component={StemNotNerds} />
         <Route path="/constexposure" exact={true} component={ConstExposure} />
         <Route path="/goodtech" exact={true} component={GoodTech} />

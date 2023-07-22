@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 export default class AppNavbar extends Component {
@@ -121,6 +121,7 @@ export default class AppNavbar extends Component {
                 </NavDropdown>
                 <Nav.Link href="/application">Internship</Nav.Link>
                 <Nav.Link href="/interview">Interview</Nav.Link>
+                <Nav.Link href="/focusgroup">Focus Group</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
