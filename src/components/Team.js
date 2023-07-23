@@ -670,13 +670,18 @@ function Shengming(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img className="headshot" src={shengmingshan} alt="Shengming's Headshot" />
+        <img
+          className="headshot"
+          src={shengmingshan}
+          alt="Shengming's Headshot"
+        />
         <h4>CEO / Wireless Technology</h4>
         <p>
-        Mr. Shengming Shan, Founder &amp; CEO of SWR Technology, Founder of I FLY YOUNG CCE,
-        Founder of Creative Chinese, Board Director of Daniel Christian Academy, Engineering 
-        Director of Qualcomm, MSEE Stony Brook University, NY, USA，30 years of technical 
-        development and management in semiconductor and communication industry.
+          Mr. Shengming Shan, Founder &amp; CEO of SWR Technology, Founder of I
+          FLY YOUNG CCE, Founder of Creative Chinese, Board Director of Daniel
+          Christian Academy, Engineering Director of Qualcomm, MSEE Stony Brook
+          University, NY, USA，30 years of technical development and management
+          in semiconductor and communication industry.
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -709,7 +714,6 @@ const Team = () => {
   const [modalShow20, setModalShow20] = useState(false);
   const [modalShow21, setModalShow21] = useState(false);
   const [modalShow22, setModalShow22] = useState(false);
-  
 
   return (
     <div className="all-content">
@@ -741,6 +745,21 @@ const Team = () => {
             <Container>
               <Container>
                 <Row>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow22(true)}>
+                      <img
+                        className="headshot"
+                        src={shengmingshan}
+                        alt="Shengming's Headshot"
+                      />
+                    </Button>
+                    <h6>Shengming Shan</h6>
+                    <p>CEO / Wireless Technology</p>
+                    <Shengming
+                      show={modalShow22}
+                      onHide={() => setModalShow22(false)}
+                    />
+                  </Col>
                   <Col sm="12" md="3" className="text-center">
                     <Button variant="link" onClick={() => setModalShow(true)}>
                       <img
@@ -784,21 +803,6 @@ const Team = () => {
                     <Daniel
                       show={modalShow3}
                       onHide={() => setModalShow3(false)}
-                    />
-                  </Col>
-                  <Col sm="12" md="3" className="text-center">
-                    <Button variant="link" onClick={() => setModalShow4(true)}>
-                      <img
-                        className="headshot"
-                        src={kedimei}
-                        alt="Kedi's Headshot"
-                      />
-                    </Button>
-                    <h6>Kedi Mei</h6>
-                    <p>Civil & Transportation Engineering / BKF Engineers</p>
-                    <Kedi
-                      show={modalShow4}
-                      onHide={() => setModalShow4(false)}
                     />
                   </Col>
                 </Row>
@@ -1078,18 +1082,18 @@ const Team = () => {
                     /> */}
                   </Col>
                   <Col sm="12" md="3" className="text-center">
-                    <Button variant="link" onClick={() => setModalShow22(true)}>
+                    <Button variant="link" onClick={() => setModalShow4(true)}>
                       <img
                         className="headshot"
-                        src={shengmingshan}
-                        alt="Shengming's Headshot"
+                        src={kedimei}
+                        alt="Kedi's Headshot"
                       />
                     </Button>
-                    <h6>Shenging Shan</h6>
-                    <p>CEO / Wireless Technology</p>
-                    <Shengming
-                      show={modalShow22}
-                      onHide={() => setModalShow22(false)}
+                    <h6>Kedi Mei</h6>
+                    <p>Civil & Transportation Engineering / BKF Engineers</p>
+                    <Kedi
+                      show={modalShow4}
+                      onHide={() => setModalShow4(false)}
                     />
                   </Col>
                 </Row>
