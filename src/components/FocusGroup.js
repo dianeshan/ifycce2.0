@@ -29,7 +29,7 @@ const FocusGroup = () => {
                     href="https://bit.ly/cceify-focusgroup-reg"
                     rel="noopener noreferrer"
                   >
-                    Sign up
+                    Sign Up
                   </Button>
                 </Col>
               </Row>
