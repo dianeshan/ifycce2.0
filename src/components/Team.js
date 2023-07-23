@@ -30,6 +30,7 @@ import ireneyuan from "../images/mentors/IreneYuan.png";
 import rongyue from "../images/mentors/RongYue.png";
 import tachengfu from "../images/mentors/TaChengFu.png";
 import marcuswhite from "../images/mentors/MarcusWhite.png";
+import shengmingshan from "../images/mentors/ShengmingShan.png";
 
 function Timothy(props) {
   return (
@@ -655,6 +656,36 @@ function Sheana(props) {
   );
 }
 
+function Shengming(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Shengming Shan
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={shengmingshan} alt="Shengming's Headshot" />
+        <h4>CEO / Wireless Technology</h4>
+        <p>
+        Mr. Shengming Shan, Founder &amp; CEO of SWR Technology, Founder of I FLY YOUNG CCE,
+        Founder of Creative Chinese, Board Director of Daniel Christian Academy, Engineering 
+        Director of Qualcomm, MSEE Stony Brook University, NY, USA，30 years of technical 
+        development and management in semiconductor and communication industry.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Team = () => {
   const [modalShow, setModalShow] = useState(false);
   const [modalShow2, setModalShow2] = useState(false);
@@ -672,6 +703,13 @@ const Team = () => {
   const [modalShow14, setModalShow14] = useState(false);
   const [modalShow15, setModalShow15] = useState(false);
   const [modalShow16, setModalShow16] = useState(false);
+  const [modalShow17, setModalShow17] = useState(false);
+  const [modalShow18, setModalShow18] = useState(false);
+  const [modalShow19, setModalShow19] = useState(false);
+  const [modalShow20, setModalShow20] = useState(false);
+  const [modalShow21, setModalShow21] = useState(false);
+  const [modalShow22, setModalShow22] = useState(false);
+  
 
   return (
     <div className="all-content">
@@ -1038,6 +1076,21 @@ const Team = () => {
                       show={modalShow16}
                       onHide={() => setModalShow16(false)}
                     /> */}
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow22(true)}>
+                      <img
+                        className="headshot"
+                        src={shengmingshan}
+                        alt="Shengming's Headshot"
+                      />
+                    </Button>
+                    <h6>Shenging Shan</h6>
+                    <p>CEO / Wireless Technology</p>
+                    <Shengming
+                      show={modalShow22}
+                      onHide={() => setModalShow22(false)}
+                    />
                   </Col>
                 </Row>
               </Container>
