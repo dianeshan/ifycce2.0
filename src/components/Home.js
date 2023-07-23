@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { Button, Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -43,11 +43,24 @@ class Home extends Component {
                   <h2 className="text-center">
                     <FontAwesomeIcon icon={faFireAlt} />
                   </h2>
-                  <h5 className="text-center">CCE Internship: Soaring Eagle</h5>
+                  <h5 className="text-center">
+                    Monthly Focus Meeting Group <br></br>職場工作坊
+                  </h5>
                   <p className="light">
-                    If you are interested in internships, checkout our
-                    internship page where you can find out all about it.
+                    What is your meaning of working? Is it just a financial
+                    obligation? Or is it a dream? Do you want to know how to
+                    live out your destiny at work, and create the legacy to pass
+                    down to the generations?
                   </p>
+                  <p>
+                    你對工作的定義及態度是什麼？是義務？還是熱情？是懐才不遇？還是實現夢想？你想了解如何在工作中如何活出自己的命定，在家庭裏如何創造傳家的價值嗎？
+                  </p>
+                  <p>Sign up closes on 8/11/2023</p>
+                  <div className="text-center">
+                    <Button color="info" href="/focusgroup">
+                      Learn More
+                    </Button>
+                  </div>
                 </Col>
                 {/* <Col lg="2"></Col> */}
                 <Col md="12" lg="4">
@@ -76,15 +89,6 @@ class Home extends Component {
                     <Button color="info" href="/officehoursabout">
                       Learn More
                     </Button>
-                    {/* {"      "}
-                    <Button
-                      color="info"
-                      href="https://bit.ly/ifycce2023internlaunch"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Sign Up
-                    </Button> */}
                   </div>
                 </Col>
                 <Col md="12" lg="4">
