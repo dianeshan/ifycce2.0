@@ -28,7 +28,7 @@ import sheanachen from "../images/mentors/SheanaChen.png";
 import weixumeng from "../images/mentors/WeixuMeng.png";
 import ireneyuan from "../images/mentors/IreneYuan.png";
 import rongyue from "../images/mentors/RongYue.png";
-import tachengfu from "../images/mentors/TaChengFu.png";
+import tachangfu from "../images/mentors/TaChengFu.png";
 import marcuswhite from "../images/mentors/MarcusWhite.png";
 import shengmingshan from "../images/mentors/ShengmingShan.png";
 
@@ -656,6 +656,118 @@ function Sheana(props) {
   );
 }
 
+function Weixu(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Weixu Meng
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={weixumeng} alt="Weixu's Headshot" />
+        <h4>Senior Principal Scientist / Pfizer Inc</h4>
+        <p>
+          Ms. Weixu Meng, 中国科学院博士。现任辉瑞资深主任科学家。 十五年抗体及生物医药研发。
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function Irene(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Irene Yuan
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={ireneyuan} alt="Irene's Headshot" />
+        <h4>Chief Executive Officer & Founder / Voltraware Semiconductor Co., LTD</h4>
+        <p>
+          Ms. Irene Yuan RELinkage 顧問公司執行長 ; 前 Voltraware IC設計公司創辨人，
+          佳必琦股份有限公司執行副總及董事，政治大學科技創新管理碩士，世新大學兼課講師，
+          近40 年資訊科技產業經營管理，業務開發，企業重整募資等經驗。
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function Rong(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Rong Yue
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={rongyue} alt="Rong's Headshot" />
+        <h4>Lead engineer / Mentor Graphics</h4>
+        <p>
+        Mr. Rong Yue, 西门子研发主任工程师, 普度大学(Purdue)数学博士+計算机碩士, 
+        有近三十年信息产业多种領域的软件研发经历。
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function Tachang(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Rong Yue
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img className="headshot" src={tachangfu} alt="Ta-Chang's Headshot" />
+        <h4>Mechanical Engineering Technologist / Western Digital</h4>
+        <p>
+          Mr. Ta-Chang Fu (傅大章)，現任 Western Digital 數據中心專用硬碟機研發部技術主管，
+          柏克萊加州大學機械工程博士，從事硬碟機研發27年經驗。
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 function Shengming(props) {
   return (
     <Modal
@@ -1001,7 +1113,7 @@ const Team = () => {
                 <hr></hr>
                 <Row>
                   <Col sm="12" md="3" className="text-center">
-                    <Button variant="link">
+                    <Button variant="link" onClick={() => setModalShow17(true)}>
                       <img
                         className="headshot"
                         src={weixumeng}
@@ -1010,13 +1122,13 @@ const Team = () => {
                     </Button>
                     <h6>Weixu Meng</h6>
                     <p>Senior Principal Scientist / Pfizer Inc</p>
-                    {/* <Sheana
-                      show={modalShow16}
-                      onHide={() => setModalShow16(false)}
-                    /> */}
+                    <Weixu
+                      show={modalShow17}
+                      onHide={() => setModalShow17(false)}
+                    />
                   </Col>
                   <Col sm="12" md="3" className="text-center">
-                    <Button variant="link">
+                    <Button variant="link" onClick={() => setModalShow18(true)}>
                       <img
                         className="headshot"
                         src={ireneyuan}
@@ -1028,13 +1140,13 @@ const Team = () => {
                       Chief Executive Officer &amp; Founder / Voltraware
                       Semiconductor Co., LTD
                     </p>
-                    {/* <Sheana
-                      show={modalShow16}
-                      onHide={() => setModalShow16(false)}
-                    /> */}
+                    <Irene
+                      show={modalShow18}
+                      onHide={() => setModalShow18(false)}
+                    />
                   </Col>
                   <Col sm="12" md="3" className="text-center">
-                    <Button variant="link">
+                    <Button variant="link" onClick={() => setModalShow19(true)}>
                       <img
                         className="headshot"
                         src={rongyue}
@@ -1043,25 +1155,25 @@ const Team = () => {
                     </Button>
                     <h6>Rong Yue</h6>
                     <p>Lead engineer / Mentor Graphics</p>
-                    {/* <Sheana
-                      show={modalShow16}
-                      onHide={() => setModalShow16(false)}
-                    /> */}
+                    <Rong
+                      show={modalShow19}
+                      onHide={() => setModalShow19(false)}
+                    />
                   </Col>
                   <Col sm="12" md="3" className="text-center">
-                    <Button variant="link">
+                    <Button variant="link" onClick={() => setModalShow20(true)}>
                       <img
                         className="headshot"
-                        src={tachengfu}
+                        src={tachangfu}
                         alt="Ta-Chang's Headshot"
                       />
                     </Button>
                     <h6>Ta-Chang Fu</h6>
                     <p>Mechanical Engineering Technologist / Western Digital</p>
-                    {/* <Sheana
-                      show={modalShow16}
-                      onHide={() => setModalShow16(false)}
-                    /> */}
+                    <Tachang
+                      show={modalShow20}
+                      onHide={() => setModalShow20(false)}
+                    />
                   </Col>
                 </Row>
                 <hr></hr>
