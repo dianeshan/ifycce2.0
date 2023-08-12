@@ -31,6 +31,7 @@ import rongyue from "../images/mentors/RongYue.png";
 import tachangfu from "../images/mentors/TaChengFu.png";
 import marcuswhite from "../images/mentors/MarcusWhite.png";
 import shengmingshan from "../images/mentors/ShengmingShan.png";
+import stargao from "../images/mentors/StarGao.png";
 
 function Timothy(props) {
   return (
@@ -803,6 +804,43 @@ function Shengming(props) {
   );
 }
 
+function Star(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Star Gao
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          className="headshot"
+          src={stargao}
+          alt="Star Gao's Headshot"
+        />
+        <h4>农业国际组织管理咨询顾问/生物信息遗传育种专家</h4>
+        <p>
+          概览：信主21年，结婚20年，2女1子，工作19年 <br/>
+          职场：农业国际组织管理咨询顾问 / 生物信息遗传育种专家 <br/>
+          教育：农业博士&#40;&#39;04&#41;, 工商管理硕士&#40;&#39;22&#41;, XCC认证教练&#40;&#39;22&#41; <br/>
+          教会：带领查经，组织大型庆祝活动 <br/>
+          爱好：烹饪，美食，交友待客，跳舞，旅行 <br/>
+          福地：职青家庭团契，青少年及父母 <br/>
+          双职事奉：CalledToWork 导师，使徒领导力组长
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Team = () => {
   const [modalShow, setModalShow] = useState(false);
   const [modalShow2, setModalShow2] = useState(false);
@@ -824,8 +862,9 @@ const Team = () => {
   const [modalShow18, setModalShow18] = useState(false);
   const [modalShow19, setModalShow19] = useState(false);
   const [modalShow20, setModalShow20] = useState(false);
-  const [modalShow21, setModalShow21] = useState(false);
+  const [modalShow21, setModalShow21] = useState(false); //waiting on marcus white info
   const [modalShow22, setModalShow22] = useState(false);
+  const [modalShow23, setModalShow23] = useState(false);
 
   return (
     <div className="all-content">
@@ -1206,6 +1245,21 @@ const Team = () => {
                     <Kedi
                       show={modalShow4}
                       onHide={() => setModalShow4(false)}
+                    />
+                  </Col>
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow23(true)}>
+                      <img
+                        className="headshot"
+                        src={stargao}
+                        alt="Star Gao's Headshot"
+                      />
+                    </Button>
+                    <h6>Star Gao</h6>
+                    <p>农业国际组织管理咨询顾问 / 生物信息遗传育种专家</p>
+                    <Star
+                      show={modalShow23}
+                      onHide={() => setModalShow23(false)}
                     />
                   </Col>
                 </Row>
