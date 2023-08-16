@@ -22,14 +22,14 @@ const FocusGroup = () => {
                 </Col>
                 <Col className="headings3" md="8">
                   <h1 className="headings2">Focus Group Meeting</h1>
-                  <h4>Sign up to be part of a focus group!</h4>
+                  <h4>Keep me informed about focus groups!</h4>
                   <Button
                     variant="light"
                     target="_blank"
                     href="https://bit.ly/cceify-focusgroup-reg"
                     rel="noopener noreferrer"
                   >
-                    Sign Up
+                    Keep me informed
                   </Button>
                 </Col>
               </Row>

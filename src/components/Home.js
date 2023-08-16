@@ -55,7 +55,11 @@ class Home extends Component {
                   <p>
                     你對工作的定義及態度是什麼？是義務？還是熱情？是懐才不遇？還是實現夢想？你想了解如何在工作中如何活出自己的命定，在家庭裏如何創造傳家的價值嗎？
                   </p>
-                  <p>Sign up closes on 8/11/2023</p>
+                  <p>
+                    The official sign up for 2023 CCE Focus Group has closed.
+                    You can still leave your information, and we will notify you
+                    if seats become available.
+                  </p>
                   <div className="text-center">
                     <Button color="info" href="/focusgroup">
                       Learn More
@@ -121,6 +125,31 @@ class Home extends Component {
           </div>
           <div className="main-page">
             <Container>
+              <p>
+                Head to I FLY YOUNG -{">"}{" "}
+                <a
+                  className="btn btn-info btn-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://iflyyoung.com/"
+                >
+                  I Fly Young
+                </a>
+              </p>
+              <div className="row">
+                {/* <div className="col-lg-3">Head to the I FLY YOUNG website</div>
+                <div className="col-lg-9">
+                  <Button
+                    color="info"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://iflyyoung.com/"
+                  >
+                    I FLY YOUNG
+                  </Button>
+                </div> */}
+              </div>
+              <br></br>
               <div className="row">
                 <div className="col sm12">
                   <h2>

@@ -4,6 +4,12 @@ const SignUpForm = () => {
   return (
     <div className="container">
       <br></br>
+      <div className="comment-name">
+        The official sign up for 2023 CCE Focus Group has closed. You can still
+        leave your information, and we will notify you if seats become
+        available.
+      </div>
+      <br></br>
       <h1>職場工作坊 (Monthly Focus Group Meeting)</h1>
       <div>
         <div className="comment-name">
@@ -101,9 +107,13 @@ const SignUpForm = () => {
           className="btn-lg"
           href="https://bit.ly/cceify-focusgroup-reg"
         >
-          Sign Up
+          Keep me informed
         </Button>
-        <div>Sign up closes on 8/11/2023</div>
+        <div>
+          The official sign up for 2023 CCE Focus Group has closed. You can
+          still leave your information, and we will notify you if seats become
+          available.
+        </div>
         <div>Questions? Email us at cce.info@iflyyoung.com</div>
       </div>
     </div>
