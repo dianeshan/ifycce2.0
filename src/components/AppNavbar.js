@@ -12,8 +12,10 @@ export default class AppNavbar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/webinar">Webinar</Nav.Link>
-                <Nav.Link href="/pastwebinar">Past Webinars</Nav.Link>
+                <NavDropdown title="Webinar" id="basic-nav-dropdown">
+                  <Nav.Link href="/webinar">Webinar</Nav.Link>
+                  <Nav.Link href="/pastwebinar">Past Webinars</Nav.Link>
+                </NavDropdown>
                 <NavDropdown title="Office Hours" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/officehoursabout">
                     About
@@ -125,6 +127,7 @@ export default class AppNavbar extends Component {
                 <Nav.Link href="/application">Internship</Nav.Link>
                 <Nav.Link href="/interview">Interview</Nav.Link>
                 <Nav.Link href="/focusgroup">Focus Group</Nav.Link>
+                <Nav.Link href="https://iflyyoung.com/">I Fly Young</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

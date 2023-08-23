@@ -125,31 +125,6 @@ class Home extends Component {
           </div>
           <div className="main-page">
             <Container>
-              <p>
-                Head to I FLY YOUNG -{">"}{" "}
-                <a
-                  className="btn btn-info btn-lg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://iflyyoung.com/"
-                >
-                  I Fly Young
-                </a>
-              </p>
-              <div className="row">
-                {/* <div className="col-lg-3">Head to the I FLY YOUNG website</div>
-                <div className="col-lg-9">
-                  <Button
-                    color="info"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://iflyyoung.com/"
-                  >
-                    I FLY YOUNG
-                  </Button>
-                </div> */}
-              </div>
-              <br></br>
               <div className="row">
                 <div className="col sm12">
                   <h2>

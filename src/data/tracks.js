@@ -40,6 +40,7 @@ import boundariesboss from "./CCE20230724私人事務_同事_老闆和界限MP3.
 import pressureandfailure from "./CCE20230731_無力感_失敗感MP3.mp3";
 import obeyandcommunication from "./CCE20230807_品格_溝通MP3.mp3";
 import roles from "./CCE20230814_角色MP3.mp3";
+import influence from "./CCE20230821_信仰與影響力MP3.mp3";
 
 export const tracks = [
   {
@@ -289,5 +290,11 @@ export const tracks = [
     src: roles,
     date: "8/14/2023",
     info: "最適合我的角色是什麼？ 一綫工作人員？ 技術主管？ 經理？",
+  },
+  {
+    title: "Increase influence",
+    src: influence,
+    date: "8/21/2023",
+    info: "Q1. 如何在職場工作岡位上提升我的影響力？ Q2. 如何讓我的信仰在職場中產生影響力？",
   },
 ];
