@@ -41,6 +41,7 @@ import pressureandfailure from "./CCE20230731_無力感_失敗感MP3.mp3";
 import obeyandcommunication from "./CCE20230807_品格_溝通MP3.mp3";
 import roles from "./CCE20230814_角色MP3.mp3";
 import influence from "./CCE20230821_信仰與影響力MP3.mp3";
+import goodqualities from "./CCE20230828_培養影響力的特質MP3.mp3";
 
 export const tracks = [
   {
@@ -296,5 +297,11 @@ export const tracks = [
     src: influence,
     date: "8/21/2023",
     info: "Q1. 如何在職場工作岡位上提升我的影響力？ Q2. 如何讓我的信仰在職場中產生影響力？",
+  },
+  {
+    title: "Good qualities",
+    src: goodqualities,
+    date: "8/28/2023",
+    info: "Q1. 我們在職場中所見過有影響力的人，他們具備了哪些好特質？ Q2. 如何在我的生命中也培養出這些好特質？",
   },
 ];
