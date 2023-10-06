@@ -38,6 +38,9 @@ class OfficeHours5 extends Component {
             <div className="inner">
               <Button color="primary" href="/officehours4">
                 Previous
+              </Button>{" "}
+              <Button color="primary" href="/officehours6">
+                Next
               </Button>
             </div>
             <h1 className="inner">Jul 2023 - Sep 2023</h1>
@@ -50,6 +53,9 @@ class OfficeHours5 extends Component {
             <div className="inner">
               <Button color="primary" href="/officehours4">
                 Previous
+              </Button>{" "}
+              <Button color="primary" href="/officehours6">
+                Next
               </Button>
             </div>
           </div>

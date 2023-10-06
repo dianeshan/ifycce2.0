@@ -35,6 +35,9 @@ export default class AppNavbar extends Component {
                   <NavDropdown.Item href="/officehours5">
                     Jul 2023 - Sep 2023
                   </NavDropdown.Item>
+                  <NavDropdown.Item href="/officehours6">
+                    Oct 2023 - Dec 2023
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/team">Our Team</Nav.Link>
                 <NavDropdown title="Chronicles" id="basic-nav-dropdown">

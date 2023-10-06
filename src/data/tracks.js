@@ -42,6 +42,10 @@ import obeyandcommunication from "./CCE20230807_品格_溝通MP3.mp3";
 import roles from "./CCE20230814_角色MP3.mp3";
 import influence from "./CCE20230821_信仰與影響力MP3.mp3";
 import goodqualities from "./CCE20230828_培養影響力的特質MP3.mp3";
+import communicatewithstrong from "./CCE20230911_與強勢的人溝通MP3.mp3";
+import difficultiesandspecialqualities from "./CCE20230918_管理者的素質MP3.mp3";
+import talentandexpertise from "./CCE20230925_天賦與專長MP3.mp3";
+import deny from "./CCE20231002_捨己MP3.mp3";
 
 export const tracks = [
   {
@@ -303,5 +307,29 @@ export const tracks = [
     src: goodqualities,
     date: "8/28/2023",
     info: "Q1. 我們在職場中所見過有影響力的人，他們具備了哪些好特質？ Q2. 如何在我的生命中也培養出這些好特質？",
+  },
+  {
+    title: "Communicating with strong people",
+    src: communicatewithstrong,
+    date: "9/11/2023",
+    info: "與強勢的人溝通 Q1. 一個較為強勢的人會有哪些表現？ Q2. 我該如何與強勢的同事或上司溝通？",
+  },
+  {
+    title: "How to deal with difficulties and learn special skills",
+    src: difficultiesandspecialqualities,
+    date: "9/18/2023",
+    info: "Q1： 我有困難、主管不願幫我解決時、怎麼辦？ Q2： 一個好的管理者需要具備哪些素質，如何在工作中培養這些素質？",
+  },
+  {
+    title: "Talents and expertise",
+    src: talentandexpertise,
+    date: "9/25/2023",
+    info: "1. 天賦與專長有什麽不同？什麽是我的 天賦？ 什麽是我的專長？ 2. 我的天賦/專長 如何使用/發揮在 家庭/職場/服事 上?",
+  },
+  {
+    title: "Denying oneself",
+    src: deny,
+    date: "10/02/2023",
+    info: "'捨己' 在職場上適用嗎? 如何應用?",
   },
 ];

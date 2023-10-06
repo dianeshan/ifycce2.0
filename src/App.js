@@ -37,6 +37,7 @@ import GoAheadAndAsk from "./components/chronicles/GoAheadAndAsk";
 import EveryoneIsDifferent from "./components/chronicles/EveryoneIsDifferent";
 
 import TagManager from "react-gtm-module/dist/TagManager";
+import OfficeHours6 from "./components/officeHours/Oct2023Dec2023";
 
 const App = () => {
   useEffect(() => {
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/officehours3" exact={true} component={OfficeHours3} />
         <Route path="/officehours4" exact={true} component={OfficeHours4} />
         <Route path="/officehours5" exact={true} component={OfficeHours5} />
+        <Route path="/officehours6" exact={true} component={OfficeHours6} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />
