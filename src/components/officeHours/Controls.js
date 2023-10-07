@@ -29,6 +29,7 @@ const Controls = ({
 
   const togglePlayPause = () => {
     setIsPlaying((prev) => !prev);
+    audioRef.current.play();
   };
 
   const playAnimationRef = useRef();

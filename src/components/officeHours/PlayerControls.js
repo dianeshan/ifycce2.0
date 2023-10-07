@@ -17,6 +17,7 @@ const Controls = ({ audioRef, progressBarRef, duration, setTimeProgress }) => {
 
   const togglePlayPause = () => {
     setIsPlaying((prev) => !prev);
+    audioRef.current.play();
   };
 
   const playAnimationRef = useRef();
