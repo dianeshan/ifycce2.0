@@ -161,19 +161,55 @@ class Home extends Component {
                 explore their careers.
               </p>
               <p>
-                Still don't know what CCE class is? Click the button below to
-                learn all about CCE class in less than 10 minutes!
+                Below are a list of resources that are recommended for
+                prospective CCE Class Families:
               </p>
               <p>
+                [English]{" "}
                 <a
-                  className="btn btn-info btn-lg"
-                  href="https://www.youtube.com/watch?v=yG-WoryjAzk&amp;list=PLQTND4OzgUVTQmR_XCSEREjy9fy4Lpxo-"
+                  href="https://youtu.be/yG-WoryjAzk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Learn More 
+                  High School Freshmen Talk About Communication and Career
+                  Exploration Class
                 </a>
-                  
+                <br></br>
+                [Bilingual]{" "}
+                <a
+                  href="https://youtu.be/970qyUCZ71c"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Parents Talk About CCE Class
+                </a>
+                <br></br>
+                [English]{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=34bvk7hW_Ds"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  A high school sophomore sharing on CCE Prime program
+                </a>
+                <br></br>
+                [Chinese]{" "}
+                <a
+                  href="https://youtu.be/gpf6QMnXbj8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Why CCE
+                </a>
+                <br></br>
+                [Chinese]{" "}
+                <a
+                  href="https://youtu.be/AEGILKCOZyM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CCE Class Overview
+                </a>
               </p>
               <p className="card-text style=">
                 <strong>Coach:</strong> Mr. Shengming Shan, who has more than 25
