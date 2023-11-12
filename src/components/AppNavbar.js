@@ -20,24 +20,36 @@ export default class AppNavbar extends Component {
                   <NavDropdown.Item href="/officehoursabout">
                     About
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours">
-                    Jul 2022 - Sep 2022
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours2">
-                    Oct 2022 - Dec 2022
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours3">
-                    Jan 2023 - Mar 2023
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours4">
-                    Apr 2023 - Jun 2023
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours5">
-                    Jul 2023 - Sep 2023
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/officehours6">
-                    Oct 2023 - Dec 2023
-                  </NavDropdown.Item>
+                  <NavDropdown
+                    className="dropdowns"
+                    title="2022"
+                    id="basic-nav-dropdown"
+                  >
+                    <NavDropdown.Item href="/officehours">
+                      Jul 2022 - Sep 2022
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/officehours2">
+                      Oct 2022 - Dec 2022
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown
+                    className="dropdowns"
+                    title="2023"
+                    id="basic-nav-dropdown"
+                  >
+                    <NavDropdown.Item href="/officehours3">
+                      Jan 2023 - Mar 2023
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/officehours4">
+                      Apr 2023 - Jun 2023
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/officehours5">
+                      Jul 2023 - Sep 2023
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/officehours6">
+                      Oct 2023 - Dec 2023
+                    </NavDropdown.Item>
+                  </NavDropdown>
                 </NavDropdown>
                 <Nav.Link href="/team">Our Team</Nav.Link>
                 <NavDropdown title="Chronicles" id="basic-nav-dropdown">
