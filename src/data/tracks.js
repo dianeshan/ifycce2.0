@@ -51,6 +51,10 @@ import conflicts from "./CCE20231016_人際關係與價值觀MP3.mp3";
 import handlechanges from "./CCE20231023_處理職場上的變動MP3.mp3";
 import workfaithlife from "./CCE20231030_工作_信仰與生活MP3.mp3";
 import liveoutlove from "./CCE20231106_將愛行在職場MP3.mp3";
+import findbalance from "./CCE20231113_平衡工作家庭和屬靈追求MP3.mp3";
+import respondworkplace from "./CCE20231120_面對人的罪MP3.mp3";
+import thankful from "./CCE20231127_職場感恩MP3.mp3";
+import interpersonal from "./CCE20231204_職場人際關係MP3.mp3";
 
 export const tracks = [
   {
@@ -366,5 +370,29 @@ export const tracks = [
     src: liveoutlove,
     date: "11/06/2023",
     info: 'Q1: "愛"在職場行得通嗎? Is it possible to live out "Love" at workplace? 家里操练不讲对错，但公司里讲究積效，要做考核，虽然都可以用爱包含，但操练起来还是感觉有些难度，往往厚此薄彼，做不到平衡。请问老师讲员们有没有好的见证或经验可以分享？ Q2: 爲什麽要將愛行在職場？Why do we want to live out "love" at workplace?',
+  },
+  {
+    title: "Find balance between work, family, and faith",
+    src: findbalance,
+    date: "11/13/2023",
+    info: "Q1: 职场人士如何平衡工作, 家庭, 以及尋求屬靈的成長/和神相处的时间? How do marketplace professionals find a balance between work, family and the time to seek spiritual growth/spend time with God? Q2: 职场女性在取得上述的平衡時, 有哪些特別的挑戰? 如何應對? What are the special challenges for career women to find such a balance? What can be done?",
+  },
+  {
+    title: "How to respond in the workplace",
+    src: respondworkplace,
+    date: "11/20/2023",
+    info: "Q1: 职场中被人傷害，該如何回應? How shall I respond when I feel hurt in the workplace? Q2: 在职场中被他人的罪所影响时，如何面对和回应职场中他人的罪？How shall I perceive and respond when I was impacted by other's sins at workplace? Q3: 在基督徒群体的职场中被他人的罪所影响时，如何面对和回应？How shall I perceive and respond when I was impacted by other's sins at a Christian based workplace?",
+  },
+  {
+    title: "Thanksgiving",
+    src: thankful,
+    date: "11/27/2023",
+    info: "Q1: 在職場上的經歷中，最令我感恩的是什麽人或事？What/Who am I most thankful for in my career journey? Q2: 我最感謝我主管/同事/下屬的是什麽？我是如何表達我的感謝？What am I most thankful for my boss/colleague/subordinate? How have I expressed my appreciation?",
+  },
+  {
+    title: "Interpersonal Relationship and Communication at workplace",
+    src: interpersonal,
+    date: "12/04/2023",
+    info: "1. 我有健康的職場人際關係嗎? Do I have healthy interpersonal relationship at workplace? 2. 在職場上, 有哪些人際關係和溝通的原則或訣竅? 哪些雷區是需要注意的？What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
   },
 ];
