@@ -39,9 +39,9 @@ class OfficeHours6 extends Component {
               <Button color="primary" href="/officehours5">
                 Previous
               </Button>{" "}
-              {/* <Button color="primary" href="/officehours3">
+              <Button color="primary" href="/officehours7">
                 Next
-              </Button> */}
+              </Button>
             </div>
             <h1 className="inner">Oct 2023 - Dec 2023</h1>
             <AudioPlayer />
@@ -54,9 +54,9 @@ class OfficeHours6 extends Component {
               <Button color="primary" href="/officehours5">
                 Previous
               </Button>{" "}
-              {/* <Button color="primary" href="/officehours3">
+              <Button color="primary" href="/officehours7">
                 Next
-              </Button> */}
+              </Button>
             </div>
           </div>
         </div>

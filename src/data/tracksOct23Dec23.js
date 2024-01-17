@@ -9,6 +9,8 @@ import findbalance from "./CCE20231113_平衡工作家庭和屬靈追求MP3.mp3"
 import respondworkplace from "./CCE20231120_面對人的罪MP3.mp3";
 import thankful from "./CCE20231127_職場感恩MP3.mp3";
 import interpersonal from "./CCE20231204_職場人際關係MP3.mp3";
+import breakthrough from "./CCE20231211_突破MP3.mp3";
+import serving from "./CCE20231218_職場服事MP3.mp3";
 
 export const tracks6 = [
   {
@@ -70,5 +72,17 @@ export const tracks6 = [
     src: interpersonal,
     date: "12/04/2023",
     info: "1. 我有健康的職場人際關係嗎? Do I have healthy interpersonal relationship at workplace? 2. 在職場上, 有哪些人際關係和溝通的原則或訣竅? 哪些雷區是需要注意的？What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
+  },
+  {
+    title: "Breakthrough",
+    src: breakthrough,
+    date: "12/11/2023",
+    info: "1. 我渴望職場上的突破是什麽? What breakthrough do I expect to see at workplace? 2. 職場上突破的難處是什麽? 有什麽訣竅? What are the barriers for breakthrough at workplace? What are the tips?",
+  },
+  {
+    title: "Serving at Marketplace",
+    src: serving,
+    date: "12/18/2023",
+    info: "Q1: 什麽是職場服事 What is serving at marketplace? Q2: 職場服事的挑戰是什麽? 有什麽訣竅 ? 有什麽應當避免的 ? What are the challenges of serving at marketplace? What are the tips? What to avoid?",
   },
 ];

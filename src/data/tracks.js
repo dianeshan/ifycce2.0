@@ -55,6 +55,10 @@ import findbalance from "./CCE20231113_平衡工作家庭和屬靈追求MP3.mp3"
 import respondworkplace from "./CCE20231120_面對人的罪MP3.mp3";
 import thankful from "./CCE20231127_職場感恩MP3.mp3";
 import interpersonal from "./CCE20231204_職場人際關係MP3.mp3";
+import breakthrough from "./CCE20231211_突破MP3.mp3";
+import serving from "./CCE20231218_職場服事MP3.mp3";
+import manageexpectations from "./CCE20240108_職場服事MP3.mp3";
+import manageexpectontasks from "./CCE20240115_對工作内容的期待MP3.mp3";
 
 export const tracks = [
   {
@@ -387,12 +391,36 @@ export const tracks = [
     title: "Thanksgiving",
     src: thankful,
     date: "11/27/2023",
-    info: "Q1: 在職場上的經歷中，最令我感恩的是什麽人或事？What/Who am I most thankful for in my career journey? Q2: 我最感謝我主管/同事/下屬的是什麽？我是如何表達我的感謝？What am I most thankful for my boss/colleague/subordinate? How have I expressed my appreciation?",
+    info: "Q1: 在職場上的經歷中，最令我感恩的是什麽人或事？What/Who am I most thankful for in my career journey? Q2: 我最感謝我主管/同事/下屬的是什麽？我是如何表達我的感謝？ What am I most thankful for my boss/colleague/subordinate? How have I expressed my appreciation?",
   },
   {
     title: "Interpersonal Relationship and Communication at workplace",
     src: interpersonal,
     date: "12/04/2023",
-    info: "1. 我有健康的職場人際關係嗎? Do I have healthy interpersonal relationship at workplace? 2. 在職場上, 有哪些人際關係和溝通的原則或訣竅? 哪些雷區是需要注意的？What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
+    info: "1. 我有健康的職場人際關係嗎? Do I have healthy interpersonal relationship at workplace? 2. 在職場上, 有哪些人際關係和溝通的原則或訣竅? 哪些雷區是需要注意的？ What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
+  },
+  {
+    title: "Breakthrough",
+    src: breakthrough,
+    date: "12/11/2023",
+    info: "1. 我渴望職場上的突破是什麽? What breakthrough do I expect to see at workplace? 2. 職場上突破的難處是什麽? 有什麽訣竅? What are the barriers for breakthrough at workplace? What are the tips?",
+  },
+  {
+    title: "Serving at Marketplace",
+    src: serving,
+    date: "12/18/2023",
+    info: "Q1: 什麽是職場服事 What is serving at marketplace? Q2: 職場服事的挑戰是什麽? 有什麽訣竅 ? 有什麽應當避免的 ? What are the challenges of serving at marketplace? What are the tips? What to avoid?",
+  },
+  {
+    title: "How to manage expectations from colleagues",
+    src: manageexpectations,
+    date: "1/08/2024",
+    info: "Q1 我的同事會和我分享他(她)對公司老闆和其他同事的負面看法，但我不同意，我可以做什麽? My colleague(s) would share his(her) negative opinions about our boss and other colleagues. What can I do? Q2 介紹我進公司的同事(也是主内家人) 期待我在公司的業務上凡事要先知會她。她並不是我的主管，我該怎麽辦? My colleague, who referred me to my current employer and also a sister in Christ, expects me to give her heads up for all company business I am involved. She is not my supervisor. What can I do?",
+  },
+  {
+    title: "Managing employee's expectations on task assignments",
+    src: manageexpectontasks,
+    date: "1/15/2024",
+    info: "Q1: 我組裏的一位員工在工作上會挑事做. 他喜歡挑利于自己绩效、成长或其他有利方面的工作来做，安排给他看来不好的工作时，有一定的情绪或会表达不满，该如何处理？One of my team members are selective about his task assignment. He likes certain task assignments that are beneficial to his performance or growth, and shows discontents for other assignments (that might not look that shiny). What can I do? Q2: 在主管交辦各式不同的差事中,我喜歡那些對我績效或成長有幫助的. 我能表達我的喜好嗎? 該如何表達? Among all task assignments from my manager, I like those assignments that can help my performance or growth. Can I share my preferences? If so, how?",
   },
 ];
