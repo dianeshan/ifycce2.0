@@ -40,12 +40,32 @@ class OfficeHoursAbout extends Component {
             </div>
             <h1 className="inner">About</h1>
             <div className="inner">
-              美西時間週一晚上Monday 8:00--9:00PM <br />
-              北京/台灣時間週二中午Tuesday <br />
-              12:00--12:30 等候神 <br />
-              12:30--1:00 職場問題回應 <br />
-              Zoom Meeting ID: 841 <br />
-              0068 2160 Passcode: 042263
+              <div>
+                日光節約時間 (3/10-11/3/2024）
+                <br />
+                提前30分鐘
+                <br />
+                美西時間週一晚上Monday <br />
+                8:30--9:30PM <br />
+                北京/台灣時間週二中午Tuesday
+                <br />
+                11:30--12:00 等候神
+                <br />
+                12:00--12:30 職場問題回應 <br />
+              </div>
+              <div>
+                冬令時間 (11/4/2024-3/8/2025)
+                <br />
+                美西時間週一晚上Monday
+                <br /> 8--9PM <br />
+                北京/台灣時間週二中午Tuesday
+                <br />
+                12:00--12:30 等候神
+                <br />
+                12:30--13:00 職場問題回應 <br />
+                Zoom Meeting ID: 841 <br />
+                0068 2160 Passcode: 042263
+              </div>
             </div>
             <h1 className="inner">Speaker Bios</h1>
             <div className="inner">
