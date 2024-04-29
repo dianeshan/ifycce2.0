@@ -8,6 +8,7 @@ import beyondexpertise from "./上司交辦我不熟悉領域的項目.mp3";
 import dealinganimosity from "./CCE20240304_懷有敵意的同事MP3.mp3";
 import management from "./CCE20240311_管理MP3.mp3";
 import smallgroups from "./CCE20240318公司内的小團體.mp3";
+import workovertime from "./CCE20240325加班與順服.mp3";
 
 export const tracks7 = [
   {
@@ -75,5 +76,11 @@ export const tracks7 = [
     src: smallgroups,
     date: "3/18/2024",
     info: "Q1: 公司内爲什麽會有小團體? Why are there small groups in the company? Q2: 我該參與公司的小團體嗎? Shall I participate at these small group(s)?",
+  },
+  {
+    title: "加班與順服 Work overtime and Obedience",
+    src: workovertime,
+    date: "3/25/2024",
+    info: "Q1: 領導不停加工作 (不屬於本職工作), 要 我不停加班, 我需要一直順服嗎？My boss keeps asking me to work overtime (which is not part of my job). Do I need to obey him all the time? Q2: 該如何有智慧與老闆溝通? How to communicate wisely with my boss?",
   },
 ];

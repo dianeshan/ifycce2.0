@@ -43,25 +43,35 @@ class Home extends Component {
                   <h2 className="text-center">
                     <FontAwesomeIcon icon={faFireAlt} />
                   </h2>
-                  <h5 className="text-center">
-                    Monthly Focus Meeting Group <br></br>職場工作坊
-                  </h5>
-                  <p className="light">
-                    What is your meaning of working? Is it just a financial
-                    obligation? Or is it a dream? Do you want to know how to
-                    live out your destiny at work, and create the legacy to pass
-                    down to the generations?
+                  <h5 className="text-center">I FLY YOUNG CCE Webinar</h5>
+                  <p className="webinar-date text-center">
+                    Sun. Mar 31 • 5 pm - 6 pm California Time<br></br>
+                    Mon. Apr 1 • 8 am - 9 am Taipei/Beijing Time
                   </p>
-                  <p>
+                  <p className="light">
+                    <h6>12 Capabilities for Life</h6>
+                    <div>
+                      Ask us about: <br></br> 1. CCE Prime + College Fun classes{" "}
+                      <br></br> 2. Application of 12 capabilities <br></br> 3.
+                      Career Exploration
+                    </div>
+                    <br></br>
+                    <div>
+                      Panelists: <br></br> 1. Bethany Lane (11th grade){" "}
+                      <br></br> 2. Chris Chen (10th grade) <br></br> 3. Emmanuel
+                      Chiang (9th grade)
+                    </div>
+                  </p>
+                  {/* <p>
                     你對工作的定義及態度是什麼？是義務？還是熱情？是懐才不遇？還是實現夢想？你想了解如何在工作中如何活出自己的命定，在家庭裏如何創造傳家的價值嗎？
                   </p>
                   <p>
                     The official sign up for 2023 CCE Focus Group has closed.
                     You can still leave your information, and we will notify you
                     if seats become available.
-                  </p>
+                  </p> */}
                   <div className="text-center">
-                    <Button color="info" href="/focusgroup">
+                    <Button color="info" href="/webinar">
                       Learn More
                     </Button>
                   </div>

@@ -10,6 +10,7 @@ const Event = (props) => {
   const title = props.title;
   const subtitle = props.subtitle;
   const time = props.time;
+  const secondTime = props.secondTime;
   const content = props.content;
   const link = props.link;
   const img = props.img;
@@ -27,12 +28,13 @@ const Event = (props) => {
         <img src={img} className="event-flyer" onClick={handleClick}></img>
         <div className="event-detail">
           <p className="event-detail-time">{time}</p>
+          <p className="event-detail-time">{secondTime}</p>
           <p className="event-detail-title">{title}</p>
           <p className="event-detail-subtitle">{subtitle}</p>
           <p className="event-detail-content">{content}</p>
           <p className="event-detail-link-container">
             <a className="event-detail-link" href={link} target="_blank">
-              Sign Up
+              Join meeting
             </a>
           </p>
         </div>

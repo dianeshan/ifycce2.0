@@ -6,9 +6,22 @@ import Footer from "./Footer";
 import Event from "./Event";
 
 import logo from "../images/CCELogo_square.png";
-import flyer from "../images/webinars/2023SoaringEagleWebinar.png";
+import flyer from "../images/webinars/03312024.JPG";
 
 const Webinar = () => {
+  const webinarContent = (
+    <>
+      <div>
+        Ask us about: <br></br> 1. CCE Prime + College Fun classes <br></br> 2.
+        Application of 12 capabilities <br></br> 3. Career Exploration
+      </div>
+      <br></br>
+      <div>
+        Panelists: <br></br> 1. Bethany Lane (11th grade) <br></br> 2. Chris
+        Chen (10th grade) <br></br> 3. Emmanuel Chiang (9th grade)
+      </div>
+    </>
+  );
   return (
     <div className="all-content">
       <div className="content-wrap">
@@ -30,12 +43,13 @@ const Webinar = () => {
         </div>
         <div className="webinar-content">
           <Event
-            time={"Sat. Dec 17 • 11 am - 12 pm PT"}
-            title={"Internship and Interview \r Program Launch 2023"}
-            content={
-              "I Fly Young CCE is hosting an exclusive webinar for college students seeking internship opportunities and job interview training. You can jumpstart your career alongside high-profile mentors in the industry. We will launch two programs - 1. Internship program with Cloud Computing and Bio/Pharma tracks. 2. Interview training program. Please attend the webinar and visit our Intern and Interview program pages for more details. Attendance is free of charge. Young professionals, college/high school students, parents and educators are welcome."
+            time={"Sun. Mar 31 • 5 pm - 6 pm California Time"}
+            secondTime={"Mon. Apr 1 • 8 am - 9 am Taipei/Beijing Time"}
+            title={"12 Capabilities for Life"}
+            content={webinarContent}
+            link={
+              "https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09"
             }
-            link={"https://bit.ly/ifycce2023internlaunch"}
             img={flyer}
           />
 
