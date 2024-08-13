@@ -22,14 +22,14 @@ const FocusGroup = () => {
                 </Col>
                 <Col className="headings3" md="8">
                   <h1 className="headings2">Focus Group Meeting</h1>
-                  <h4>Keep me informed about focus groups!</h4>
+                  <h4>KRegistration open 8/17/2024 ~ 8/24/2024</h4>
                   <Button
                     variant="light"
                     target="_blank"
-                    href="https://bit.ly/cceify-focusgroup-reg"
+                    href="https://forms.office.com/r/MdhUvuDegL"
                     rel="noopener noreferrer"
                   >
-                    Keep me informed
+                    報名 Sign up for 2024-25 Season
                   </Button>
                 </Col>
               </Row>

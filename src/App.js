@@ -40,6 +40,7 @@ import TagManager from "react-gtm-module/dist/TagManager";
 import OfficeHours6 from "./components/officeHours/Oct2023Dec2023";
 import OfficeHours7 from "./components/officeHours/Jan2024Mar2024";
 import OfficeHours8 from "./components/officeHours/Apr2024Jun2024";
+import OfficeHours9 from "./components/officeHours/Jul2024Sep2024";
 
 const App = () => {
   useEffect(() => {
@@ -65,6 +66,7 @@ const App = () => {
         <Route path="/officehours6" exact={true} component={OfficeHours6} />
         <Route path="/officehours7" exact={true} component={OfficeHours7} />
         <Route path="/officehours8" exact={true} component={OfficeHours8} />
+        <Route path="/officehours9" exact={true} component={OfficeHours9} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />

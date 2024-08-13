@@ -1,30 +1,39 @@
-import { Button } from "reactstrap";
+import { Button, Table } from "reactstrap";
 
 const SignUpForm = () => {
   return (
     <div className="container">
       <br></br>
       <div className="comment-name">
-        The official sign up for 2023 CCE Focus Group has closed. You can still
-        leave your information, and we will notify you if seats become
-        available.
+        Don't miss out! Registration for Focus Group 2024-25 season opens
+        8/17/2024 ~ 8/24/2024.
       </div>
       <br></br>
-      <h1>職場工作坊 (Monthly Focus Group Meeting)</h1>
+      <h1>焦點小組 (Monthly Focus Group Meeting)</h1>
       <div>
         <div className="comment-name">
           你對工作的定義及態度是什麼？是義務？還是熱情？是懐才不遇？還是實現夢想？你想了解如何在工作中如何活出自己的命定，在家庭裏如何創造傳家的價值嗎？
         </div>
         <br></br>
         <div className="comment-name">
-          不論現在你工作及生活中的光景如何，誠摯邀請你參加2023年9月-2024年6月
-          職場工作坊一月一次的綫上分組聚會，在導師精心的帶領下，一起重新審視工作的價值，轉換我們的心態，快樂工作享受生活。本聚會由愛飛揚溝通與職涯探索平臺
+          不論現在你工作及生活中的光景如何，誠摯邀請你參加2024年9月-2025年6月
+          焦點小組一月一次的綫上聚會，在導師精心的帶領下，一起重新審視工作的價值，轉換我們的心態，快樂工作享受生活。本聚會由愛飛揚溝通與職涯探索平臺
           (I FLY YOUNG CCE)贊助,參加者無需繳費.
         </div>
         <br></br>
         <div className="comment-name">
           每月一次聚會主題包含 : 問對的問題,發現恩賜,能力與興趣, 換跑道,
           時間/金錢管理.
+        </div>
+        <br></br>
+        <div className="comment-name">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/watch?v=5T8BtfgZ-tM&list=PLQTND4OzgUVQfTRGbjAvXqWEY7A9w6Uz_&index=7"
+          >
+            2024年焦點小組的見證
+          </a>
         </div>
         <br></br>
         <div className="comment-name">
@@ -36,8 +45,8 @@ const SignUpForm = () => {
         <div className="comment-name">
           No matter what your current circumstances are at work and/or in life,
           we sincerely invite you to join our Monthly Focus Group Meeting
-          between Sep. 2023 and June 2024 to re-examine the value of work and to
-          be happy with what you have while working at what you want. The
+          between September 2024 and June 2025 to re-examine the value of work
+          and to be happy with what you have while working at what you want. The
           meeting is sponsored by I FLY YOUNG CCE, so attendees can sign up free
           of charge.
         </div>
@@ -48,6 +57,16 @@ const SignUpForm = () => {
           “Changing career path”, "Time/Money Management".
         </div>
         <br></br>
+        <div className="comment-name">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/watch?v=5T8BtfgZ-tM&list=PLQTND4OzgUVQfTRGbjAvXqWEY7A9w6Uz_&index=7"
+          >
+            Testimonials from the 2024 Focus Group
+          </a>
+        </div>
+        <br></br>
         <div>
           <Button color="info" target="_blank" href="/team" className="btn-lg">
             導師介紹 Focus Group Leader Bios
@@ -56,47 +75,27 @@ const SignUpForm = () => {
         <br></br>
         <div>
           <h2>Groups 分組</h2>
-          <div className="pb-3">
-            <h5>
-              <b>CP (Career Professional General) 職場專業組</b>
-            </h5>
-            &emsp;&emsp;Over 10 years of experience or over 30 years old
-            <br></br>
-            &emsp;&emsp;十年(含)以上工作經驗， 或大於30歲
-          </div>
-          <div className="pb-3">
-            <h5>
-              <b>CP Female (Career Professional Female) 職場專業女性組</b>
-            </h5>
-            &emsp;&emsp;Over 10 years of experience or over 30 years old female
-            <br></br>
-            &emsp;&emsp;十年(含)以上工作經驗， 或大於30歲 限女性
-          </div>
-          <div className="pb-3">
-            <h5>
-              <b>YP (Young Professional) 職場青年組</b>
-            </h5>
-            &emsp;&emsp;0 to 10 years of experience
-            <br></br>
-            &emsp;&emsp;少於十年工作經驗
-          </div>
-          <div className="pb-3">
-            <h5>
-              <b>YP Female (Young Professional Female) 職場青年女性組</b>
-            </h5>
-            &emsp;&emsp;0 to 10 years of experience female
-            <br></br>
-            &emsp;&emsp;少於十年工作經驗 限女性
-          </div>
-          <div className="pb-3">
-            <h5>
-              <b>Pre-YP 職場預備組</b>
-            </h5>
-            &emsp;&emsp;College/Graduate Students prepared to join the
-            marketplace
-            <br></br>
-            &emsp;&emsp;預備進入職場的大學或研究生
-          </div>
+          <Table striped>
+            <thead>
+              <tr>
+                <th>組別</th>
+                <th>資格</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>第一年焦點小組 Year 1 Focus Group</td>
+                <td>第一次參加者 First-time participant</td>
+              </tr>
+              <tr>
+                <td>第二年焦點小組 Year 2 Focus Group</td>
+                <td>
+                  已完成2023-24年度的參加者 Returning participant who attended
+                  the 2023-24 season
+                </td>
+              </tr>
+            </tbody>
+          </Table>
         </div>
       </div>
       <br></br>
@@ -105,16 +104,12 @@ const SignUpForm = () => {
           color="info"
           target="_blank"
           className="btn-lg"
-          href="https://bit.ly/cceify-focusgroup-reg"
+          href="https://forms.office.com/r/MdhUvuDegL"
         >
-          Keep me informed
+          報名 Sign up for 2024-25 Season
         </Button>
-        <div>
-          The official sign up for 2023 CCE Focus Group has closed. You can
-          still leave your information, and we will notify you if seats become
-          available.
-        </div>
-        <div>Questions? Email us at cce.info@iflyyoung.com</div>
+        <div>Registration open 8/17/2024 ~ 8/24/2024</div>
+        <div>Any Questions? Email us at cce.info@iflyyoung.com</div>
       </div>
     </div>
   );
