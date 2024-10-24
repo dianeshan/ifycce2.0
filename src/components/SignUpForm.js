@@ -23,7 +23,8 @@ const SignUpForm = () => {
         <br></br>
         <div className="comment-name">
           每月一次聚會主題包含 : 問對的問題,發現恩賜,能力與興趣, 換跑道,
-          時間/金錢管理.
+          時間/金錢管理,職場人際關係 (設立界限, 得到老闆的支持,
+          成爲公司,老闆,同事的祝福)
         </div>
         <br></br>
         <div className="comment-name">
@@ -54,7 +55,9 @@ const SignUpForm = () => {
         <div className="comment-name">
           The monthly meeting will cover the topics like: “Ask the right
           questions”, “Discover your talents”, "Capability and Passion”,
-          “Changing career path”, "Time/Money Management".
+          “Changing career path”, "Time/Money Management", Workplace
+          interpersonal relationships (setting boundaries, getting support from
+          your boss, being a blessing to the company, boss, and colleagues)
         </div>
         <br></br>
         <div className="comment-name">

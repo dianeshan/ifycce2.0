@@ -22,7 +22,7 @@ const FocusGroup = () => {
                 </Col>
                 <Col className="headings3" md="8">
                   <h1 className="headings2">Focus Group Meeting</h1>
-                  <h4>KRegistration open 8/17/2024 ~ 8/24/2024</h4>
+                  <h4>Registration open 8/17/2024 ~ 8/24/2024</h4>
                   <Button
                     variant="light"
                     target="_blank"

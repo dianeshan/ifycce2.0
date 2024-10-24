@@ -88,6 +88,16 @@ import questionswork from "./CCE20240722_關於工作的問題MP3.mp3";
 import preparefuture from "./CCE20240729_職場擴張與提升.mp3";
 import focusgroupinterview5 from "./CCE20240805_FocusGroupInterview_Weixu.mp3";
 import careeradvance from "./CCE20240812_職場晉升MP3.mp3";
+import negativeemotions from "./CCE20240819_職場負面情緒MP3.mp3";
+import managedisobedient from "./CCE20240826_不順服的下屬MP3.mp3";
+import noteasysubmitboss from "./CCE20240902_順服老闆MP3.mp3";
+import seekguidance from "./CCE20240909_尋求引導MP3.mp3";
+import seekguidance2 from "./CCE20240916_尋求引導2MP3.mp3";
+import interactionatwork from "./CCE20240923_職場中與人的互動MP3.mp3";
+import wrongedatwork from "./CCE20240930_職場上被冤枉MP3.mp3";
+import buildbossrelation from "./CCE20241007_建立與老闆的關係.mp3";
+import headdepartment from "./CCE20241014_部門的負責人該怎麽辦.mp3";
+import careeradjustment from "./CCE20241021_如何預備並進行職涯調整.mp3";
 
 export const tracks = [
   {
@@ -641,5 +651,68 @@ export const tracks = [
     src: careeradvance,
     date: "8/12/2024",
     info: "Q1: 職場晉升的目的和意義是什麼？What is the purpose and meaning of career advancement? Q2: 很多人都希望能夠晉升，可以帶來薪資的提升，自我價值的實現，能力的突破。但如果想要晉升的目的是為了自己的好處是否太自我和自私?Many people hope to be promoted, which can bring about salary increases, realization of self-worth, and breakthroughs in abilities. But is it too egotistical and selfish to want to be promoted for your own benefit?",
+  },
+  {
+    title:
+      "處理職場上的負面情緒 Dealing with negative emotions in the workplace",
+    src: negativeemotions,
+    date: "8/19/2024",
+    info: "Q1: 職場上的負面情緒 (焦慮, 恐懼, 擔憂, 害怕, 緊張, 壓力...) 是怎麽來的? Where do negative emotions (anxiety, fear, worry, fear, tension, stress...) come from in the workplace? Q2: 如何處理職場上的負面情緒? How to deal with negative emotions in the workplace?",
+  },
+  {
+    title: "管理不順服的下屬 Managing disobedient subordinates",
+    src: managedisobedient,
+    date: "8/26/2024",
+    info: "Q1: 如何管理不聽話，不聽從安排的下屬? How to manage subordinates who are disobedient and do not follow instructions? Q2: 我已經和我的主管報告，想將不順服的下屬 調離現職，這樣的做法對不對? I have reported to my supervisor that I would like to remove the disobedient subordinate from his current position. Is this correct? Context: 我刚入职这家公司擔任组长，他是下属组员（他入职公司時間較長），我安排他事情都不弄，拖沓，最后不了了之。老是说领导安排了其它事情，要做领导的事情。",
+  },
+  {
+    title: "順服不容易順服的老闆 Submit to a boss who is not easy to obey",
+    src: noteasysubmitboss,
+    date: "9/02/2024",
+    info: "圣经里教导要顺服老板，温和的乖僻的都要顺服 The Bible teaches that you must obey your boss, both gentle and perverse. Q1: 攔阻順服老闆的原因有哪些？What are the reasons that prevent you from obeying your boss? Q2: 如何克服這些攔阻？How to overcome these obstacles Q3: 如果上司常常要我做他職責範圍的事情，我覺得有些不平，也覺得上司沒有承擔他該承擔的責任。該如何回應？要一味的順服嗎？If my boss often asks me to do things that are within the scope of his responsibilities, I feel a little unfair and I also feel that my boss has not shouldered the responsibilities he should bear. How to respond? Do you want to obey blindly?",
+  },
+  {
+    title: "尋求引導 Seeking Guidance",
+    src: seekguidance,
+    date: "9/09/2024",
+    info: "Q1: 如何在職場上尋求神的心意? How to seek God’s will in the workplace Q2: 如何確認我手所作的是出於神的心意? How can I confirm that what I am doing is from God’s will?",
+  },
+  {
+    title: "尋求引導 2 Seeking Guidance 2",
+    src: seekguidance2,
+    date: "9/16/2024",
+    info: "Q1: 若已有神的旨意， 應許， 但遲遲沒有成就， 請問如何繼續禱告或應對呢? If I have received God's promise, but they have not been fulfilled, how should we continue to pray or respond? Q2: 基督徒如何在職場上傳福音? How Christians can preach the gospel in the workplace?",
+  },
+  {
+    title: "職場中與人的互動關係Interaction with colleagues at work",
+    src: interactionatwork,
+    date: "9/23/2024",
+    info: "Q1. 如何幫助有習慣性消極負面地看待他人意圖的同事? How to help my colleague who holds a negative view on others' intent?",
+  },
+  {
+    title: "職場上被冤枉怎麼辦? What should I do if I am wronged at work?",
+    src: wrongedatwork,
+    date: "9/30/2024",
+    info: "Q1: 同事的片面陳述讓老闆以為是我的錯，我該怎麼辦? My colleague’s one-sided statement made my boss think it was my fault, what should I do?",
+  },
+  {
+    title: "如何建立與老闆的關係 How to build a relationship with my boss?",
+    src: buildbossrelation,
+    date: "10/07/2024",
+    info: "Q1: 我最近剛從工程師調任計劃領導，對新的角色還在學習中，新老闆是行銷商務背景的，我感覺無法和她溝通，請問我該如何建立與老闆的關係? I have recently been transferred from an engineer to a project leader, and I am still learning the new role. The new boss has a marketing background, and I cannot feel comfortable communicating with her. How can I build a relationship with my boss?",
+  },
+  {
+    title:
+      "作爲部門的負責人, 我該怎麽辦?  As the head of a department, what should I do?",
+    src: headdepartment,
+    date: "10/14/2024",
+    info: "Q1: 我是公司人力資源部門的負責人。 有一項公司指標未能達成的原因被歸咎爲人資部門的問題. 我分析了原因，該我們人力資源部門負責的，我提出了解決方案，要解決就要改革，公司要求我出數據分析報告，我做了完整的分析報告，但是始終沒有通過審核，問題始終沒有解決，既然我解決不了這些問題，公司高層一直對我施加壓力，我該怎麽辦?",
+  },
+  {
+    title:
+      "如何預備並進行職涯調整 How to prepare for and make career adjustments",
+    src: careeradjustment,
+    date: "10/21/2024",
+    info: "Q1: 我現在擔任會計工作, 但是我對於美容美妝更有天賦與興趣, 我該如何預備我自己並進行職涯調整? I currently work as an accountant, but I am more talented and interested in beauty and cosmetics. How should I prepare myself and make career adjustments? Q2: 我現在擔任一綫工作人員，只負責自己的專業項目，但是我對於擔任管理職有興趣, 我該如何預備我自己並進行職涯調整? I am currently working as a frontline staff member and am only responsible for my own professional projects, but I am interested in taking up a management position. How should I prepare myself and make career adjustments?",
   },
 ];

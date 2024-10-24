@@ -64,9 +64,9 @@ export default class AppNavbar extends Component {
                     <NavDropdown.Item href="/officehours9">
                       Jul 2024 - Sep 2024
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/officehours10">
+                    <NavDropdown.Item href="/officehours10">
                       Oct 2024 - Dec 2024
-                    </NavDropdown.Item>   */}
+                    </NavDropdown.Item>
                   </NavDropdown>
                 </NavDropdown>
                 <Nav.Link href="/team">Our Team</Nav.Link>
@@ -161,6 +161,9 @@ export default class AppNavbar extends Component {
                   <Nav.Link href="/application">Internship</Nav.Link>
                   <Nav.Link href="/interview">Interview</Nav.Link>
                   <Nav.Link href="/focusgroup">Focus Group</Nav.Link>
+                  <Nav.Link href="/projecttransformation">
+                    Project Transformation
+                  </Nav.Link>
                 </NavDropdown>
                 <Nav.Link href="https://iflyyoung.com/">I Fly Young</Nav.Link>
               </Nav>
