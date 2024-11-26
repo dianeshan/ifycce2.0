@@ -308,6 +308,8 @@ hr {
 .card-spacing {
   padding: 0.5em;
   width: 20rem;
+  height: 25rem;
+  margin-bottom: 1.3em;
 }
 
 /*chronicles*/
