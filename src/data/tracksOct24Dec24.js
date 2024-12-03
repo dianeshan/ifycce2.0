@@ -7,6 +7,7 @@ import developpath from "./CCE20241104_朝哪條路發展MP3.mp3";
 import achievegoals from "./CCE20241111_達成設定目標MP3.mp3";
 import leadteam from "./CCE20241118_如何帶領團隊MP3.mp3";
 import respondemotions from "./CCE20241125_回應領導的情緒MP3.mp3";
+import retirementplan from "./CCE20241202_退休財務規劃MP3.mp3";
 
 export const tracks10 = [
   {
@@ -59,5 +60,11 @@ export const tracks10 = [
     src: respondemotions,
     date: "11/25/2024",
     info: "工作中領導的情緒不穩定，常常透過說髒話和發火的形式來處理問題（不直接說她的想法），雖然有的時候我知道她的想法，但是在這種狀態下，我也不想隨時透過這種方式來滿足她的要求，因為每次處理她的情緒也消耗我很大的力量，我該怎麼辦？我可以尋求其他的工作機會嗎？ The leader at work is emotionally unstable and often handles problems by swearing and getting angry (without directly telling her what she thinks). Although sometimes I know what she thinks, in this state, I don’t want to I can satisfy her requests in this way at any time, because it consumes a lot of my strength to deal with her emotions every time. What should I do? Can I pursue other job opportunities?",
+  },
+  {
+    title: "退休財務規劃 Retirement Financial Planning",
+    src: retirementplan,
+    date: "12/02/2024",
+    info: "Q1  我該如何規劃並預備從工作崗位退下來後的財務需要? How should I plan and prepare for my financial needs after retirement from work? Q2 我的職涯規劃是持續目前穩定的工作, 並在5-10年内退休。但是家人覺得我們的退休金規劃還有儲蓄還不夠, 希望我接受更新的挑戰. 我需要改變換一份待遇更優渥的工作嗎？My career plan is to continue my current stable job and retire within 5-10 years. But my family feels that our pension planning and savings are not enough, and they want me to accept newer challenges. Do I need to change to a job with better pay?",
   },
 ];
