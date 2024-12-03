@@ -27,6 +27,19 @@ hr {
   margin-top: 1em;
 }
 
+.home-button1 {
+  float: left;
+  background-color: #bde6ff !important;
+  color: black !important; 
+  border: none !important;
+}
+
+.home-button {
+  background-color: #bde6ff !important;
+  color: black !important; 
+  border: none !important;
+}
+
 .larger-margin {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -39,6 +52,10 @@ hr {
 
 .tracks-title {
   width: 35em;
+}
+
+.home-heading2 {
+  color: #ff9700 ;
 }
 
 .dropdowns {
@@ -57,6 +74,12 @@ hr {
   margin-left: 0.3em;
   color: #37acf4;
   font-weight: 700;
+}
+
+.center-title {
+  margin-bottom: 1em; 
+  font-weight: 700; 
+  text-align: center;
 }
 
 .modal-content {
@@ -285,6 +308,8 @@ hr {
 .card-spacing {
   padding: 0.5em;
   width: 20rem;
+  height: 25rem;
+  margin-bottom: 1.3em;
 }
 
 /*chronicles*/

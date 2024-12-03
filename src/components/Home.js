@@ -41,10 +41,10 @@ class Home extends Component {
               <Row>
                 <Col md="12" lg="4">
                   <h2 className="text-center">
-                    <FontAwesomeIcon icon={faFireAlt} />
+                    <FontAwesomeIcon icon={faFireAlt} style={{ color: '#ff9700' }}/>
                   </h2>
-                  <h5 className="text-center">I FLY YOUNG CCE Webinar</h5>
-                  <p className="webinar-date text-center">
+                  <h5 className="center-title">I FLY YOUNG CCE Webinar</h5>
+                  <p className="webinar-date">
                     Sun. Mar 31 • 5 pm - 6 pm California Time<br></br>
                     Mon. Apr 1 • 8 am - 9 am Taipei/Beijing Time
                   </p>
@@ -71,7 +71,7 @@ class Home extends Component {
                     if seats become available.
                   </p> */}
                   <div className="text-center">
-                    <Button color="info" href="/webinar">
+                    <Button className="home-button1" color="info" href="/webinar">
                       Learn More
                     </Button>
                   </div>
@@ -79,9 +79,9 @@ class Home extends Component {
                 {/* <Col lg="2"></Col> */}
                 <Col md="12" lg="4">
                   <h2 className="text-center">
-                    <FontAwesomeIcon icon={faAtom} />
+                    <FontAwesomeIcon icon={faAtom} style={{ color: '#ff9700' }}/>
                   </h2>
-                  <h5 className="text-center">Office Hour Recordings</h5>
+                  <h5 className="center-title">Office Hour Recordings</h5>
                   {/* <p className="webinar-date text-center">
                     Sat. Dec 17 • 11 am -12 pm PT
                   </p> */}
@@ -100,16 +100,16 @@ class Home extends Component {
                     be of help, so go on and take a listen today!
                   </p>
                   <div className="text-center">
-                    <Button color="info" href="/officehoursabout">
+                    <Button className="home-button1" color="info" href="/officehoursabout">
                       Learn More
                     </Button>
                   </div>
                 </Col>
                 <Col md="12" lg="4">
                   <h2 className="text-center">
-                    <FontAwesomeIcon icon={faBookOpen} />
+                    <FontAwesomeIcon icon={faBookOpen} style={{ color: '#ff9700' }} />
                   </h2>
-                  <h5 className="text-center">
+                  <h5 className="center-title">
                     CCE Chronicles: Everyone Is Different
                   </h5>
                   <p className="light">
@@ -137,9 +137,9 @@ class Home extends Component {
             <Container>
               <div className="row">
                 <div className="col sm12">
-                  <h2>
+                  <h3 className="home-heading2">
                     <strong>About us</strong>
-                  </h2>
+                  </h3>
                   <p>
                     We are a 501(c)(3) non-profit organization providing a
                     complete support system to enable one to grow healthily
@@ -160,9 +160,9 @@ class Home extends Component {
 
           <div className="main-page">
             <Container>
-              <h1>
+              <h3 className="home-heading2">
                 <strong>CCE Class:</strong>
-              </h1>
+              </h3>
               <p>
                 <strong>About CCE Class</strong>: Through these classes, high
                 school students will learn the 12 life changing capabilities,
@@ -231,7 +231,7 @@ class Home extends Component {
               </p>
               <p>
                 <a
-                  className="btn btn-info btn-lg"
+                  className="btn btn-info btn-lg home-button"
                   href="https://bit.ly/cceifyreg"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -240,9 +240,9 @@ class Home extends Component {
                 </a>
                   
               </p>
-              <h1>
+              <h3 className="home-heading2">
                 <strong>CCE Community:</strong>
-              </h1>
+              </h3>
               <div className="row no-gutters">
                 <div className="col-lg-6">
                   <p>
@@ -271,7 +271,7 @@ class Home extends Component {
                     <p>
                       <em>Made up your minds?</em>{" "}
                       <a
-                        className="btn btn-info btn-lg"
+                        className="btn btn-info btn-lg home-button"
                         href="https://www.linkedin.com/groups/13879424/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -321,7 +321,7 @@ class Home extends Component {
                     </p>
                     <p>
                       <a
-                        className="btn btn-info btn-lg"
+                        className="btn btn-info btn-lg home-button"
                         href="https://bit.ly/ifyccesupport"
                         target="_blank"
                         rel="noopener noreferrer"
