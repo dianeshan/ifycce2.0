@@ -32,6 +32,9 @@ import tachangfu from "../images/mentors/TaChengFu.png";
 import marcuswhite from "../images/mentors/MarcusWhite.png";
 import shengmingshan from "../images/mentors/ShengmingShan.png";
 import stargao from "../images/mentors/StarGao.png";
+import gloriali from "../images/mentors/GloriaLi.png";
+import biranlee from "../images/mentors/BiranLee.png";
+
 
 function Timothy(props) {
   return (
@@ -751,7 +754,7 @@ function Tachang(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Rong Yue
+          Ta-Chang Fu
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -841,6 +844,71 @@ function Star(props) {
   );
 }
 
+function Gloria(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Gloria Li
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          className="headshot"
+          src={gloriali}
+          alt="Gloria's Headshot"
+        />
+        <h4>加州認證執照婚姻家庭諮商師</h4>
+        <p>
+          從事精神健康與全人康復領域工作二十多年，現就任政府部門，公家機關的工作經歷也有十多年餘.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function Biran(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Biran Lee
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          className="headshot"
+          src={biranlee}
+          alt="Biran's Headshot"
+        />
+        <h4>Research Scientist / Gilead Sciences</h4>
+        <p>
+          Brian has 15+ years of experience with upstream bioprocessing and 
+          process development in the bio pharmaceutical industry. He is passionate 
+          about science and technology as well as introducing STEM education to young
+          children through summer camps to spark curiosity and promote sense of wonder.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Team = () => {
   const [modalShow, setModalShow] = useState(false);
   const [modalShow2, setModalShow2] = useState(false);
@@ -865,6 +933,8 @@ const Team = () => {
   const [modalShow21, setModalShow21] = useState(false); //waiting on marcus white info
   const [modalShow22, setModalShow22] = useState(false);
   const [modalShow23, setModalShow23] = useState(false);
+  const [modalShow24, setModalShow24] = useState(false);
+  const [modalShow25, setModalShow25] = useState(false);
 
   return (
     <div className="all-content">
@@ -1260,6 +1330,38 @@ const Team = () => {
                     <Star
                       show={modalShow23}
                       onHide={() => setModalShow23(false)}
+                    />
+                  </Col>
+
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow24(true)}>
+                      <img
+                        className="headshot"
+                        src={gloriali}
+                        alt="Gloria's Headshot"
+                      />
+                    </Button>
+                    <h6>Gloria Li</h6>
+                    <p>加州認證執照婚姻家庭諮商師</p>
+                    <Gloria
+                      show={modalShow24}
+                      onHide={() => setModalShow24(false)}
+                    />
+                  </Col>
+
+                  <Col sm="12" md="3" className="text-center">
+                    <Button variant="link" onClick={() => setModalShow25(true)}>
+                      <img
+                        className="headshot"
+                        src={biranlee}
+                        alt="Biran's Headshot"
+                      />
+                    </Button>
+                    <h6>Biran Lee</h6>
+                    <p>Research Scientist / Gilead Sciences</p>
+                    <Biran
+                      show={modalShow25}
+                      onHide={() => setModalShow25(false)}
                     />
                   </Col>
                 </Row>
