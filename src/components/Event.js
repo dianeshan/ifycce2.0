@@ -8,7 +8,7 @@ const Event = (props) => {
     ?.split(" ")
     .map((s) => <p className="event-date">{s}</p>);
   const title = props.title;
-  const subtitle = props.subtitle;
+  const subtitle = props.subtitles;
   const time = props.time;
   const secondTime = props.secondTime;
   const content = props.content;
@@ -25,7 +25,12 @@ const Event = (props) => {
   return (
     <div className="Event">
       <div className="event-card">
-        <img src={img} className="event-flyer" onClick={handleClick}></img>
+        <img
+          src={img}
+          alt="event-flyer"
+          className="event-flyer"
+          onClick={handleClick}
+        ></img>
         <div className="event-detail">
           <p className="event-detail-time">{time}</p>
           <p className="event-detail-time">{secondTime}</p>
@@ -33,7 +38,12 @@ const Event = (props) => {
           <p className="event-detail-subtitle">{subtitle}</p>
           <p className="event-detail-content">{content}</p>
           <p className="event-detail-link-container">
-            <a className="event-detail-link" href={link} target="_blank">
+            <a
+              className="event-detail-link"
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+            >
               Join meeting
             </a>
           </p>
@@ -45,7 +55,7 @@ const Event = (props) => {
         onClick={handleClick}
       >
         <div>
-          <img src={img} className="event-flyer-modal"></img>
+          <img src={img} alt="event-flyer" className="event-flyer-modal"></img>
         </div>
       </Modal>
     </div>
