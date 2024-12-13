@@ -104,6 +104,7 @@ import achievegoals from "./CCE20241111_達成設定目標MP3.mp3";
 import leadteam from "./CCE20241118_如何帶領團隊MP3.mp3";
 import respondemotions from "./CCE20241125_回應領導的情緒MP3.mp3";
 import retirementplan from "./CCE20241202_退休財務規劃MP3.mp3";
+import understand from "./CCE20241209_尋求被理解MP3.mp3";
 
 export const tracks = [
   {
@@ -757,5 +758,12 @@ export const tracks = [
     src: retirementplan,
     date: "12/02/2024",
     info: "Q1  我該如何規劃並預備從工作崗位退下來後的財務需要? How should I plan and prepare for my financial needs after retirement from work? Q2 我的職涯規劃是持續目前穩定的工作, 並在5-10年内退休。但是家人覺得我們的退休金規劃還有儲蓄還不夠, 希望我接受更新的挑戰. 我需要改變換一份待遇更優渥的工作嗎？My career plan is to continue my current stable job and retire within 5-10 years. But my family feels that our pension planning and savings are not enough, and they want me to accept newer challenges. Do I need to change to a job with better pay?",
+  },
+  {
+    title:
+      "尋求被理解以前 先竭力去理解 (Seeking first to understand then be understood)",
+    src: understand,
+    date: "12/09/2024",
+    info: "Q1: 如何面對上司的評價與自我評價之間的差距, 如何回應上司給的回饋? How to deal with the discrepancies between boss’s evaluation and self evaluation? How to respond manager’s feedback?",
   },
 ];
