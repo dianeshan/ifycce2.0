@@ -33,7 +33,7 @@ import marcuswhite from "../images/mentors/MarcusWhite.png";
 import shengmingshan from "../images/mentors/ShengmingShan.png";
 import stargao from "../images/mentors/StarGao.png";
 import gloriali from "../images/mentors/GloriaLi.png";
-import biranlee from "../images/mentors/BiranLee.png";
+import brianlee from "../images/mentors/BrianLee.png";
 
 
 function Timothy(props) {
@@ -875,7 +875,7 @@ function Gloria(props) {
   );
 }
 
-function Biran(props) {
+function Brian(props) {
   return (
     <Modal
       {...props}
@@ -885,14 +885,14 @@ function Biran(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Biran Lee
+          Brian Lee
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <img
           className="headshot"
-          src={biranlee}
-          alt="Biran's Headshot"
+          src={brianlee}
+          alt="Brian's Headshot"
         />
         <h4>Research Scientist / Gilead Sciences</h4>
         <p>
@@ -1353,13 +1353,13 @@ const Team = () => {
                     <Button variant="link" onClick={() => setModalShow25(true)}>
                       <img
                         className="headshot"
-                        src={biranlee}
-                        alt="Biran's Headshot"
+                        src={brianlee}
+                        alt="Brian's Headshot"
                       />
                     </Button>
-                    <h6>Biran Lee</h6>
+                    <h6>Brian Lee</h6>
                     <p>Research Scientist / Gilead Sciences</p>
-                    <Biran
+                    <Brian
                       show={modalShow25}
                       onHide={() => setModalShow25(false)}
                     />
