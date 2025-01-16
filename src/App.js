@@ -42,6 +42,7 @@ import OfficeHours7 from "./components/officeHours/Jan2024Mar2024";
 import OfficeHours8 from "./components/officeHours/Apr2024Jun2024";
 import OfficeHours9 from "./components/officeHours/Jul2024Sep2024";
 import OfficeHours10 from "./components/officeHours/Oct2024Dec2024";
+import OfficeHours11 from "./components/officeHours/Jan2025Mar2025";
 import ProjectTransformation from "./components/ProjectTransformation";
 
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
         <Route path="/officehours8" exact={true} component={OfficeHours8} />
         <Route path="/officehours9" exact={true} component={OfficeHours9} />
         <Route path="/officehours10" exact={true} component={OfficeHours10} />
+        <Route path="/officehours11" exact={true} component={OfficeHours11} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/chronicles" exact={true} component={Chronicles} />
         <Route path="/application" exact={true} component={Application} />

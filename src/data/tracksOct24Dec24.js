@@ -9,6 +9,7 @@ import leadteam from "./CCE20241118_如何帶領團隊MP3.mp3";
 import respondemotions from "./CCE20241125_回應領導的情緒MP3.mp3";
 import retirementplan from "./CCE20241202_退休財務規劃MP3.mp3";
 import understand from "./CCE20241209_尋求被理解MP3.mp3";
+import faceboss from "./CCE20241216_面對老闆MP3.mp3";
 
 export const tracks10 = [
   {
@@ -74,5 +75,11 @@ export const tracks10 = [
     src: understand,
     date: "12/09/2024",
     info: "Q1: 如何面對上司的評價與自我評價之間的差距, 如何回應上司給的回饋? How to deal with the discrepancies between boss’s evaluation and self evaluation? How to respond manager’s feedback?",
+  },
+  {
+    title: "如何面對老闆...How to face the boss...",
+    src: faceboss,
+    date: "12/16/2024",
+    info: "Q1 該跟老闆談漲工資嗎？我該怎麽談? Should I talk to my boss about a salary increase? how to talk about it? Q2. 如何面對老闆交付的不可能的任務? How to face the impossible task assigned by the boss?",
   },
 ];

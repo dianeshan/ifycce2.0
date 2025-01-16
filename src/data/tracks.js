@@ -105,6 +105,9 @@ import leadteam from "./CCE20241118_如何帶領團隊MP3.mp3";
 import respondemotions from "./CCE20241125_回應領導的情緒MP3.mp3";
 import retirementplan from "./CCE20241202_退休財務規劃MP3.mp3";
 import understand from "./CCE20241209_尋求被理解MP3.mp3";
+import faceboss from "./CCE20241216_面對老闆MP3.mp3";
+import keyelements from "./CCE20250106_寻找新工作MP3.mp3";
+import diffopinions from "./CCE20250113_兩個老闆MP3.mp3";
 
 export const tracks = [
   {
@@ -765,5 +768,24 @@ export const tracks = [
     src: understand,
     date: "12/09/2024",
     info: "Q1: 如何面對上司的評價與自我評價之間的差距, 如何回應上司給的回饋? How to deal with the discrepancies between boss’s evaluation and self evaluation? How to respond manager’s feedback?",
+  },
+  {
+    title: "如何面對老闆...How to face the boss...",
+    src: faceboss,
+    date: "12/16/2024",
+    info: "Q1 該跟老闆談漲工資嗎？我該怎麽談? Should I talk to my boss about a salary increase? how to talk about it? Q2. 如何面對老闆交付的不可能的任務? How to face the impossible task assigned by the boss?",
+  },
+  {
+    title: "寻找新工作的一些要素 Key elements for effective job hunting",
+    src: keyelements,
+    date: "01/06/2025",
+    info: "1. 什么是真正合适自己的工作？ How to identify a job opportunity which is truly good fit for me? 2. 如何积累经验 为新的工作预备自己？ How to equip myself for new job opportunities? 3. 在考核过程中，到底哪些方面被考核？ What specific qualities are evaluated by hiring managers? 4. 如何管理失望？ How do I handle disappointment?",
+  },
+  {
+    title:
+      "兩個老闆意見不同, 我該怎麽辦  ?  Two bosses have different opinions, what should I do?",
+    src: diffopinions,
+    date: "01/13/2025",
+    info: "Q1: 我有兩個老闆(权柄), 他們的意見是衝突的, 我該聼誰的?  I have two bosses (authorities) and their opinions conflict. Who should I listen to? Q2: 我該滿足哪個人的需要？我可以怎麽做? Whose needs should I meet? What can I do?",
   },
 ];
