@@ -932,7 +932,7 @@ const Team = () => {
   const [modalShow18, setModalShow18] = useState(false);
   const [modalShow19, setModalShow19] = useState(false);
   const [modalShow20, setModalShow20] = useState(false);
-  const [modalShow21, setModalShow21] = useState(false); //waiting on marcus white info
+  //const [modalShow21, setModalShow21] = useState(false); //waiting on marcus white info
   const [modalShow22, setModalShow22] = useState(false);
   const [modalShow23, setModalShow23] = useState(false);
   const [modalShow24, setModalShow24] = useState(false);
