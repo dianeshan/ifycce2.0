@@ -84,7 +84,7 @@ hr {
 
 .modal-content {
   background-color: #fefefe;
-  background-image: url("./images/proj_bkgd/bio_lightbk.jpg");
+  background-image: url("../src/assets/proj_bkgd/bio_lightbk.jpg");
   background-size: cover;
 }
 
