@@ -112,6 +112,8 @@ import startingpoint from "./CCE20250120_向理想的工作邁進MP3.mp3";
 import righttrack from "./CCE20250127_是不是在對的跑道.mp3";
 import growingnetwork from "./CCE20250203_人際網絡.mp3";
 import meetingpatrons from "./CCE20250210_遇見職場中的貴人.mp3";
+import workinjustice from "./CCE20250217_工作上的不公義.mp3";
+import lifestruggles from "./CCE20250224_職涯_家庭_照顧父母MP3.mp3";
 
 export const tracks = [
   {
@@ -815,5 +817,17 @@ export const tracks = [
     src: meetingpatrons,
     date: "02/10/2025",
     info: "Q1: 職場中有所謂的「貴人」嗎？如何判斷一個人是在幫助我還是在利用我？Is there a so-called patron in the workplace? How do I tell if someone is helping me or taking advantage of me? Q2: 朋友推薦的兼職，也要簽訂兼職合同，這是合理的嗎，這種要求過分嗎？Is it reasonable to sign a part-time contract for a part-time job recommended by a friend? Is this too much?"
+  },
+  {
+    title: "看見工作上的不公義，我該怎麽辦？What should I do if I see injustice at workplace?",
+    src: workinjustice,
+    date: "02/17/2025",
+    info: "Q1: 老闆長期壓低我的工資，讓我覺得很委屈, 我該怎麽辦？ My boss has lowered my salary for a long time and I feel aggrieved. What should I do? Q2: 看見, 經歷公司裡的上,平,下級的政治鬥爭與迫害, 除了禱告, 是否應直接面對, 指出, 堅持, 我該怎麽辦？I have seen and experienced political struggle and persecution from superiors, rank-and-file, and subordinates in the company. In addition to praying, should I face it directly, point it out, and persist? What should I do?"
+  },
+  {
+    title: "關於 職涯發展, 建立家庭, 照顧父母的掙扎, 我該怎麽辦? What should I do about the struggles of career development, starting a family, and caring for my parents?",
+    src: lifestruggles,
+    date: "02/24/2025",
+    info: "父母現在年紀大了，很想我能搬回老家，一是離他們近點兒，能照顧上他們（雖然他們目前都很健康，生活能自理）二是還是希望我能結婚（但這個不是我想要的生活），還有一個原因是我這幾年在外地也沒賺錢，老家畢竟是個大城市，機會多，所以他們和我說了這個話題。我現在不知道該怎麼決定，心裡迷惘。我不是想要推卸照顧父母的責任，但目前他們一切都好。而且回來後找什麼樣的工作，我也沒信心。不過我現在做的生意也不是很穩定，包括回來後住哪裡。我的掙扎也許在於，這一切不是我想要的生活，但在自己該承擔的責任之間，該如何選擇？"
   }
 ];
