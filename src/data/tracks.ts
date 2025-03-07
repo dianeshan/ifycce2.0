@@ -114,6 +114,7 @@ import growingnetwork from "./CCE20250203_人際網絡.mp3";
 import meetingpatrons from "./CCE20250210_遇見職場中的貴人.mp3";
 import workinjustice from "./CCE20250217_工作上的不公義.mp3";
 import lifestruggles from "./CCE20250224_職涯_家庭_照顧父母MP3.mp3";
+import prepareinterview from "./CCE20250303_預備工作面試MP3.mp3";
 
 export const tracks = [
   {
@@ -829,5 +830,11 @@ export const tracks = [
     src: lifestruggles,
     date: "02/24/2025",
     info: "父母現在年紀大了，很想我能搬回老家，一是離他們近點兒，能照顧上他們（雖然他們目前都很健康，生活能自理）二是還是希望我能結婚（但這個不是我想要的生活），還有一個原因是我這幾年在外地也沒賺錢，老家畢竟是個大城市，機會多，所以他們和我說了這個話題。我現在不知道該怎麼決定，心裡迷惘。我不是想要推卸照顧父母的責任，但目前他們一切都好。而且回來後找什麼樣的工作，我也沒信心。不過我現在做的生意也不是很穩定，包括回來後住哪裡。我的掙扎也許在於，這一切不是我想要的生活，但在自己該承擔的責任之間，該如何選擇？"
+  },
+  {
+    title: "如何預備工作面試? How to prepare for a job interview?",
+    src: prepareinterview,
+    date: "03/03/2025",
+    info: "Q1: 面試前我該進行那些預備工作?  對於處在不同職涯階段的人 (職場新人, 同行換公司/單位, 或是轉業 )  有什麽特別的提醒 ? What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2: 面試時應當避免的錯誤與當把握的要領有哪些? What are the mistakes to avoid and tips to master during interviews?"
   }
 ];
