@@ -8,6 +8,9 @@ import meetingpatrons from "./CCE20250210_遇見職場中的貴人.mp3";
 import workinjustice from "./CCE20250217_工作上的不公義.mp3";
 import lifestruggles from "./CCE20250224_職涯_家庭_照顧父母MP3.mp3";
 import prepareinterview from "./CCE20250303_預備工作面試MP3.mp3";
+import workhardnojob from "./CCE20250310_找到合適的工作MP3.mp3";
+import worknoimprove from "./CCE20250317_工作没有起色MP3.mp3";
+import stablejob from "./CCE20250324_哪一份工作比較穩定MP3.mp3";
 
 export const tracks11 = [
   {
@@ -64,5 +67,23 @@ export const tracks11 = [
     src: prepareinterview,
     date: "03/03/2025",
     info: "Q1: 面試前我該進行那些預備工作?  對於處在不同職涯階段的人 (職場新人, 同行換公司/單位, 或是轉業 )  有什麽特別的提醒 ? What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2: 面試時應當避免的錯誤與當把握的要領有哪些? What are the mistakes to avoid and tips to master during interviews?"
+  },
+  {
+    title: "我很努力，但一直沒能找到合適的工作 I work hard but haven't been able to find a suitable job",
+    src: workhardnojob,
+    date: "03/10/2025",
+    info: "Q1: 我需要改變我尋找的工作/職位嗎? Do I need to change the job/position I am looking for? Q2: 我還能做什麽? What else can I do?"
+  },
+  {
+    title: "工作没有起色的原因? Why is my work performance not improving?",
+    src: worknoimprove,
+    date: "03/17/2025",
+    info: "Q1: 我的工作一直没有起色, 怎麼判斷是我自身的原因, 還是上帝給我的試煉, 讓我透過這個等待的過程學習功課呢？My work performance has never improved. How can I judge whether it is my own fault or whether it is a trial given to me by God, allowing me to learn lessons through this waiting process? <Context> 我是单亲有两个女儿，平时除了工作时间以外就是照顾小女儿，就是信仰的事。我每天早上参加线上晨更，加上晨更、晚上的祷告会、儿童主日学、操练信息，都有参与服事，线下有小羊的服事。因此平日里有不少的时间是花在信仰上面。 但我发现最近工作中常常事情做不完，想把业绩做好，却常常力不从心的感觉。目前面临资金紧缺出现周转的问题。我思考了好几次，之前我也想过这个问题，虽然每次危机都度过去了，但是业绩上不去仍然成为我们难以逾越的问题，这次又面临业绩不佳资金周转的难题了，也是我工作中最无能为力的一次，所以我在思考工作与服事我是不是没有平衡好？还是主给我的考验？"
+  },
+  {
+    title: "哪一份工作比較穩定? Which job is more stable?",
+    src: stablejob,
+    date: "03/24/2025",
+    info: "Q1: 40多歲的我想換工作, 想找一個適合我, 也比較穩定的公司, 該怎麽做? I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do? <Context> 從事母嬰門市銷售十幾年，現40多歲的我想換工作，又因養老政策的改革，想找一個，會買養老保險，比較穩定的公司，面臨的有三個選擇，家紡門市銷售，女性日用品銷售，生活用品類銷售，不知道怎麼選擇，哪個適合我，也不知道哪個公司比較穩定。謝謝"
   }
 ];
