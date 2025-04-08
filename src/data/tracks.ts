@@ -118,6 +118,8 @@ import prepareinterview from "./CCE20250303_預備工作面試MP3.mp3";
 import workhardnojob from "./CCE20250310_找到合適的工作MP3.mp3";
 import worknoimprove from "./CCE20250317_工作没有起色MP3.mp3";
 import stablejob from "./CCE20250324_哪一份工作比較穩定MP3.mp3";
+import fginterview1 from "./CCE20250331_焦點小組訪談MP3.mp3";
+import setbackatwork from "./CCE20250407_面對處理失敗MP3.mp3";
 
 export const tracks = [
   {
@@ -857,5 +859,17 @@ export const tracks = [
     src: stablejob,
     date: "03/24/2025",
     info: "Q1: 40多歲的我想換工作, 想找一個適合我, 也比較穩定的公司, 該怎麽做? I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do? <Context> 從事母嬰門市銷售十幾年，現40多歲的我想換工作，又因養老政策的改革，想找一個，會買養老保險，比較穩定的公司，面臨的有三個選擇，家紡門市銷售，女性日用品銷售，生活用品類銷售，不知道怎麼選擇，哪個適合我，也不知道哪個公司比較穩定。謝謝"
+  },
+  {
+    title: "愛飛揚 溝通與探索 2024-5 焦點小組 訪談1  I Fly Young CCE 2024-5 Focus Group Interview 1",
+    src: fginterview1,
+    date: "03/31/2025",
+    info: "Q1. CCE 焦點小組是什麽 ?  可以幫助我什麽? What is CCE Focus Goup? How can it help me?"
+  },
+  {
+    title: "如何面對及處理工作上的失敗/挫折 How to face and deal with failure/setback at work",
+    src: setbackatwork,
+    date: "04/07/2025",
+    info: "Q1: 我該如何看待工作上的失敗/挫折? How should I see failure/setbacks at work? Q2. 我從工作上的失敗/挫折得到什麽益處? What do I gain from failure/frustration at work?"
   }
 ];

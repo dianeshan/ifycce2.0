@@ -44,6 +44,7 @@ import OfficeHours9 from "./components/officeHours/Jul2024Sep2024";
 import OfficeHours10 from "./components/officeHours/Oct2024Dec2024";
 import OfficeHours11 from "./components/officeHours/Jan2025Mar2025";
 import ProjectTransformation from "./components/ProjectTransformation";
+import OfficeHours12 from "./components/officeHours/Apr2025Jun2025";
 
 const App = () => {
   useEffect(() => {
@@ -58,8 +59,8 @@ const App = () => {
         <Route path="/pastwebinar" element={<PastWebinar />} />
         <Route
           path="/officehoursabout"
-          
-         element={<OfficeHoursAbout />}
+
+          element={<OfficeHoursAbout />}
         />
         <Route path="/officehours" element={<OfficeHours />} />
         <Route path="/officehours2" element={<OfficeHours2 />} />
@@ -72,6 +73,7 @@ const App = () => {
         <Route path="/officehours9" element={<OfficeHours9 />} />
         <Route path="/officehours10" element={<OfficeHours10 />} />
         <Route path="/officehours11" element={<OfficeHours11 />} />
+        <Route path="/officehours12" element={<OfficeHours12 />} />
         <Route path="/team" element={<Team />} />
         <Route path="/chronicles" element={<Chronicles />} />
         <Route path="/application" element={<Application />} />
@@ -81,59 +83,59 @@ const App = () => {
         <Route path="/goodtech" element={<GoodTech />} />
         <Route
           path="/explorerealworld"
-          
-         element={<ExploreRealWorld />}
+
+          element={<ExploreRealWorld />}
         />
         <Route
           path="/internshipsareopportunities"
-          
-         element={<InternshipsAreOpportunities />}
+
+          element={<InternshipsAreOpportunities />}
         />
         <Route path="/psychiscalling" element={<PsychIsCalling />} />
         <Route path="/youcandothis" element={<YouCanDoThis />} />
         <Route
           path="/dosomethingyoulike"
-          
-         element={<DoSomethingYouLike />}
+
+          element={<DoSomethingYouLike />}
         />
         <Route
           path="/thebiggesthappiness"
-          
-         element={<TheBiggestHappiness />}
+
+          element={<TheBiggestHappiness />}
         />
         <Route
           path="/certificationhelps"
-          
-         element={<CertificationHelps />}
+
+          element={<CertificationHelps />}
         />
         <Route
           path="/communicationiskey"
-          
-         element={<CommunicationIsKey />}
+
+          element={<CommunicationIsKey />}
         />
         <Route
           path="/becomestrongestperson"
-          
-         element={<BecomeStrongestPerson />}
+
+          element={<BecomeStrongestPerson />}
         />
         <Route path="/interview" element={<Interview />} />
         <Route
           path="/remindyourselfmotivation"
-          
-         element={<RemindYourselfMotivation />}
+
+          element={<RemindYourselfMotivation />}
         />
         <Route path="/failearly" element={<FailEarly />} />
         <Route path="/goaheadandask" element={<GoAheadAndAsk />} />
         <Route
           path="/everyoneisdifferent"
-          
-         element={<EveryoneIsDifferent />}
+
+          element={<EveryoneIsDifferent />}
         />
         <Route
           path="/projecttransformation"
           element={<ProjectTransformation />}
         />
-        </Routes>
+      </Routes>
     </Router>
   );
 };
