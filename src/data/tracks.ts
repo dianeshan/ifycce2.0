@@ -122,6 +122,12 @@ import fginterview1 from "./CCE20250331_焦點小組訪談MP3.mp3";
 import setbackatwork from "./CCE20250407_面對處理失敗MP3.mp3";
 import continuework from "./CCE20250414_是否繼續目前工作MP3.mp3";
 import nogossip from "./CCE20250421_不想説閒話MP3.mp3";
+import jobbankrupt from "./CCE20250428_工作看不到未來MP3.mp3";
+import breakthrough2 from "./CCE20250505_突破2MP3.mp3";
+import aboutfocusgroup from "./CCE20250512_焦點小組20250509TMP3.mp3";
+import focusgroup3 from "./CCE20250526_焦點小組.mp3";
+import challenge from "./CCE20250603_挑战a.mp3";
+import workplaceboundary from "./CCE20250609_職場上的界限MP3.mp3";
 
 export const tracks = [
   {
@@ -803,87 +809,135 @@ export const tracks = [
     info: "Q1: 我有兩個老闆(权柄), 他們的意見是衝突的, 我該聼誰的?  I have two bosses (authorities) and their opinions conflict. Who should I listen to? Q2: 我該滿足哪個人的需要？我可以怎麽做? Whose needs should I meet? What can I do?",
   },
   {
-    title: "還沒找到一個起步點, 讓我向理想的工作邁進, 我該放棄嗎? I haven't found a starting point that will allow me to move towards my ideal job. Should I give up?",
+    title:
+      "還沒找到一個起步點, 讓我向理想的工作邁進, 我該放棄嗎? I haven't found a starting point that will allow me to move towards my ideal job. Should I give up?",
     src: startingpoint,
     date: "01/20/2025",
     info: "1.我喜歡藝術，有一些創作天賦，想做導演或策展人，但這兩個職位都需要資源和人脈，如果要進藝術行業或影視行業，我會面臨著例如：入行機會少、工作強度大、價值觀和工作職責有衝突等問題，對我來說，這是不是一條合乎神心意的道路，如果是，我該怎麼邏輯閉合地去行動？有哪些重點是我需要把握的？ Shall I pursue a film or show director's job? 2.我在實習時看到了一些人格優秀、學識淵博的同事，我非常欣賞他們，也想成為那樣的人，我想如果能留在實習的公司，繼續和優秀的人共事，自己或許也會變成這樣的人，這種職涯規劃的邏輯是正確的嗎？ Does qualities of my coworker matter? 3. 目前我還在找全職工作，因為這幾年的求學和實習，我累積了一些債務，父親給我聯繫了一份工作, 它和我想在一二線城市從事藝術工作的職業規劃沒有關係，入職時間是年後，如果我在年前，還沒找到可以cover 生活成本和債務的工作，就要做一個決定( 參加三四月份的春招, 或回去工作).我想請老師們幫我分析一下這兩條路各自的利弊，或者還有別的路可以走，但因為負債，我可能已經在思考上陷入了盲區，我還是希望能做一個有利於長期規劃的短期內的決定。 Shall I keep looking for opportunities to pursue my dream job? Or shall I pick a job that covers my cost of living & paying off debt?",
   },
   {
-    title: "怎麼知道自己是不是在對的跑道上？How do you know if you are on the right track?",
+    title:
+      "怎麼知道自己是不是在對的跑道上？How do you know if you are on the right track?",
     src: righttrack,
     date: "01/27/2025",
-    info: "工作要邁向第六年，感覺還是依附在別人？沒法完全獨立，獨立保險經紀人這工作到底是我擅長的嗎？ 案例問答 Example Q&A Q1: 哪些部分是你無法獨立操作的？ A1: 仔細想想，其實好像沒有哪部份不能獨立操作，但是會怕客人問我稅務問題（我沒有稅務背景）我無法回答，再加上經驗不夠多，會緊張怕表現不好，如何開發自己的市場也是挑戰。 Q2: 你的主管有何回饋？ (1)哪些方面你超越了他/她的預期？ (2)哪些方面你沒有達到他/她的期望？ A(1)服務客戶細心，做事可靠，會察言觀色，主動完成交待任務。 A(2)太在意，怕犯錯，以至於不敢放手做、想太多，很多事情都會先問他（老闆），但老闆覺得，有些事我自己決定就好，但我摸不著他的界線。他希望我能製作視頻，但是我的產出效能很差，花的時間不成比例。 Q3: 你的同事有何回饋？ (1)哪些方面你超越了他/她的預期？ (2)哪些方面你沒有達到他/她的期望？ A(1) 口調清楚，專業型象佳，親和力強，討人喜歡 A(2) 各家保險公司產品細節部份可再加強 Q4: 你自己檢視有何發現？ (1)哪些方面你超越了你的預期？ (2)哪些方面不如你的期望？ A(1)花很多時間精力在工作上，老闆要求的會立即完成，沒要求的也會想要怎麼去做會更好 A(2)當自己努力沒受到肯定或結果不如預期時，硬知識常常記完又忘，很沮喪，雖然信主但還是會內耗，沒自信，覺得自己好像處處不如人。老二哲學，相當優秀的副手，卻不想當領袖。"
+    info: "工作要邁向第六年，感覺還是依附在別人？沒法完全獨立，獨立保險經紀人這工作到底是我擅長的嗎？ 案例問答 Example Q&A Q1: 哪些部分是你無法獨立操作的？ A1: 仔細想想，其實好像沒有哪部份不能獨立操作，但是會怕客人問我稅務問題（我沒有稅務背景）我無法回答，再加上經驗不夠多，會緊張怕表現不好，如何開發自己的市場也是挑戰。 Q2: 你的主管有何回饋？ (1)哪些方面你超越了他/她的預期？ (2)哪些方面你沒有達到他/她的期望？ A(1)服務客戶細心，做事可靠，會察言觀色，主動完成交待任務。 A(2)太在意，怕犯錯，以至於不敢放手做、想太多，很多事情都會先問他（老闆），但老闆覺得，有些事我自己決定就好，但我摸不著他的界線。他希望我能製作視頻，但是我的產出效能很差，花的時間不成比例。 Q3: 你的同事有何回饋？ (1)哪些方面你超越了他/她的預期？ (2)哪些方面你沒有達到他/她的期望？ A(1) 口調清楚，專業型象佳，親和力強，討人喜歡 A(2) 各家保險公司產品細節部份可再加強 Q4: 你自己檢視有何發現？ (1)哪些方面你超越了你的預期？ (2)哪些方面不如你的期望？ A(1)花很多時間精力在工作上，老闆要求的會立即完成，沒要求的也會想要怎麼去做會更好 A(2)當自己努力沒受到肯定或結果不如預期時，硬知識常常記完又忘，很沮喪，雖然信主但還是會內耗，沒自信，覺得自己好像處處不如人。老二哲學，相當優秀的副手，卻不想當領袖。",
   },
   {
     title: "擴展人際網絡 Growing Your Network",
     src: growingnetwork,
     date: "02/03/2025",
-    info: "Q1: 我需要擴展人際網絡嗎? 爲什麽? 如何做?  Do I need to expand my network? Why? How to do it? Q2: 許多我不認識的人在 LinkedIn 上對我發出連結邀請，我該怎麼辦？A lot of unknown people asked to connect with me on my LinkedIn, what should I do with them?"
+    info: "Q1: 我需要擴展人際網絡嗎? 爲什麽? 如何做?  Do I need to expand my network? Why? How to do it? Q2: 許多我不認識的人在 LinkedIn 上對我發出連結邀請，我該怎麼辦？A lot of unknown people asked to connect with me on my LinkedIn, what should I do with them?",
   },
   {
     title: "遇見職場中的貴人 Meeting patron(s) for your career",
     src: meetingpatrons,
     date: "02/10/2025",
-    info: "Q1: 職場中有所謂的「貴人」嗎？如何判斷一個人是在幫助我還是在利用我？Is there a so-called patron in the workplace? How do I tell if someone is helping me or taking advantage of me? Q2: 朋友推薦的兼職，也要簽訂兼職合同，這是合理的嗎，這種要求過分嗎？Is it reasonable to sign a part-time contract for a part-time job recommended by a friend? Is this too much?"
+    info: "Q1: 職場中有所謂的「貴人」嗎？如何判斷一個人是在幫助我還是在利用我？Is there a so-called patron in the workplace? How do I tell if someone is helping me or taking advantage of me? Q2: 朋友推薦的兼職，也要簽訂兼職合同，這是合理的嗎，這種要求過分嗎？Is it reasonable to sign a part-time contract for a part-time job recommended by a friend? Is this too much?",
   },
   {
-    title: "看見工作上的不公義，我該怎麽辦？What should I do if I see injustice at workplace?",
+    title:
+      "看見工作上的不公義，我該怎麽辦？What should I do if I see injustice at workplace?",
     src: workinjustice,
     date: "02/17/2025",
-    info: "Q1: 老闆長期壓低我的工資，讓我覺得很委屈, 我該怎麽辦？ My boss has lowered my salary for a long time and I feel aggrieved. What should I do? Q2: 看見, 經歷公司裡的上,平,下級的政治鬥爭與迫害, 除了禱告, 是否應直接面對, 指出, 堅持, 我該怎麽辦？I have seen and experienced political struggle and persecution from superiors, rank-and-file, and subordinates in the company. In addition to praying, should I face it directly, point it out, and persist? What should I do?"
+    info: "Q1: 老闆長期壓低我的工資，讓我覺得很委屈, 我該怎麽辦？ My boss has lowered my salary for a long time and I feel aggrieved. What should I do? Q2: 看見, 經歷公司裡的上,平,下級的政治鬥爭與迫害, 除了禱告, 是否應直接面對, 指出, 堅持, 我該怎麽辦？I have seen and experienced political struggle and persecution from superiors, rank-and-file, and subordinates in the company. In addition to praying, should I face it directly, point it out, and persist? What should I do?",
   },
   {
-    title: "關於 職涯發展, 建立家庭, 照顧父母的掙扎, 我該怎麽辦? What should I do about the struggles of career development, starting a family, and caring for my parents?",
+    title:
+      "關於 職涯發展, 建立家庭, 照顧父母的掙扎, 我該怎麽辦? What should I do about the struggles of career development, starting a family, and caring for my parents?",
     src: lifestruggles,
     date: "02/24/2025",
-    info: "父母現在年紀大了，很想我能搬回老家，一是離他們近點兒，能照顧上他們（雖然他們目前都很健康，生活能自理）二是還是希望我能結婚（但這個不是我想要的生活），還有一個原因是我這幾年在外地也沒賺錢，老家畢竟是個大城市，機會多，所以他們和我說了這個話題。我現在不知道該怎麼決定，心裡迷惘。我不是想要推卸照顧父母的責任，但目前他們一切都好。而且回來後找什麼樣的工作，我也沒信心。不過我現在做的生意也不是很穩定，包括回來後住哪裡。我的掙扎也許在於，這一切不是我想要的生活，但在自己該承擔的責任之間，該如何選擇？"
+    info: "父母現在年紀大了，很想我能搬回老家，一是離他們近點兒，能照顧上他們（雖然他們目前都很健康，生活能自理）二是還是希望我能結婚（但這個不是我想要的生活），還有一個原因是我這幾年在外地也沒賺錢，老家畢竟是個大城市，機會多，所以他們和我說了這個話題。我現在不知道該怎麼決定，心裡迷惘。我不是想要推卸照顧父母的責任，但目前他們一切都好。而且回來後找什麼樣的工作，我也沒信心。不過我現在做的生意也不是很穩定，包括回來後住哪裡。我的掙扎也許在於，這一切不是我想要的生活，但在自己該承擔的責任之間，該如何選擇？",
   },
   {
     title: "如何預備工作面試? How to prepare for a job interview?",
     src: prepareinterview,
     date: "03/03/2025",
-    info: "Q1: 面試前我該進行那些預備工作?  對於處在不同職涯階段的人 (職場新人, 同行換公司/單位, 或是轉業 )  有什麽特別的提醒 ? What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2: 面試時應當避免的錯誤與當把握的要領有哪些? What are the mistakes to avoid and tips to master during interviews?"
+    info: "Q1: 面試前我該進行那些預備工作?  對於處在不同職涯階段的人 (職場新人, 同行換公司/單位, 或是轉業 )  有什麽特別的提醒 ? What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2: 面試時應當避免的錯誤與當把握的要領有哪些? What are the mistakes to avoid and tips to master during interviews?",
   },
   {
-    title: "我很努力，但一直沒能找到合適的工作 I work hard but haven't been able to find a suitable job",
+    title:
+      "我很努力，但一直沒能找到合適的工作 I work hard but haven't been able to find a suitable job",
     src: workhardnojob,
     date: "03/10/2025",
-    info: "Q1: 我需要改變我尋找的工作/職位嗎? Do I need to change the job/position I am looking for? Q2: 我還能做什麽? What else can I do?"
+    info: "Q1: 我需要改變我尋找的工作/職位嗎? Do I need to change the job/position I am looking for? Q2: 我還能做什麽? What else can I do?",
   },
   {
     title: "工作没有起色的原因? Why is my work performance not improving?",
     src: worknoimprove,
     date: "03/17/2025",
-    info: "Q1: 我的工作一直没有起色, 怎麼判斷是我自身的原因, 還是上帝給我的試煉, 讓我透過這個等待的過程學習功課呢？My work performance has never improved. How can I judge whether it is my own fault or whether it is a trial given to me by God, allowing me to learn lessons through this waiting process? <Context> 我是单亲有两个女儿，平时除了工作时间以外就是照顾小女儿，就是信仰的事。我每天早上参加线上晨更，加上晨更、晚上的祷告会、儿童主日学、操练信息，都有参与服事，线下有小羊的服事。因此平日里有不少的时间是花在信仰上面。 但我发现最近工作中常常事情做不完，想把业绩做好，却常常力不从心的感觉。目前面临资金紧缺出现周转的问题。我思考了好几次，之前我也想过这个问题，虽然每次危机都度过去了，但是业绩上不去仍然成为我们难以逾越的问题，这次又面临业绩不佳资金周转的难题了，也是我工作中最无能为力的一次，所以我在思考工作与服事我是不是没有平衡好？还是主给我的考验？"
+    info: "Q1: 我的工作一直没有起色, 怎麼判斷是我自身的原因, 還是上帝給我的試煉, 讓我透過這個等待的過程學習功課呢？My work performance has never improved. How can I judge whether it is my own fault or whether it is a trial given to me by God, allowing me to learn lessons through this waiting process? <Context> 我是单亲有两个女儿，平时除了工作时间以外就是照顾小女儿，就是信仰的事。我每天早上参加线上晨更，加上晨更、晚上的祷告会、儿童主日学、操练信息，都有参与服事，线下有小羊的服事。因此平日里有不少的时间是花在信仰上面。 但我发现最近工作中常常事情做不完，想把业绩做好，却常常力不从心的感觉。目前面临资金紧缺出现周转的问题。我思考了好几次，之前我也想过这个问题，虽然每次危机都度过去了，但是业绩上不去仍然成为我们难以逾越的问题，这次又面临业绩不佳资金周转的难题了，也是我工作中最无能为力的一次，所以我在思考工作与服事我是不是没有平衡好？还是主给我的考验？",
   },
   {
     title: "哪一份工作比較穩定? Which job is more stable?",
     src: stablejob,
     date: "03/24/2025",
-    info: "Q1: 40多歲的我想換工作, 想找一個適合我, 也比較穩定的公司, 該怎麽做? I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do? <Context> 從事母嬰門市銷售十幾年，現40多歲的我想換工作，又因養老政策的改革，想找一個，會買養老保險，比較穩定的公司，面臨的有三個選擇，家紡門市銷售，女性日用品銷售，生活用品類銷售，不知道怎麼選擇，哪個適合我，也不知道哪個公司比較穩定。謝謝"
+    info: "Q1: 40多歲的我想換工作, 想找一個適合我, 也比較穩定的公司, 該怎麽做? I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do? <Context> 從事母嬰門市銷售十幾年，現40多歲的我想換工作，又因養老政策的改革，想找一個，會買養老保險，比較穩定的公司，面臨的有三個選擇，家紡門市銷售，女性日用品銷售，生活用品類銷售，不知道怎麼選擇，哪個適合我，也不知道哪個公司比較穩定。謝謝",
   },
   {
-    title: "愛飛揚 溝通與探索 2024-5 焦點小組 訪談1  I Fly Young CCE 2024-5 Focus Group Interview 1",
+    title:
+      "愛飛揚 溝通與探索 2024-5 焦點小組 訪談1  I Fly Young CCE 2024-5 Focus Group Interview 1",
     src: fginterview1,
     date: "03/31/2025",
-    info: "Q1. CCE 焦點小組是什麽 ?  可以幫助我什麽? What is CCE Focus Goup? How can it help me?"
+    info: "Q1. CCE 焦點小組是什麽 ?  可以幫助我什麽? What is CCE Focus Goup? How can it help me?",
   },
   {
-    title: "如何面對及處理工作上的失敗/挫折 How to face and deal with failure/setback at work",
+    title:
+      "如何面對及處理工作上的失敗/挫折 How to face and deal with failure/setback at work",
     src: setbackatwork,
     date: "04/07/2025",
-    info: "Q1: 我該如何看待工作上的失敗/挫折? How should I see failure/setbacks at work? Q2. 我從工作上的失敗/挫折得到什麽益處? What do I gain from failure/frustration at work?"
+    info: "Q1: 我該如何看待工作上的失敗/挫折? How should I see failure/setbacks at work? Q2. 我從工作上的失敗/挫折得到什麽益處? What do I gain from failure/frustration at work?",
   },
   {
-    title: "下一步方向: 是否繼續目前工作 Next step: whether to continue the current work",
+    title:
+      "下一步方向: 是否繼續目前工作 Next step: whether to continue the current work",
     src: continuework,
     date: "04/14/2025",
-    info: "Q1 現在的工作我也已經禱告幾年不知道要不要換，這是我畢業後的第一份工作，神把我安排在這個跟我性格完全不符的銷售崗位，我覺得壓力有點大，神要磨練我，但是怎麽樣才能知道天父爸爸對我的心意呢？I have been praying about my current job for several years and I don’t know whether I should change it. This is my first job after graduation. God has placed me in this sales position which is totally incompatible with my personality. I feel a bit stressed and God wants to temper me. But how can I know the will of my Heavenly Father for me?"
+    info: "Q1 現在的工作我也已經禱告幾年不知道要不要換，這是我畢業後的第一份工作，神把我安排在這個跟我性格完全不符的銷售崗位，我覺得壓力有點大，神要磨練我，但是怎麽樣才能知道天父爸爸對我的心意呢？I have been praying about my current job for several years and I don’t know whether I should change it. This is my first job after graduation. God has placed me in this sales position which is totally incompatible with my personality. I feel a bit stressed and God wants to temper me. But how can I know the will of my Heavenly Father for me?",
   },
   {
-    title: "我不想説閒話，但也不想得罪人，我該怎麽辦? I don't want to gossip, but I also don't want to offend anyone. What should I do?",
+    title:
+      "我不想説閒話，但也不想得罪人，我該怎麽辦? I don't want to gossip, but I also don't want to offend anyone. What should I do?",
     src: nogossip,
     date: "04/21/2025",
-    info: "Q1: 我廠長的老婆總是跟我講論別⼈。我是神的兒女,不能跟她⼀起講別⼈的不好。但我不接她的話，她從此就不再跟我說話。我該怎麼辦？ My factory manager's wife always talks to me about other people. I am a child of God and cannot talk about other people's bad things with her. But I don't respond to her and she stops talking to me. What should I do?"
-  }
+    info: "Q1: 我廠長的老婆總是跟我講論別⼈。我是神的兒女,不能跟她⼀起講別⼈的不好。但我不接她的話，她從此就不再跟我說話。我該怎麼辦？ My factory manager's wife always talks to me about other people. I am a child of God and cannot talk about other people's bad things with her. But I don't respond to her and she stops talking to me. What should I do?",
+  },
+  {
+    title:
+      "公司倒閉, 企業裁員, 目前的工作看不到未來...，我該怎麽辦? The company went bankrupt, the enterprise laid off employees, and there is no future in my current job... What should I do?",
+    src: jobbankrupt,
+    date: "04/28/2025",
+    info: "<Q1>因企業倒閉破產，從事多年的電工的我，要失業了。該找怎樣的工作? I am going to lose my job as an electrician after working for many years because my company went bankrupt. What kind of job should I look for? (Context) 一直都在一個企業公司上班，福利也挺好，工資也不錯，現在這個公司倒閉了，補了點錢把我們都遣回家，頂著全家人經濟的壓力，想盡快的找到一份工作，從事電工職業十幾年，48歲的我，想去找個門衛保安的工作，又想著是不是還要從事自己的老本行，找過幾家都會拖欠工資，又想做一些關於電工職業的管理層。不知道能不能勝任？前途迷惘。 <Q2> 從事幼師多年，因政策越來越嚴格，小孩難帶，幼兒園活動多，力不從心想換工作。我該怎麽辦? I have been working as a kindergarten teacher for many years. As the policies are becoming more and more stringent, it is difficult to take care of children, and there are many kindergarten activities, I am overwhelmed and want to change jobs. What should I do? (Context) Context) 從事幼師職業多年，考過兩次幼師證都沒考過，隨著6月份出台新政策，越來越嚴格，年齡在40多歲的我，現在的小孩也比較難帶，家長也比較注重小孩在幼兒園的一舉一動，再加上幼兒園的活動比較多，對於這個年齡段都力不從心，想換跑道，又有工作和生活中的種種壓力，目前也不知道換什麼工作，想進入保險公司門檻低，我不知道自己能不能勝任, 其他工作門檻高，現在很迷茫，不知道怎麼辦？",
+  },
+  {
+    title: "突破(2) Breakthrough 2",
+    src: breakthrough2,
+    date: "05/05/2025",
+    info: "<Q1> 我渴望有什麽突破? What breakthrough do I desire? <Q2> 讓我們無法突破的關鍵障礙是什麽? 有什麽可以幫助我們成功突破的訣竅? What are the key obstacles that prevent us from breaking through? What are the tricks that can help us break through successfully?",
+  },
+  {
+    title:
+      "關於愛飛揚 溝通與職涯探索 焦點小組 About I FLY YOUNG CCE Focus Group...",
+    src: aboutfocusgroup,
+    date: "05/12/2025",
+    info: "Q1: CCE焦點小組是什麽 ? What is CCE Focus Goup? Q2: CCE焦點小組和教會小組有什麽不同? How is CCE Focus Group different from church small groups? Q3: 參加CCE焦點小組有什麽好處? What are the benefits of attending CCE Focus Group? Q4: CCE焦點小組適合我嗎? Is CCE Focus Goup for me? (Including: 2024-5 焦點小組 訪談2  I Fly Young CCE 2024-5 Focus Group Interview 2)",
+  },
+  {
+    title:
+      "愛飛揚 溝通與探索 2024-5 焦點小組 訪談3 I Fly Young CCE 2024-5 Focus Group Interview 3",
+    src: focusgroup3,
+    date: "05/26/2025",
+    info: "Q1. 访谈见证启示了学员是如何从导师和小组中得到帮助的？  What insights do the testimonies reveal about how mentor and focus group help mentee to grow?",
+  },
+  {
+    title: "挑战（1） Challenge",
+    src: challenge,
+    date: "06/02/2025",
+    info: "Q: 我自己或者目睹别人在职场经历过什么挑战? What challenges we had run into ourselves or see others struggle with?",
+  },
+  {
+    title: "關於職場上的界限 On boundaries in the workplace",
+    src: workplaceboundary,
+    date: "06/09/2025",
+    info: "Q1: 職場上有哪些界限？這些界限是怎麽來的? What are the boundaries in the workplace? How do these boundaries come about? Q2: 我該說 不 嗎？什麽時候説？怎麽說? Shall I say No? When to say No? How to Say No?",
+  },
 ];
